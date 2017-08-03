@@ -147,210 +147,257 @@ ul li:last-child {
 	box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
 	font-family: 'Muli', sans-serif;
 }
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+	min-width: 120px;
+	max-width: 240px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.dropt, table {
+	border-spacing: 1px;
+	background-color: #ffffff;
+	width: 740px;
+	height: 70px;
+	padding: 1px;
+}
+.dropt, td{
+	table-layout:fixed;
+	border: 1px solid black;
+    text-align: center;
+}
 </style>
 </head>
-<body>
 <body bgcolor="#eeeeee">
 <div class="arakunido2">
   <center><p>IS9 RPG [ENG]</p></center>
 </div>
-<!-------------------------------------------------------------------------------------->
 <center>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'droptable')">Drop Table</button>
   <button class="tablinks" onclick="openCity(event, 'crafting')">Crafting</button>
   <button class="tablinks" onclick="openCity(event, 'raids')">Raids</button>
   <button class="tablinks" onclick="openCity(event, 'credits')">Credits</button>
 </div>
-
 <div id="droptable" class="tabcontent">
 <div class="danger">
   <p>The following page is out of date.</p>
 </div>
-
-<div style="font-size: 9pt; font-family: Arial;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
 <span style="font-size: 18pt;">Foothills Hobgoblin</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/Gqjat70.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/Gqjat70.png"></td>
 <td>Hobgoblin's Axe</td>
 <td>Equipment<br>/<br>Weapon</td>
 <td><font color="#ffa7a7">Attack + 70</font></td>
 <td>55%</td>
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt; font-family: Arial;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Mutant Troll</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/AUUbvRZ.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/AUUbvRZ.png"></td>
 <td>Lv1 Troll's Necklace</td>
 <td>Equipment<br>/<br>Necklace</td>
 <td>All Stats + 12</td>
 <td>55%</td>
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt; font-family: Arial;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Bandit Lord</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/oxxiNwb.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/oxxiNwb.png"></td>
 <td>Tough Leather Armor</td>
 <td>Equipment<br>/<br>Armor</td>
 <td><font color="#FF5E00">HP +700</font></td>
 <td>55%</td>
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Secret Map: Rogue King</td>
-<td>Consumable<br>/<br>Entry ticket</td>
+<td>Consumables<br>/<br>Entry ticket</td>
 <td>Required Level: 5000<br/>On use, you'll be moved to the place where <br>Rogue King is.</td>
 <td>15%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Cult Leader</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/5snaEyg.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/5snaEyg.png"></td>
 <td>Fanatic Ring</td>
 <td>Equipment<br>/<br>Ring</td>
 <td><font color="#FFB2F5">Critical Chance + 5%</font><br/><font color="#B2CCFF">Armor + 10</font></td>
 <td>55%</td> 
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Patchwork Horror</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Boots Upgrade Schematic</td>
 <td>Material</td>
 <td>-</td>
 <td>30%</td>
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Knight</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>15%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Pray</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr> 
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Thief</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td> 
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Magic Swordsman</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Wizard</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Priest</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Archer</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr> 
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Dark Blademaster</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>Class Berserk</td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>10%</td>
 </tr>
 <tr> 
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td><font color="#ff0000">Special Class :: Pirate</font></td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>2%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td><font color="#ff0000">Special Class :: Vampire</font></td>
 <td>Class Scroll</td>
 <td>-</td>
 <td>2%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td><font color="#ff0000">Special Class :: Fighter</font></td>
 <td>Class Scroll</td>
 <td>-</td>
@@ -359,45 +406,49 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Centaurs</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/yOk0Ibl.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/yOk0Ibl.png"></td>
 <td>Ex-material</td>
 <td>Material</td>
 <td>-</td>
-<td>60%</td> 
+<td>60%</td>
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Tauren</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/XmHHBt6.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/XmHHBt6.png"></td>
 <td>Tauren's "Big" Axe</td>
 <td>Equipment<br>/<br>Weapon</td>
 <td><font color="#FFA7A7">Attack + 1350</font><br/><font color="#FFA7A7">All Stats + 100</font></td>
 <td>40%</td>
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/AUUbvRZ.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/AUUbvRZ.png"></td>
 <td>Lv2 Tauren Chain Belt</td>
 <td>Equipment<br>/<br>Necklace</td>
 <td>All Stats +120</td>
@@ -406,67 +457,69 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Malthael the Angel of Death</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/kOQR4bI.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/kOQR4bI.png"></td>
 <td><font color="#ff00dd">Right Scythe of Death</font></td>
 <td>Equipment<br>/<br>Weapon</td>
 <td><font color="#FFA7A7">Attack + 2200</font><br><font color="#FFB2F5">Critical Chance + 15%</font></td>
 <td>7%</td> 
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/kOQR4bI.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/kOQR4bI.png"></td>
 <td><font color="#ff00dd">Left Scythe of Death</font></td>
 <td>Equipment<br>/<br>Weapon</td>
 <td><font color="#FFA7A7">Attack + 4300</font></td>
 <td>7%</td> 
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/aOEjFiX.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/aOEjFiX.png"></td>
 <td><font color="#ff00dd">Corrupted Energy</font></td>
 <td>Equipment<br>/<br>Weapon</td>
 <td><font color="#5AAEFF">Mana + 20000</font></td>
 <td>7%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/j9xZDAS.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
 <td><font color="#ff00dd">Malthael's Necklace</font></td>
 <td>Equipment<br>/<br>Necklace</td>
 <td><font color="#ff5e00">All stats + 250</font></td>
 <td>6%</td>
 <tr>
-<td><img src="https://i.imgur.com/JI8M3hz.png" style="width: 52px; height: 52px;"></td>
-<td><font color="#FFBB00">Black Feathers</font></td>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Black Feathers</font></td>
 <td>Equipment<br>/<br>Artifact</td>
 <td>Critical Chance + 5%</td>
 <td>0.05%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/JI8M3hz.png" style="width: 52px; height: 52px;"></td>
-<td><font color="#FFBB00">Blue Tyrael</font></td>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Blue Tyrael</font></td>
 <td>Equipment<br>/<br>Artifact</td>
 <td>Critical Chance + 5%<br>All stats + 50</td>
 <td>0.05%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/JI8M3hz.png" style="width: 52px; height: 52px;"></td>
-<td><font color="#FFBB00">White Tyrael</font></td>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">White Tyrael</font></td>
 <td>Equipment<br>/<br>Artifact</td>
 <td>Critical Chance + 5%<br>All stats + 50</td>
 <td>0.05%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/JI8M3hz.png" style="width: 52px; height: 52px;"></td>
-<td><font color="#FFBB00">Pink Tyrael</font></td>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Pink Tyrael</font></td>
 <td>Equipment<br>/<br>Artifact</td>
 <td>Critical Chance + 5%<br>All stats + 50</td>
 <td>0.05%</td>
@@ -474,25 +527,27 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
-<span style="font-size: 18pt;">[HIDDEN BOSS] Malthael</span>
+<br><br>
+<div style="font-size: 18pt;" class="tooltip">[HIDDEN BOSS]<span style="font-size: 9pt;" class="tooltiptext">0.1% chance to spawn on Malthael death</span></div><span style="font-size: 18pt;"> Malthael</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>[Backpack] Moby-Dick</td>
 <td>Consumables<br>/<br>Backpack</td>
 <td>On use consumes 2000 Boss Points<br/>Can be used as a second backpack</td>
 <td>30%</td>
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
 <td>[Backpack] Pray</td>
 <td>Consumables<br>/<br>Backpack</td>
 <td>On use consumes 5000 Boss Points<br/>Can be used as a second backpack</td>
@@ -501,146 +556,158 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Black Fur Yeti Chief</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Soul of Yeti</td>
 <td>Material</td>
 <td>-</td>
-<td>25%</td> 
+<td>25%</td>
+</tr> 
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Giant Swamp Monster</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Soul of Giant</td>
 <td>Material</td>
 <td>-</td>
 <td>25%</td> 
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Lord of Flames</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Soul of Lava</td>
 <td>Material</td>
 <td>-</td>
 <td>25%</td> 
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
-<span style="font-size: 18pt;">Rhinoceros</span></div>
+<br><br>
+<span style="font-size: 18pt;">Rhinoceros</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/5snaEyg.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/5snaEyg.png"></td>
 <td><font color="#ff00dd">Ring of Nature</font></td>
 <td>Equipment<br>/<br>Ring</td>
 <td><font color="#D1B2FF">Critical Damage + 30%</font></td>
 <td>2%</td> 
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Rhinoceros King</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/Mz0DMgK.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/Mz0DMgK.png"></td>
 <td>King's Horn</td>
 <td>Material</td>
 <td>-</td>
-<td>21%</td> 
+<td>21%</td>
+</tr> 
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Karasus the Blade of Terror</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/WAWf37i.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/WAWf37i.png"></td>
 <td>Spider Poison Pouch</td>
 <td>Material</td>
 <td>-</td>
 <td>23%</td>
+</tr>
 <tr> 
-<td><img src="https://i.imgur.com/j9xZDAS.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
 <td><font color="#ff00dd">Spider's Power Necklace</font></td>
 <td>Equipment<br>/<br>Necklace</td>
 <td><font color="#ff5e00">STR + 800</font></td>
 <td>15%</td>
 </tr>
 <tr> 
-<td><img src="https://i.imgur.com/j9xZDAS.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
 <td><font color="#ff00dd">Spider's Agility Necklace</font></td>
 <td>Equipment<br>/<br>Necklace</td>
 <td><font color="#ff5e00">AGI + 800</font></td>
 <td>15%</td>
 </tr>
 <tr> 
-<td><img src="https://i.imgur.com/j9xZDAS.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
 <td><font color="#ff00dd">Spider's Wisdom Necklace</font></td>
 <td>Equipment<br>/<br>Necklace</td>
 <td><font color="#ff5e00">INT + 800</font></td>
 <td>15%</td>
 </tr>
 <tr> 
-<td><img src="https://i.imgur.com/1ORQGkQ.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/1ORQGkQ.png"></td>
 <td>Spider bones?</td>
 <td>Material</td>
 <td>-</td>
@@ -649,39 +716,41 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Blue Dragonspawn</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>ATK</td>
 <td>Material</td>
 <td>-</td>
 <td>1.5%</td> 
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Armor</td>
 <td>Material</td>
 <td>-</td>
 <td>1%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Critical Chance</td>
 <td>Material</td>
 <td>-</td>
 <td>1.5%</td>
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Critical Damage</td>
 <td>Material</td>
 <td>-</td>
@@ -690,25 +759,27 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Forgotten Knight</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/wyiCR1w.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/wyiCR1w.png"></td>
 <td>Knight's Sword Fragment</td>
 <td>Material</td>
 <td>-</td>
 <td>1%</td> 
+</tr>
 <tr>
-<td><img src="https://i.imgur.com/wyiCR1w.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/wyiCR1w.png"></td>
 <td>Torn Bible</td>
 <td>Material</td>
 <td>-</td>
@@ -717,32 +788,34 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Forgotten Senior Knight</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/wyiCR1w.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/wyiCR1w.png"></td>
 <td>Paladin's Sword Fragment</td>
 <td>Material</td>
 <td>-</td>
-<td>11%</td> 
+<td>11%</td>
+</tr> 
 <tr>
-<td><img src="https://i.imgur.com/wyiCR1w.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/wyiCR1w.png"></td>
 <td>Paladin's Bible</td>
 <td>Material</td>
 <td>-</td>
 <td>11%</td> 
 </tr>
 <tr>
-<td><img src="https://i.imgur.com/5snaEyg.png" style="width: 52px; height: 52px;"></td>
+<td><img src="https://i.imgur.com/5snaEyg.png"></td>
 <td><font color="#ff0000">Paladin's Ring</font></td>
 <td>Equipment<br>/<br>Ring</td>
 <td><font color="#FFB2F5">Critical Chance + 7%</font><br/><font color="#FF5E00">Lifesteal + 600</font></td>
@@ -751,52 +824,849 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Forgotten Paladin</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/Qnxe9XB.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/Qnxe9XB.png"></td>
 <td>Paladin's Hammer</td>
 <td>Material</td>
 <td>-</td>
 <td>1.5%</td> 
+</tr>
 </tbody>
 </table>
 </div>
-<br>
-<div style="font-size: 9pt;"><table style="text-align: center;" width="740" height="40" cellspacing="1" cellpadding="1" border="1" bgcolor="#ffffff">
-<br>
+<br><br>
 <span style="font-size: 18pt;">Fire Wizard</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
 <tbody>
 <tr>
 <td width="52">Icon</td>
-<td width="200">Name</td>
-<td width="70">Type</td>
-<td width="275">Description</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
 <td width="70">Drop Chance</td>
 </tr>
-<td><img src="https://i.imgur.com/1HZeQlr.png" style="width: 52px; height: 52px;"></td>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
 <td>Wizard's Jewel</td>
 <td>Material</td>
 <td>-</td>
 <td>2.2%</td> 
+</tr>
 </tbody>
 </table>
 </div>
-</center>
-<!----Next Tab---->  
-<div id="crafting" class="tabcontent">
-<div class="info">
-  <center><p><strong>Work In Progress!</strong></p></center>
+<br><br>
+<span style="font-size: 18pt;">Forgotten Wizard</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
+<td>Meiji's Staff</td>
+<td>Material</td>
+<td>-</td>
+<td>2.2%</td>
+</tr> 
+</tbody>
+</table>
 </div>
+<br><br>
+<span style="font-size: 18pt;">Haydn the Phantom King</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>Scroll of Rebirth</td>
+<td>Consumables</td>
+<td>Required level : 8000<br/>It can be used together with some items</td>
+<td>44%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/SQsrDQP.png"></td>
+<td>Water of Reincarnation</td>
+<td>Material</td>
+<td>-</td>
+<td>44%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">Bandit</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/XmHHBt6.png"></td>
+<td>Bandit's Axe</td>
+<td>Junk</td>
+<td>-</td>
+<td>0.7%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">Rogue King</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/EdlR36I.png"></td>
+<td>Rogue King's Treasure</td>
+<td>Material</td>
+<td>-</td>
+<td>13%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Rogue King's Power Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#ff5e00">STR + 4000</font></td>
+<td>10%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Rogue King's Agility Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#ff5e00">AGI + 6000</font></td>
+<td>10%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Rogue King's Wisdom Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#ff5e00">INT + 6000</font></td>
+<td>10%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Ancient Ice Spirit</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hZoXNPO.png"></td>
+<td bgcolor="#666666"><font color="#B2EBF4">Spirit Armor</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 120000</font><br/><font color="#B2CCFF">Armor + 250</font><br/><font color="#5F00FF">All Stats + 800</font></td>
+<td>13%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>Spirit Boots Upgrade</td>
+<td>Material</td>
+<td>-</td>
+<td>9%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">King</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
+<td>Flag of the Great King</td>
+<td>Material</td>
+<td>-</td>
+<td>13%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
+<td>Crown of the Great King</td>
+<td>Material</td>
+<td>-</td>
+<td>13%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
+<td>Treasure of the Great King</td>
+<td>Material</td>
+<td>-</td>
+<td>13%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>[Backpack] Moby-Dick</td>
+<td>Consumables<br>/<br>Backpack</td>
+<td>On use consumes 2000 Boss Points<br/>Can be used as a second backpack</td>
+<td>8%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/yTgtPpB.png"></td>
+<td bgcolor="#666666"><font color="#ffe400">First Ring of the Great King</font></td>
+<td>Equipment<br>/<br>Ring</td>
+<td>Each time you damage an enemy, you'll deal 70000 of additional damage.</td>
+<td>5%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/yTgtPpB.png"></td>
+<td bgcolor="#666666"><font color="#ffe400">Second Ring of the Great King</font></td>
+<td>Equipment<br>/<br>Ring</td>
+<td><font color="#FFB2F5">Critical Chance + 12%</font></td>
+<td>5%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/yTgtPpB.png"></td>
+<td bgcolor="#666666"><font color="#ffe400">Third Ring of the Great King</font></td>
+<td>Equipment<br>/<br>Ring</td>
+<td><font color="#FFB2F5">Lifesteal +900</font></td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/yTgtPpB.png"></td>
+<td bgcolor="#666666"><font color="#ffe400">Fourth Ring of the Great King</font></td>
+<td>Equipment<br>/<br>Ring</td>
+<td><font color="#D1B2FF">Critical Damage + 120%</font></td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">Infernal</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/WAWf37i.png"></td>
+<td><font color="#5F00FF">Stone of Rebirth</font></td>
+<td>Material</td>
+<td>-</td>
+<td>13%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Majordomo Executus</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aQG5e9r.png"></td>
+<td>Lava Rock</td>
+<td>Material</td>
+<td>-</td>
+<td>13%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1HZeQlr.png"></td>
+<td>Wood</td>
+<td>Junk</td>
+<td>-</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
+<td bgcolor="#666666"><font color="#1ddb16">Ragna's Power Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#ff5e00">STR + 9000</font></td>
+<td>4%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
+<td bgcolor="#666666"><font color="#1ddb16">Ragna's Agility Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#ff5e00">AGI + 13000</font></td>
+<td>4%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/j9xZDAS.png"></td>
+<td bgcolor="#666666"><font color="#1ddb16">Ragna's Wisdom Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#ff5e00">INT + 14000</font></td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Thief</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Duplicates all ability damage that is dealt within <br/>30 seconds of use.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Knight</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Reduces damage taken from critical attacks by 10% <br/>of your critical damage multiplier.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Priest</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Increases healing effects by 1.5 times.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Wizard</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">On use, increases the current amount of stacks by 5.<br/>The maximum amount of stacks increased from <br/>5 -> 8.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Archer</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Increases Critical Chance by 7%,<br/>Critical Damage by 70%.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Pirate</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Increases duration of the R ability by 10 seconds.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Magic Swordsman</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Your attacks have a 5% chance to summon a starfall.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Berserk</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Your attacks have a 5% chance to reset cooldown of Awakening ability. (cooldown 80 seconds)</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Dark Blademaster</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Improves Q ability. From 8, 6% -> 10, 8%.</font></td>
+<td>2.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uTcWmJd.png"></td>
+<td><font color="#FF5E00">Class Item - Pray</font></td>
+<td>Equipment<br>/<br>Class Item</td>
+<td bgcolor="#666666"><font color="#65FF5E">Doubles damage of all abilities.</font></td>
+<td>2.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">Follower of the Swamp</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/CDAcGow.png"></td>
+<td><font color="#5F00FF">Loop Soul/Soul Lynn</font></td>
+<td>Material</td>
+<td>-</td>
+<td>3.5%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">Guardian of the Swamp</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/kz8gLxh.png"></td>
+<td><font color="#5F00FF">Guardian's Spear</font></td>
+<td>Material</td>
+<td>-</td>
+<td>25%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">Gremlin's Monster</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/mK4pclz.png"></td>
+<td><font color="#5F00FF">Miasma</font></td>
+<td>Material</td>
+<td>-</td>
+<td>1.2%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Gremlin the Plague Lump</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/CDAcGow.png"></td>
+<td><font color="#5F00FF">2x Loop Soul/Soul Lynn</font></td>
+<td>Material</td>
+<td>-</td>
+<td>22%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/2BfMZuD.png"></td>
+<td bgcolor="#666666"><font color="#B2EBF4">Black Feathers Armor</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 150000</font><br/><font color="#B2CCFF">Armor + 350</font><br/><font color="#5F00FF">All Stats + 1500</font></td>
+<td>6.5%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/u9RPNpg.png"></td>
+<td><font color="#5F00FF">Chunk of Plague</font></td>
+<td>Material</td>
+<td>-</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/A3f58U4.png"></td>
+<td><font color="#5F00FF">Gremlin's ...</font></td>
+<td>Material</td>
+<td>-</td>
+<td>4.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/2BfMZuD.png"></td>
+<td><font color="#FF5E00">The Origin of Plague - Kar</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 400000</font><br/><font color="#B2CCFF">Armor + 350</font><br/><font color="#5F00FF">All Stats + 4000</font><br/>Maximizes user's abilities for 30 seconds.<br/>(Cooldown 220 seconds)</td>
+<td>0.5%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Storm</span>
+<span style="font-size: 9pt;"><font color="#ff0000"><br>Al'Akir the Windlord</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Aura of Powerful Elements</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Black Feather</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Digital Aura</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Cherry Aura</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Blue Tyrael</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%<br/>All stats + 50</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">Pink Tyrael</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%<br/>All stats + 50</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td bgcolor="#666666"><font color="#FFBB00">White Tyrael</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td>Critical Chance + 5%<br/>All stats + 50</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Uzn599f.png"></td>
+<td><font color="#5F00FF">Conqueror's Piece</font></td>
+<td>Material</td>
+<td>-</td>
+<td><div class="tooltip">11%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/SQsrDQP.png"></td>
+<td><font color="#5F00FF">Essence of Loner</font></td>
+<td>Material</td>
+<td>-</td>
+<td>7%<br>5%<br>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/SQsrDQP.png"></td>
+<td><font color="#5F00FF">Energy of Spirit King </font></td>
+<td>Material</td>
+<td>-</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/TnLKPR6.png"></td>
+<td><font color="#FF5E00">Lonely Conqueror</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td>Deals (Number of Raid Bosses killed x 0.01) x all stats) damage on STACK attack.</td>
+<td><div class="tooltip">0.08%<span class="tooltiptext">Individual Drop Rate</span></div><br>/<br>0.15%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br/><br/>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Moby-Dick</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1ORQGkQ.png"></td>
+<td bgcolor="#666666"><font color="#B2EBF4">Darkmist Armor</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 500000</font><br/><font color="#B2CCFF">Armor + 700</font><br/><font color="#B2CCFF">All Stats + 3000</font><br/><font color="#5F00FF">Damage reduction +10%</font></td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1ORQGkQ.png"></td>
+<td bgcolor="#666666"><font color="#B2EBF4">Greymist Armor</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 300000</font><br/><font color="#B2CCFF">Armor + 600</font><br/><font color="#B2CCFF">All Stats + 3000</font><br/><font color="#5F00FF">Damage reduction +13%</font></td>
+<td>4%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/1ORQGkQ.png"></td>
+<td bgcolor="#666666"><font color="#B2EBF4">Dreadmist Armor</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 200000</font><br/><font color="#B2CCFF">Armor + 500</font><br/><font color="#B2CCFF">All Stats + 3000</font><br/><font color="#5F00FF">Damage reduction +17%</font></td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g5MNkng.png"></td>
+<td bgcolor="#666666"><font color="#1ddb16">Darkmist Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#FFA7A7">All Stats +13000</font></td>
+<td>2%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/g5MNkng.png"></td>
+<td bgcolor="#666666"><font color="#1ddb16">Greymist Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#FFA7A7">Additional damage +8%</font></td>
+<td>2%</td>
+</tr> 
+<tr>
+<td><img src="https://i.imgur.com/g5MNkng.png"></td>
+<td bgcolor="#666666"><font color="#1ddb16">Dreadmist Necklace</font></td>
+<td>Equipment<br>/<br>Necklace</td>
+<td><font color="#FFA7A7">Attack +1200000</font></td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/OaI4lov.png"></td>
+<td><font color="#FF5E00">Mist Ring</font></td>
+<td>Equipment<br>/<br>Ring</td>
+<td><font color="#5F00FF">All Stats + 18000</font></td>
+<td>0.35%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Sign of Pride</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/CDAcGow.png"></td>
+<td><font color="#5F00FF">Voidwalker Essence</font></td>
+<td>Material</td>
+<td>-</td>
+<td>12%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>[Alternative Appearance] X</td>
+<td>Consumables<br>/<br>Appearance</td>
+<td>-</td>
+<td>1%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>[Alternative Appearance] Sakura Yae</td>
+<td>Consumables<br>/<br>Appearance</td>
+<td>-</td>
+<td>1%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>[Alternative Appearance] Mikaela</td>
+<td>Consumables<br>/<br>Appearance</td>
+<td>-</td>
+<td>1%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>[Alternative Appearance] Irina</td>
+<td>Consumables<br>/<br>Appearance</td>
+<td>-</td>
+<td>1%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png"></td>
+<td>[Alternative Appearance] Kaguya</td>
+<td>Consumables<br>/<br>Appearance</td>
+<td>-</td>
+<td>1%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3Lt5NwI.png"></td>
+<td><font color="#FF5E00">Voidwalker Essence-Infused Weapon</font></td>
+<td>Equipment<br>/<br>Weapon</td>
+<td><font color="#FFA7A7">Attack +1500000</font><br/><font color="#D1B2FF">Critical Chance + 25%</font><br/><font color="#D1B2FF">Critical Damage + 250%</font></td>
+<td><div class="tooltip">0.1%<span class="tooltiptext">Individual Drop Rate</span></div><br>/<br>0.33%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/s2DjX3o.png"></td>
+<td><font color="#FF5E00">Voidwalker Essence-Infused Book</font></td>
+<td>Equipment<br>/<br>Weapon</td>
+<td><font color="#5AAEFF">Mana + 3500000</font><br/><font color="#D1B2FF">Critical Chance + 27%</font><br/><font color="#D1B2FF">Critical Damage + 270%</font></td>
+<td><div class="tooltip">0.1%<span class="tooltiptext">Individual Drop Rate</span></div><br>/<br>0.33%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JI8M3hz.png"></td>
+<td><font color="#FF5E00">Condensed Voidwalker Essence</font></td>
+<td>Equipment<br>/<br>Artifact</td>
+<td><font color="#FFB2F5">Critical Chance + 10%</font><br/><font color="#D1B2FF">Critical Damage + 50%</font></td>
+<td>0.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Fel Magnaron</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Individual DR</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/6hBa23d.png"></td>
+<td><font color="#5F00FF">Magnaron's Horn</font></td>
+<td>Material</td>
+<td>-</td>
+<td>11%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/P1p6U0J.png"></td>
+<td><font color="#5F00FF">Heart of Magnaron</font></td>
+<td>Material</td>
+<td>-</td>
+<td>33%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> BTX-05</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Individual DR</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hn84mVq.png"></td>
+<td><font color="#5F00FF">Nucleus of BTX-05</font></td>
+<td>Material</td>
+<td>-</td>
+<td>11%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/UIAV5ni.png"></td>
+<td><font color="#5F00FF">Essence of Mechanical Engineering</font></td>
+<td>Material</td>
+<td>-</td>
+<td>33%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> Mide the Serene Ruler</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Individual DR</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/EflukFx.png"></td>
+<td><font color="#5F00FF">Thorn of Mide</font></td>
+<td>Material</td>
+<td>-</td>
+<td>11%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/EJwNMWH.png"></td>
+<td><font color="#5F00FF">Tentacle of Mide</font></td>
+<td>Material</td>
+<td>-</td>
+<td>33%</td> 
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</center>
+<div id="crafting" class="tabcontent">
 <div class="crafthead2">
  <center><p>ARMOR</p></center>
 </div>
@@ -817,74 +1687,107 @@ ul li:last-child {
 </div>
 <ul>
 <li>Hobgoblin's Axe + Lv1 Troll's Necklace = Blue Tooth Sword</li>
- 
 <li>Left Scythe of Death + Ring of Nature + King's Horn = Hard Ivory Sword</li>
 <li>Right Scythe of Death + Ring of Nature + King's Horn = Hard Ivory Sword</li>
- 
 <li>Hard Ivory Sword + King's Horn + Spider's Poison Pouch = Sword of Void</li>
- 
+</ul>
+<ul>
 <li>Sword of Void + Attack + Knight's Sword Fragment + Paladin's Sword Fragment = [DMG]Saint Sword Lv6</li>
 <li>Sword of Void + Critical Chance + Knight's Sword Fragment + Paladin's Sword Fragment = [CritC]Saint Sword Lv6</li>
 <li>Sword of Void + Critical Damage + Knight's Sword Fragment + Paladin's Sword Fragment = [CritD]Saint Sword Lv6</li>
 <li>Sword of Void + CritD+CritC+ATK + Knight's Sword Fragment + Paladin's Sword Fragment = [Heal]Saint Sword Lv6</li>
 <li>Sword of Void + Defense + Knight's Sword Fragment + Paladin's Sword Fragment = [DEF]Saint Sword Lv6</li>
-
+</ul>
+<ul>
 <li>[DMG]Saint Sword Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Excalibur of Attack</li>
 <li>[CritC]Saint Sword Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Excalibur of Death</li>
 <li>[CritD]Saint Sword Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Excalibur of Might</li>
 <li>[Heal]Saint Sword Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Excalibur of Healing</li>
 <li>[DEF]Saint Sword Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Excalibur of Protection</li>
- 
+</ul>
+<ul>
 <li>Excalibur of Attack + Wizard's Jewel + Meiji's Staff + Flag of the Great King + Lava Rock = Excalibur of Attack +1</li>
 <li>Excalibur of Death + Wizard's Jewel + Meiji's Staff + Flag of the Great King + Lava Rock = Excalibur of Death +1</li>
 <li>Excalibur of Might + Wizard's Jewel + Meiji's Staff + Flag of the Great King + Lava Rock = Excalibur of Might +1</li>
 <li>Excalibur of Healing + Wizard's Jewel + Meiji's Staff + Flag of the Great King + Lava Rock = Excalibur of Healing +1</li>
 <li>Excalibur of Protection + Wizard's Jewel + Meiji's Staff + Flag of the Great King + Lava Rock = Excalibur of Protection +1</li>
- 
+</ul>
+<ul>
 <li>Excalibur of Attack +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Sword of Attack</li>
 <li>Excalibur of Death +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Sword of Death</li>
 <li>Excalibur of Might +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Sword of Might</li>
 <li>Excalibur of Healing +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Sword of Healing</li>
 <li>Excalibur of Protection +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Sword of Protection</li>
-
+</ul>
+<ul>
 <li>Blight Sword of Attack + Essence of Loner = Lonely Guardian Sword of Attack</li>
 <li>Blight Sword of Death + Essence of Loner = Lonely Guardian Sword of Death</li>
 <li>Blight Sword of Might + Essence of Loner = Lonely Guardian Sword of Might</li>
 <li>Blight Sword of Healing + Essence of Loner = Lonely Guardian Sword of Healing</li>
 <li>Blight Sword of Protection + Essence of Loner = Lonely Guardian Sword of Protection</li>
 </ul>
+<ul>
+<li>Lonely Guardian Sword of Attack + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Destroyer</li>
+<li>Lonely Guardian Sword of Death + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Destroyer</li>
+<li>Lonely Guardian Sword of Might + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Destroyer</li>
+<li>Lonely Guardian Sword of Healing + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Guardian</li>
+<li>Lonely Guardian Sword of Protection + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Guardian</li>
+</ul>
+<ul>
+<li>Destroyer + 1st part of Jagdplaute + 2nd part of Jagdplaute + 3rd part of Jagdplaute = Jagdplaute</li>
+<li>Guardian + 1st part of Jagdplaute + 2nd part of Jagdplaute + 3rd part of Jagdplaute = Jagdplaute</li>
+<li>Jagdplaute + Transcendence Stone = [Transcendence]Jagdplaute</li>
+</ul>
+<ul>
+<li>Destroyer + 1st part of Executioner + 2nd part of Executioner + 3rd part of Executioner = Executioner</li>
+<li>Guardian + 1st part of Executioner + 2nd part of Executioner + 3rd part of Executioner = Executioner</li>
+<li>Executioner + Transcendence Stone = [Transcendence]Executioner</li>
+</ul>
 <div class="crafthead2">
   <center><p>BOOKS</p></center>
 </div>
 <ul>
 <li>Corrupted Energy + Ring of Nature + King's Horn = Symbol of Obedience</li>
- 
 <li>Symbol of Obedience + King's Horn + Spider Poison Pouch = Book of Void</li>
- 
+</ul> 
+<ul>
 <li>Book of Void + Attack + Torn Bible + Paladin's Bible = [DMG]Bible Lv6</li>
 <li>Book of Void + Critical Chance + Torn Bible + Paladin's Bible = [CritC]Bible Lv6</li>
 <li>Book of Void + Critical Damage + Torn Bible + Paladin's Bible = [CritD]Bible Lv6</li>
 <li>Book of Void + CritD+CritC+ATK + Torn Bible + Paladin's Bible = [Heal]Bible Lv6</li>
- 
+</ul>
+<ul> 
 <li>[DMG]Bible Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Astrape of Magic</li>
 <li>[CritC]Bible Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Astrape of Death</li>
 <li>[CritD]Bible Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Astrape of Smite</li>
 <li>[Heal]Bible Lv6 + Paladin's Hammer + Rogue King's Treasure + Treasure of the Great King = Astrape of Healing</li>
- 
+</ul> 
+<ul>
 <li>Astrape of Magic + Wizard's Jewel + Meiji's Staff + Crown of the Great King + Lava Rock = Astrape of Magic +1</li>
 <li>Astrape of Death + Wizard's Jewel + Meiji's Staff + Crown of the Great King + Lava Rock = Astrape of Death +1</li>
 <li>Astrape of Smite + Wizard's Jewel + Meiji's Staff + Crown of the Great King + Lava Rock = Astrape of Smite +1</li>
 <li>Astrape of Healing + Wizard's Jewel + Meiji's Staff + Crown of the Great King + Lava Rock = Astrape of Healing +1</li>
- 
+</ul> 
+<ul>
 <li>Astrape of Magic +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Book of Magic</li>
 <li>Astrape of Death +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Book of Death</li>
 <li>Astrape of Smite +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Book of Smite</li>
 <li>Astrape of Healing +1 + Miasma + Chunk of Plague + Gremlin's ... = Blight Book of Healing</li>
- 
+</ul> 
+<ul>
 <li>Blight Book of Magic + Essence of Loner = Lonely Guardian Book of Magic</li>
 <li>Blight Book of Death + Essence of Loner = Lonely Guardian Book of Death</li>
 <li>Blight Book of Smite + Essence of Loner = Lonely Guardian Book of Smite</li>
 <li>Blight Book of Healing + Essence of Loner = Lonely Guardian Book of Healing</li>
+</ul> 
+<ul>
+<li>Lonely Guardian Book of Magic + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Ruler of Serene Sea</li>
+<li>Lonely Guardian Book of Death + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Ruler of Serene Sea</li>
+<li>Lonely Guardian Book of Smite + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Ruler of Serene Sea</li>
+<li>Lonely Guardian Book of Healing + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Ruler of Serene Sea</li>
+</ul>
+<ul>
+<li>Ruler of Serene Sea + 1st part of Ertel Rod + 2nd part of Ertel Rod + 3rd part of Ertel Rod = Ertel Rod</li>
 </ul>
 <div class="crafthead2">
   <center><p>RINGS</p></center>
@@ -894,22 +1797,26 @@ ul li:last-child {
 <li>Second Ring of the King + Voidwalker Essence = Second Ring of the Wanderer</li>
 <li>Third Ring of the King + Voidwalker Essence = Third Ring of the Wanderer</li>
 <li>Fourth Ring of the King + Voidwalker Essence = Fourth Ring of the Wanderer</li>
- 
+</ul>
+<ul>
 <li>First Ring of the Wanderer + Thorn of Mide = Ring of Mana</li>
 <li>Second Ring of the Wanderer + Thorn of Mide = Ring of Mana</li>
 <li>Third Ring of the Wanderer + Thorn of Mide = Ring of Mana</li>
 <li>Fourth Ring of the Wanderer + Thorn of Mide = Ring of Mana</li>
- 
+</ul>
+<ul>
 <li>First Ring of the Wanderer + Magnaron's Horn = Ring of Life</li>
 <li>Second Ring of the Wanderer + Magnaron's Horn = Ring of Life</li>
 <li>Third Ring of the Wanderer + Magnaron's Horn = Ring of Life</li>
 <li>Fourth Ring of the Wanderer + Magnaron's Horn = Ring of Life</li>
- 
-<li>First Ring of the Wanderer + Nucleus of BTX-05 = Ring of Balance
+</ul>
+<ul>
+<li>First Ring of the Wanderer + Nucleus of BTX-05 = Ring of Balance</li>
 <li>Second Ring of the Wanderer + Nucleus of BTX-05 = Ring of Balance</li>
 <li>Third Ring of the Wanderer + Nucleus of BTX-05 = Ring of Balance</li>
 <li>Fourth Ring of the Wanderer + Nucleus of BTX-05 = Ring of Balance</li>
- 
+</ul>
+<ul>
 <li>Ring of Mana + Cherry Leaf = Ring of Mana +1</li>
 <li>Ring of Life + Cherry Leaf = Ring of Life +1</li>
 <li>Ring of Balance + Cherry Leaf = Ring of Balance +1</li>
@@ -919,23 +1826,25 @@ ul li:last-child {
 </div>
 <ul> 
 <li>Flag of the Great King + Crown of the Great King = Treasure of the Great King</li>
+</ul>
+<ul>
 <li>Mide's Tentacle + Heart of Magnaron + Essence of Mechanical Engineering = Low quality [Card]Serene Ruler Mide / [Card]Fel Magnaron / [Card]Mechanical Engineering Essence</li>
+</ul>
+<ul>
+<li>Piece of Transcendence x10 = Transcendence Stone</li>
 </ul>  
 </div>
-<!----Next Tab---->
 <div id="raids" class="tabcontent">
 <div class="info">
 <center><p><strong>Work In Progress!</strong></p></center>
 </div>
 </div>
-<!----Next Tab---->
 <div id="credits" class="tabcontent">
   <p>Thanks to <a href="https://www.w3schools.com">w3schools.com</a> for HTML code.</p>
   <p>Drop Table from <a href="http://cafe.naver.com/dfgad/107964">cafe.naver.com/dfgad</a> by <b>BlacklightsC</b></p>
   <p>Few HTML things from <a href="https://tympanus.net">tympanus.net</a></p>
   <p><b>Auura</b> for updating Crafting List<p>
 </div>
-<!----Footer---->
 <footer>
 <div class="arakunido" align="center">
 <a href="https://discord.gg/vnPqgwg"><img src="https://i.imgur.com/lwyo47K.png" alt="Discord Icon" style="width:36px;height:36px;" /></a>
