@@ -134,6 +134,7 @@ ul li:last-child {
 .crafthead2 {
 	margin: 1em 0 0.5em 0;
 	font-weight: normal;
+	text-align: center;
 	position: relative;
 	text-shadow: 0 -1px rgba(0,0,0,0.6);
 	font-size: 18px;
@@ -189,6 +190,42 @@ ul li:last-child {
 	border: 1px solid black;
     text-align: center;
 }
+button.accordion {
+    background-color: #eee;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 </style>
 </head>
 <body bgcolor="#eeeeee">
@@ -200,7 +237,7 @@ ul li:last-child {
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'droptable')">Drop Table</button>
   <button class="tablinks" onclick="openCity(event, 'crafting')">Crafting</button>
-  <button class="tablinks" onclick="openCity(event, 'raids')">Raids</button>
+  <button class="tablinks" onclick="openCity(event, 'FAQ')">FAQ</button>
   <button class="tablinks" onclick="openCity(event, 'credits')">Credits</button>
 </div>
 <div id="droptable" class="tabcontent">
@@ -252,7 +289,7 @@ ul li:last-child {
 </div>
 <br><br>
 <span style="font-size: 18pt;">Bandit Lord</span>
-<div style="font-size: 9pt; font-family: Arial;">
+<div id="rogueking" style="font-size: 9pt; font-family: Arial;">
 <table class="dropt">
 <tbody>
 <tr>
@@ -891,6 +928,28 @@ ul li:last-child {
 </table>
 </div>
 <br><br>
+<span style="font-size: 18pt;">Big Crystal Golem</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Chance</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Zsntcdw.png" style="width: 52px; height: 52px;"></td>
+<td bgcolor="#666666"><font color="#B2EBF4">Modified Armor</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 60000</font><br/><font color="#B2CCFF">Armor + 200</font><br/><font color="#5F00FF">All Stats + 500</font></td>
+<td>25%</td>
+</tr> 
+</tbody>
+</table>
+</div>
+<br><br>
 <span style="font-size: 18pt;">Haydn the Phantom King</span>
 <div style="font-size: 9pt; font-family: Arial;">
 <table class="dropt">
@@ -1015,7 +1074,7 @@ ul li:last-child {
 </div>
 <br><br>
 <span style="font-size: 18pt;">King</span>
-<div style="font-size: 9pt; font-family: Arial;">
+<div id="theking" style="font-size: 9pt; font-family: Arial;">
 <table class="dropt">
 <tbody>
 <tr>
@@ -1664,11 +1723,139 @@ ul li:last-child {
 </tbody>
 </table>
 </div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> [NORMAL] Library of Faith</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Rate</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Rp1QpYc.png" style="width: 52px; height: 52px;"></td>
+<td bgcolor="#666666"><font color="#FFD9EC">Suede Tunic of Belief</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 1000000</font><br/><font color="#B2CCFF">Armor + 500</font><br/><font color="#B2CCFF">AGI + 20%</font><br/><font color="#5F00FF">Damage reduction +17%</font></td>
+<td>3%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/MvJDj56.png" style="width: 52px; height: 52px;"></td>
+<td bgcolor="#666666"><font color="#FFD9EC">Plate Mail of Belief</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 1500000</font><br/><font color="#B2CCFF">Armor + 700</font><br/><font color="#B2CCFF">STR + 20%</font><br/><font color="#5F00FF">Damage reduction +25%</font></td>
+<td>3%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/cPJlSkP.png" style="width: 52px; height: 52px;"></td>
+<td bgcolor="#666666"><font color="#FFD9EC">Fabric Robe of Belief</font></td>
+<td>Equipment<br>/<br>Armor</td>
+<td><font color="#FF5E00">HP + 500000</font><br/><font color="#FF5E00">Mana + 1500000</font><br/><font color="#B2CCFF">Armor + 500</font><br/><font color="#B2CCFF">INT + 20%</font><br/><font color="#5F00FF">Damage reduction +10%</font></td>
+<td>3%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Mtqehuo.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff00dd">Jewel Ring Box</font></td>
+<td>Consumables<br>/<br>Box</td>
+<td>You have a low chance to obtain a random jewel ring on use</td>
+<td><div class="tooltip">100%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/IeMZSGn.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff00dd">Puzzle Box</font></td>
+<td>Consumables<br>/<br>Box</td>
+<td>You have a chance to obtain random weapon part on use</td>
+<td><div class="tooltip">11%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/TGZ3A3g.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#5F00FF">1st part of Jagdplaute</font></td>
+<td>Material</td>
+<td>-</td>
+<td><div class="tooltip">11%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1Rk9EXX.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#5F00FF">1st part of Executioner</font></td>
+<td>Material</td>
+<td>-</td>
+<td><div class="tooltip">11%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/gfccOOm.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#5F00FF">1st part of Ertel Rod</font></td>
+<td>Material</td>
+<td>-</td>
+<td><div class="tooltip">11%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[Raid]</font> [KING'S ROAD] Library of Faith</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">Icon</td>
+<td width="250">Name</td>
+<td width="100">Type</td>
+<td width="350">Description</td>
+<td width="70">Drop Rate</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/78158K1.png" style="width: 52px; height: 52px;"></td>
+<td>[Backpack] Small Library of Faith</td>
+<td>Consumables<br>/<br>Backpack</td>
+<td>-</td>
+<td>4%</td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/G2DLgUH.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff5e00">Black Sword - Shusui</font></td>
+<td>Equipment<br>/<br>Weapon</td>
+<td><font color="#FFA7A7">Attack + 5000000</font><br/><font color="#FFB2F5">AGI + 30000</font><br/><font color="#FFB2F5">Critical Chance + 15%</font><br/><font color="#FFB2F5">Critical Damage + 150%</font><br/>Passive: Adds a certain amount of additional damage to your basic attacks.</td>
+<td>0.3%<br>/<br><div class="tooltip">0.19%<span class="tooltiptext">Individual Drop Rate</span></div></td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/eGMpxW5.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff5e00">Newlington Rod</font></td>
+<td>Equipment<br>/<br>Weapon</td>
+<td><font color="#FFA7A7">Mana + 8000000</font><br/><font color="#FFB2F5">INT + 50000</font><br/><font color="#FFB2F5">Critical Chance + 15%</font><br/><font color="#FFB2F5">Critical Damage + 200%</font><br/>Passive: Your attacks have a chance to cast Meteor.</td>
+<td>0.3%<br>/<br><div class="tooltip">0.19%<span class="tooltiptext">Individual Drop Rate</span></div></td> 
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ilGCgL9.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#FF5F00">Piece of Transcendence</font></td>
+<td>Material</td>
+<td>-</td>
+<td><div class="tooltip">14%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Mtqehuo.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff00dd">2x Jewel Ring Box</font></td>
+<td>Consumables<br>/<br>Box</td>
+<td>You have a low chance to obtain a random jewel ring on use</td>
+<td><div class="tooltip">100%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/IeMZSGn.png" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff00dd">Puzzle Box</font></td>
+<td>Consumables<br>/<br>Box</td>
+<td>You have a chance to obtain random weapon part on use</td>
+<td><div class="tooltip">17%<span class="tooltiptext">Individual Drop Rate</span></div></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </center>
 <div id="crafting" class="tabcontent">
 <div class="crafthead2">
- <center><p>ARMOR</p></center>
+<p>ARMOR</p>
 </div>
 <ul>
 <li>Tough Leather Armor + Fanatic Ring = Iron Armor</li>
@@ -1676,14 +1863,14 @@ ul li:last-child {
 <li>Tricolor Armor + Spider Bones? + Defense = [Lv5] Bone Cape</li>
 </ul>
 <div class="crafthead2">
-  <center><p>BOOTS</p></center>
+<p>BOOTS</p>
 </div>
 <ul>
 <li>Boots of Swiftness + Boots Upgrade Schematic = Modified Boots of Swiftness</li>
 <li>Modified Boots of Swiftness + Spirit Boots Upgrade = Spirit Boots</li>
 </ul>
 <div class="crafthead2">
-  <center><p>SWORDS</p></center>
+<p>SWORDS</p>
 </div>
 <ul>
 <li>Hobgoblin's Axe + Lv1 Troll's Necklace = Blue Tooth Sword</li>
@@ -1744,7 +1931,7 @@ ul li:last-child {
 <li>Executioner + Transcendence Stone = [Transcendence]Executioner</li>
 </ul>
 <div class="crafthead2">
-  <center><p>BOOKS</p></center>
+<p>BOOKS</p>
 </div>
 <ul>
 <li>Corrupted Energy + Ring of Nature + King's Horn = Symbol of Obedience</li>
@@ -1790,7 +1977,7 @@ ul li:last-child {
 <li>Ruler of Serene Sea + 1st part of Ertel Rod + 2nd part of Ertel Rod + 3rd part of Ertel Rod = Ertel Rod</li>
 </ul>
 <div class="crafthead2">
-  <center><p>RINGS</p></center>
+<p>RINGS</p>
 </div>
 <ul> 
 <li>First Ring of the King + Voidwalker Essence = First Ring of the Wanderer</li>
@@ -1822,7 +2009,7 @@ ul li:last-child {
 <li>Ring of Balance + Cherry Leaf = Ring of Balance +1</li>
 </ul>
 <div class="crafthead2">
-  <center><p>MISC</p></center>
+<p>MISC</p>
 </div>
 <ul> 
 <li>Flag of the Great King + Crown of the Great King = Treasure of the Great King</li>
@@ -1834,9 +2021,40 @@ ul li:last-child {
 <li>Piece of Transcendence x10 = Transcendence Stone</li>
 </ul>  
 </div>
-<div id="raids" class="tabcontent">
-<div class="info">
-<center><p><strong>Work In Progress!</strong></p></center>
+<div id="FAQ" class="tabcontent">
+<button class="accordion">How to rebirth?</button>
+<div class="panel">
+<img src="https://puu.sh/x2TLU/f54c30fca1.png" alt="Help(f9)">
+</div>
+<button class="accordion">How to use bank system?</button>
+<div class="panel">
+<img src="https://puu.sh/x2TLU/f54c30fca1.png" alt="Help(f9)">
+</div>
+<button class="accordion">How rank system works?</button>
+<div class="panel">
+<img src="https://puu.sh/x2TLU/f54c30fca1.png" alt="Help(f9)">
+<p>Rank applies as an invisible ability to your current hero on LOADING. That means if you rebirth/advance in rank/change class you'll lose your current rank bonus. The only way to restore it is to load your hero again, which means you need to create new game.</p>
+</div>
+<button class="accordion">Where i can find [Hidden Boss] Malthael?</button>
+<div class="panel">
+<p>He has a 0.1% chance to spawn on Malthael death.</p>
+</div>
+<button class="accordion">Where i can find Rogue King?</button>
+<div class="panel">
+<p><a href="#rogueking" onclick="openCity(event, 'droptable')">Scroll</a> to teleport to Rogue King location drops from "Leader of Rough Tooth gang". You need 2000+ lvl to be able to get this item from him & 5000+ lvl to be able to use this scroll.</p>
+</div>
+<button class="accordion">Where i can find Treasure of the Great King?</button>
+<div class="panel">
+<img src="https://puu.sh/x2UDw/584c02dd3c.png" alt="quest2loc">
+<p>It drops from <a href="#theking" onclick="openCity(event, 'droptable')">The King</a>. You can teleport to location with King by typing -quest2 command at specific place(picture) in Forgotten Royal Palace. You need 10000+ lvl, 3+ rebirth to be able to enter his area.</p>
+</div>
+<button class="accordion">How do i enter forgotten wizards area?</button>
+<div class="panel">
+<p>You can find hidden portal at the end of the area with fire wizards. You need 6000+ lvl to be able to enter it. Portal should be about halfway between the center and top of the room.</p>
+</div>
+<button class="accordion">Individual Drop Rate?</button>
+<div class="panel">
+<p>There's a few items that you can get only via "individual drop rate" system. "Individual" means only YOU will get this item if it passes the check function. When this system triggers, it usually says something like this: "You have acquired the ITEM", then it'll spawn an item in your backpack space/area. It also uses seperate drop rate variable, you can check your current IDR in "Character Information" multiboard.</p>
 </div>
 </div>
 <div id="credits" class="tabcontent">
@@ -1844,6 +2062,7 @@ ul li:last-child {
   <p>Drop Table from <a href="http://cafe.naver.com/dfgad/107964">cafe.naver.com/dfgad</a> by <b>BlacklightsC</b></p>
   <p>Few HTML things from <a href="https://tympanus.net">tympanus.net</a></p>
   <p><b>Auura</b> for updating Crafting List<p>
+  <p>Scrollbar "remove" from <a href="https://stackoverflow.com/a/30680994">stackoverflow.com</a></p>
 </div>
 <footer>
 <div class="arakunido" align="center">
@@ -1886,6 +2105,21 @@ function openCity(evt, cityName)
     }
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
 }
 </script>
 </body>
