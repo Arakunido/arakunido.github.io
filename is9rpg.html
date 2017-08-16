@@ -152,22 +152,24 @@ ul li:last-child {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    font-weight: 600;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
+	white-space: nowrap;
 	min-width: 120px;
-	max-width: 240px;
+	max-width: 600px;
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
     background-color: black;
     color: #fff;
+	font-weight: normal;
     text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
+    padding: 5px 5px;
+    border-radius: 12px;
  
     /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -1282,6 +1284,13 @@ html {
 <td bgcolor="#666666"><font color="#65FF5E">Doubles damage of all abilities.</font></td>
 <td>2.5%</td>
 </tr>
+<tr>
+<td><img src="https://i.imgur.com/HHcdera.gif" style="width: 52px; height: 52px;"></td>
+<td><font color="#FF5E00">Sulfuras - Hand of Ragnaros</font></td>
+<td>Equipment<br>/<br>Ring</td>
+<td><font color="#FFB2F5">Lifesteal + 4%</font><br><font color="#5F00FF">All Stats + 2000</font><br>Use: Summon little Ragnaros (cooldown 180 seconds)</td>
+<td>1%</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -1922,13 +1931,13 @@ html {
 </ul>
 <ul>
 <li>Destroyer + 1st part of Jagdplaute + 2nd part of Jagdplaute + 3rd part of Jagdplaute = Jagdplaute</li>
-<li>Guardian + 1st part of Jagdplaute + 2nd part of Jagdplaute + 3rd part of Jagdplaute = Jagdplaute</li>
-<li>Jagdplaute + Transcendence Stone = [Transcendence]Jagdplaute</li>
+<li>Guardian + 1st part of Jagdplaute + 2nd part of Jagdplaute + 3rd part of Jagdplaute = <div class="tooltip">Jagdplaute<span class="tooltiptext"><font color="#FFA7A7"> Attack +5000000</font></br><font color="#FFB2F5">Critical Damage + 220%</font></br><font color="#65FF5E">Passive: Your attacks have a chance to stun enemy for 0.5 seconds</font></span></div></li>
+<li>Jagdplaute + Transcendence Stone = <div class="tooltip">[Transcendence]Jagdplaute<span class="tooltiptext"><font color="#FFA7A7"> Attack +7000000</font></br><font color="#FFB2F5">Critical Damage + 220%</font></br><font color="#65FF5E">Passive: Your attacks have a chance to stun enemy for 1 second</font></span></div></li>
 </ul>
 <ul>
 <li>Destroyer + 1st part of Executioner + 2nd part of Executioner + 3rd part of Executioner = Executioner</li>
-<li>Guardian + 1st part of Executioner + 2nd part of Executioner + 3rd part of Executioner = Executioner</li>
-<li>Executioner + Transcendence Stone = [Transcendence]Executioner</li>
+<li>Guardian + 1st part of Executioner + 2nd part of Executioner + 3rd part of Executioner = <div class="tooltip">Executioner<span class="tooltiptext"><font color="#FFA7A7"> Attack +3000000</font></br><font color="#FFB2F5">AGI + 30000</font></br><font color="#FFB2F5">Critical Chance + 20%</font></br><font color="#65FF5E">Passive: Your attacks have a chance to increase critical damage by 80%</font></span></div></li>
+<li>Executioner + Transcendence Stone = <div class="tooltip">[Transcendence]Executioner<span class="tooltiptext"><font color="#FFA7A7"> Attack +5000000</font></br><font color="#FFB2F5">AGI + 30000</font></br><font color="#FFB2F5">Critical Chance + 20%</font></br><font color="#65FF5E">Passive: Your attacks have a chance to increase critical damage by 80%</font></span></div></li>
 </ul>
 <div class="crafthead2">
 <p>BOOKS</p>
@@ -1974,7 +1983,7 @@ html {
 <li>Lonely Guardian Book of Healing + Thorn of Mide + Magnaron's Horn + Nucleus of BTX-05 = Ruler of Serene Sea</li>
 </ul>
 <ul>
-<li>Ruler of Serene Sea + 1st part of Ertel Rod + 2nd part of Ertel Rod + 3rd part of Ertel Rod = Ertel Rod</li>
+<li>Ruler of Serene Sea + 1st part of Ertel Rod + 2nd part of Ertel Rod + 3rd part of Ertel Rod = <div class="tooltip">Ertel Rod<span class="tooltiptext"><font color="#FFA7A7"> Mana + 8000000</font></br><font color="#FFB2F5">INT + 40000</font></br><font color="#FFB2F5">Critical Damage + 100%</font></br><font color="#65FF5E">Use: Your attacks have a chance to restore 10% of your mana.</font></span></div></li>
 </ul>
 <div class="crafthead2">
 <p>RINGS</p>
@@ -2035,15 +2044,19 @@ html {
 <img src="https://i.imgur.com/WSCFpsM.png" alt="Help(f9)">
 <p>Rank applies as an invisible ability to your current hero on LOADING. That means if you rebirth/advance in rank/change class you'll lose your current rank bonus. The only way to restore it is to load your hero again, which means you need to create new game.</p>
 </div>
-<button class="accordion">Where i can find [Hidden Boss] Malthael?</button>
+<button class="accordion">How do i farm rank xp?</button>
+<div class="panel">
+<p>You can farm rank xp in "Draenor's Forest" area, you can find a portal in the third town. (500~1200xp per Draenor)</br>Or you can use -rankxp command to buy rank xp with boss points(1:2 ratio).</p>
+</div>
+<button class="accordion">Where can i find [Hidden Boss] Malthael?</button>
 <div class="panel">
 <p>He has a 0.1% chance to spawn on Malthael death.</p>
 </div>
-<button class="accordion">Where i can find Rogue King?</button>
+<button class="accordion">Where can i find Rogue King?</button>
 <div class="panel">
 <p><a href="#rogueking" onclick="openCity(event, 'droptable')">Scroll</a> to teleport to Rogue King location drops from "Leader of Rough Tooth gang". You need 2000+ lvl to be able to get this item from him & 5000+ lvl to be able to use this scroll.</p>
 </div>
-<button class="accordion">Where i can find Treasure of the Great King?</button>
+<button class="accordion">Where can i find 'The King' / Treasure of the Great King?</button>
 <div class="panel">
 <img src="https://i.imgur.com/cNf41u5.png" alt="quest2loc">
 <p>It drops from <a href="#theking" onclick="openCity(event, 'droptable')">The King</a>. You can teleport to location with King by typing -quest2 command at specific place(picture) in Forgotten Royal Palace. You need 10000+ lvl, 3+ rebirth to be able to enter his area.</p>
