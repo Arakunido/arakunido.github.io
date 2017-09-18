@@ -1,0 +1,2912 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="robots" content="noindex">
+<meta name="author" content="Arakunido">
+<meta name="description" content="Maple Original RPG Guide">
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="fa2vicon.ico" type="image/x-icon">
+<link rel="icon" href="fa2vicon.ico" type="image/x-icon">
+<title>Maple Original RPG Guide</title>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #eeeeee;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #b8c9fd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #fdecb8;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/* Fade Away */
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/* Alerts */
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+/* Scroll to TOp Buttons */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid rgba(53,86,129, 0.8);
+}
+
+ul li {
+    padding: 4px 8px;
+    border-bottom: 1px solid rgba(53,86,129, 0.8);
+}
+
+ul li:last-child {
+    border-bottom: none
+}
+.arakunido {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 14px;
+	line-height: 1px;
+	padding: 2px 2px 2px 0%;
+	color: #355681;
+}
+.arakunido2 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px 15px 15px 15%;
+	color: #355681;
+	box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 5px rgba(53,86,129, 0.5),
+		inset -285px 0 35px white;
+	border-radius: 0 10px 0 10px;
+	background: #fff url(https://i.imgur.com/8gtyu8y.png) no-repeat center left;
+}
+.crafthead2 {
+	margin: 1em 0 0.5em 0;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 18px;
+	line-height: 10px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 2px 2px;
+	color: white;
+	border-radius: 0 10px 0 10px;
+	box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+	font-family: 'Muli', sans-serif;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+	white-space: nowrap;
+	min-width: 120px;
+	max-width: 600px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: black;
+    color: #fff;
+	font-weight: normal;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 12px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.dropt, table {
+	border-spacing: 1px;
+	background-color: #ffffff;
+	width: 740px;
+	height: 70px;
+	padding: 1px;
+}
+.dropt, td{
+	table-layout:fixed;
+	border: 1px solid black;
+    text-align: center;
+}
+button.accordion {
+    background-color: #ddd;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #999;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #eeeeee;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+</style>
+</head>
+<body bgcolor="#F6F6F6">
+<div class="arakunido2">
+  <center><p>Maple Original RPG</p></center>
+</div>
+<center>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'droptable')">드랍 목록</button>
+  <button class="tablinks" onclick="openCity(event, 'crafting')">조합법</button>
+  <button class="tablinks" onclick="openCity(event, 'credits')">도움</button>
+</div>
+<div id="droptable" class="tabcontent">
+<div class="info">
+  <p>맵 버전: 0.38</p>
+</div>
+<span style="font-size: 18pt;"><font color="#666600">[이벤트]로랑</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/mYI2NUZ.png" alt="ClackClack" style="width: 52px; height: 52px;"></td>
+<td>『이벤트』집게발</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos" style="width: 52px; height: 52px;"></td>
+<td>메소 더미</td>
+<td>-</td>
+<td>메소 + 4000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple" style="width: 52px; height: 52px;"></td>
+<td>메이플</td>
+<td>-</td>
+<td>메이플 + 1</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/zlXspHy.png" alt="Buratino" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">[이벤트]</font><font color="#ff8040">해변의 열쇠</font></td>
+<td>-</td>
+<td>킹크랑 방을 입장 할 수 있다.<br>[세이브 불가아이템] 맞는 전직에 들어가주세요.<br>잘못들어가면 열쇠가 사라집니다.</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#666600">[이벤트]로랑</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/mYI2NUZ.png" alt="ClackClack" style="width: 52px; height: 52px;"></td>
+<td>『이벤트』집게발</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/zlXspHy.png" alt="Buratino" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">[이벤트]</font><font color="#ff8040">해변의 열쇠</font></td>
+<td>-</td>
+<td>킹크랑 방을 입장 할 수 있다.<br>[세이브 불가아이템] 맞는 전직에 들어가주세요.<br>잘못들어가면 열쇠가 사라집니다.</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">파란달팽이</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/dCCcvdL.png" alt="RedPotion" style="width: 52px; height: 52px;"></td>
+<td>빨간포션</td>
+<td>-</td>
+<td>HP를 75만큼 회복시켜줍니다.</td>
+<td>6%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/HVe76qd.png" alt="BluePotion" style="width: 52px; height: 52px;"></td>
+<td>파란포션</td>
+<td>-</td>
+<td>MP를 50만큼 회복시켜줍니다.</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QT90wDl.png" alt="WhiteTShirt" style="width: 52px; height: 52px;"></td>
+<td>하얀 반팔 면티</td>
+<td>5</td>
+<td>방어력[7]</td>
+<td>4%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">빨간달팽이</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/dCCcvdL.png" alt="RedPotion" style="width: 52px; height: 52px;"></td>
+<td>빨간포션</td>
+<td>-</td>
+<td>HP를 75만큼 회복시켜줍니다.</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/HVe76qd.png" alt="BluePotion" style="width: 52px; height: 52px;"></td>
+<td>파란포션</td>
+<td>-</td>
+<td>MP를 50만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QT90wDl.png" alt="WhiteTShirt" style="width: 52px; height: 52px;"></td>
+<td>하얀 반팔 면티</td>
+<td>5</td>
+<td>방어력[7]</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/MrBFEVS.png" alt="WhiteBoots" style="width: 52px; height: 52px;"></td>
+<td>흰색 고무신</td>
+<td>5</td>
+<td>방어력[2]<br>이동속도:30</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1mRrSLu.png" alt="WhiteGloves" style="width: 52px; height: 52px;"></td>
+<td>노가다 목장갑</td>
+<td>5</td>
+<td>방어력[2]<br>공격속도:4%</td>
+<td>4%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">『Boss』마노</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/dCCcvdL.png" alt="RedPotion" style="width: 52px; height: 52px;"></td>
+<td>빨간포션</td>
+<td>-</td>
+<td>HP를 75만큼 회복시켜줍니다.</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/HVe76qd.png" alt="BluePotion" style="width: 52px; height: 52px;"></td>
+<td>파란포션</td>
+<td>-</td>
+<td>MP를 50만큼 회복시켜줍니다.</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/6XvROBR.png" alt="추 귀걸이" style="width: 52px; height: 52px;"></td>
+<td>추 귀걸이</td>
+<td>5</td>
+<td>STR:[4] | DEX:[1] | INT:[2]<br>HP:[40]<br>MP:[40]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/DoaQlxw.png" alt="CombatGloves" style="width: 52px; height: 52px;"></td>
+<td>가니어</td>
+<td>1</td>
+<td>공격력[12]<br>MP:[30]<br>DEX:[6]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/G9PZCZn.png" alt="MageWand" style="width: 52px; height: 52px;"></td>
+<td>고목 스태프</td>
+<td>1</td>
+<td>공격력[7]<br>MP:[90]<br>INT:[6]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/eFnN6IS.png" alt="Staff" style="width: 52px; height: 52px;"></td>
+<td>목검</td>
+<td>1</td>
+<td>공격력[4]<br>HP:[200]<br>STR:[5]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Mbkd1K6.png" alt="MageWand2" style="width: 52px; height: 52px;"></td>
+<td>우드 완드</td>
+<td>1</td>
+<td>공격력[2]<br>MP:[200]<br>INT:[3]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/mSvTHEO.png" alt="Spear" style="width: 52px; height: 52px;"></td>
+<td>장창</td>
+<td>1</td>
+<td>공격력[10]<br>HP:[80]<br>STR:[3]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QmTofU2.png" alt="Something1" style="width: 52px; height: 52px;"></td>
+<td>호신부적</td>
+<td>-</td>
+<td>이 아이템을 지닌 영웅이 전사하면 자동으로 부활합니다.</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QT90wDl.png" alt="WhiteTShirt" style="width: 52px; height: 52px;"></td>
+<td>하얀 반팔 면티</td>
+<td>5</td>
+<td>방어력[7]</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">슬라임</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/viApjlM.png" alt="Ninja1" style="width: 52px; height: 52px;"></td>
+<td>수비 표창</td>
+<td>5</td>
+<td>공격속도10%<br>DEX:[2]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/dCCcvdL.png" alt="RedPotion" style="width: 52px; height: 52px;"></td>
+<td>빨간포션</td>
+<td>-</td>
+<td>HP를 75만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/HVe76qd.png" alt="BluePotion" style="width: 52px; height: 52px;"></td>
+<td>파란포션</td>
+<td>-</td>
+<td>MP를 50만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">초록버섯</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/LZq0tB5.png" alt="LegShield1" style="width: 52px; height: 52px;"></td>
+<td>냄비뚜껑</td>
+<td>20</td>
+<td>방어력:[10]<br>DEX:[2]<br>HP:[500]<br>MP:[300]<br>MP리젠:10%증가</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/DncXq9x.png" alt="RedPotion2" style="width: 52px; height: 52px;"></td>
+<td>주홍포션</td>
+<td>-</td>
+<td>HP를 200만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/sMmzP8V.png" alt="BluePotion2" style="width: 52px; height: 52px;"></td>
+<td>마나 엘릭서</td>
+<td>-</td>
+<td>MP를 300만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">『Boss』머쉬맘</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/XCDWiRj.png" alt="BattleGloves" style="width: 52px; height: 52px;"></td>
+<td>메바</td>
+<td>25</td>
+<td>공격력[30]<br>MP:[200]<br>DEX:[17]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ow5YouH.png" alt="Magewand3" style="width: 52px; height: 52px;"></td>
+<td>미스릴 완드</td>
+<td>25</td>
+<td>공격력[10]<br>MP:[700]<br>INT:[10]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uJON7Op.png" alt="Knife" style="width: 52px; height: 52px;"></td>
+<td>양손검</td>
+<td>25</td>
+<td>공격력[15]<br>HP:[1000]<br>STR:[12]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hSJh0dN.png" alt="CombatWand" style="width: 52px; height: 52px;"></td>
+<td>위저드 스태프</td>
+<td>25</td>
+<td>공격력[25]<br>MP:[250]<br>INT:[15]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/A3DNuoj.png" alt="Spear22" style="width: 52px; height: 52px;"></td>
+<td>포크창</td>
+<td>25</td>
+<td>공격력[50]<br>HP:[200]<br>STR:[5]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/oNuisWz.png" alt="SuperNinja2" style="width: 52px; height: 52px;"></td>
+<td>월비 표창</td>
+<td>25</td>
+<td>공격속도15%<br>DEX:[10]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4aqXg3.png" alt="Neck12" style="width: 52px; height: 52px;"></td>
+<td>번개 귀걸이</td>
+<td>20</td>
+<td>STR:[8] | DEX:[6] | INT:[6]<br>HP:[300]<br>MP:[300]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QmTofU2.png" alt="Something1" style="width: 52px; height: 52px;"></td>
+<td>호신부적</td>
+<td>-</td>
+<td>이 아이템을 지닌 영웅이 전사하면 자동으로 부활합니다.</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>40%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/PyI1dnD.png" alt="Medal1" style="width: 52px; height: 52px;"></td>
+<td>[메달] 머쉬맘 슬레이어</td>
+<td>-</td>
+<td>[보조 인벤토리에 장착해주세요.]<br>STR:[10]<br>DEX:[10]<br>INT:[10]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/JwyyBsD.png" alt="Gloves23" style="width: 52px; height: 52px;"></td>
+<td>머쉬킹의 레더 글로브</td>
+<td>30</td>
+<td>머쉬킹의 레더 글로브<br>공격속도:[8%]<br>크리티컬:[10% *2.0]</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">주황버섯</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/blT9JC6.png" alt="WoodShield" style="width: 52px; height: 52px;"></td>
+<td>우드 버클러</td>
+<td>25</td>
+<td>방어력:[15]<br>HP:[800]<br>HP리젠:[초당]3</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/eTByV5n.png" alt="MaybeKimono" style="width: 52px; height: 52px;"></td>
+<td>흰색 검도복</td>
+<td>25</td>
+<td>방어력[18]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/sMmzP8V.png" alt="BluePotion2" style="width: 52px; height: 52px;"></td>
+<td>마나 엘릭서</td>
+<td>-</td>
+<td>MP를 300만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/DncXq9x.png" alt="RedPotion2" style="width: 52px; height: 52px;"></td>
+<td>주홍포션</td>
+<td>-</td>
+<td>HP를 200만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">리본 돼지</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/sMmzP8V.png" alt="BluePotion2" style="width: 52px; height: 52px;"></td>
+<td>마나 엘릭서</td>
+<td>-</td>
+<td>MP를 300만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/DncXq9x.png" alt="RedPotion2" style="width: 52px; height: 52px;"></td>
+<td>주홍포션</td>
+<td>-</td>
+<td>HP를 200만큼 회복시켜줍니다.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Nt27RKj.png" alt="BlueBoots" style="width: 52px; height: 52px;"></td>
+<td>파란색 캔버스화</td>
+<td>38</td>
+<td>방어력[7]<br>이동속도:50</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/apj7OdY.png" alt="BlackArmor" style="width: 52px; height: 52px;"></td>
+<td>흑룡포</td>
+<td>40</td>
+<td>방어력[23]</td>
+<td>2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">『Boss』킹 리본돼지</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/s2I0jWt.png" alt="BattleGloves3" style="width: 52px; height: 52px;"></td>
+<td>다크 가디언</td>
+<td>40</td>
+<td>공격력[60]<br>MP:[500]<br>DEX:[30]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QmTofU2.png" alt="Something1" style="width: 52px; height: 52px;"></td>
+<td>호신부적</td>
+<td>-</td>
+<td>이 아이템을 지닌 영웅이 전사하면 자동으로 부활합니다.</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Zpzpruo.png" alt="PigBand" style="width: 52px; height: 52px;"></td>
+<td>돼지머리띠</td>
+<td>40</td>
+<td>방어력[10]<br>HP:[1300]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aB2d0z8.png" alt="Pitchfork" style="width: 52px; height: 52px;"></td>
+<td>삼지창</td>
+<td>40</td>
+<td>공격력[80]<br>HP:[500]<br>STR:[9]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/4O1ByZ6.png" alt="Animesword" style="width: 52px; height: 52px;"></td>
+<td>왕푸</td>
+<td>40</td>
+<td>공격력[28]<br>HP:[1700]<br>STR:[16]<br>HP[리젠]:5</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/IYUIzym.png" alt="MageWand4" style="width: 52px; height: 52px;"></td>
+<td>위저드 완드</td>
+<td>40</td>
+<td>공격력[24]<br>MP:[1200]<br>INT:[18]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/lOM7B8E.png" alt="ClericStaff" style="width: 52px; height: 52px;"></td>
+<td>페탈 스태프</td>
+<td>40</td>
+<td>공격력[38]<br>MP:[400]<br>INT:[30]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/V5eW0Wn.png" alt="NeckofBalance" style="width: 52px; height: 52px;"></td>
+<td>블루 문</td>
+<td>45</td>
+<td>STR:[14] | DEX:[14] | INT:[16]<br>HP:[700]<br>MP:[700]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QK0d8yS.png" alt="ProllyMilk" style="width: 52px; height: 52px;"></td>
+<td>하얀포션</td>
+<td>-</td>
+<td>HP를 500만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Kz4u3kK.png" alt="Vodka" style="width: 52px; height: 52px;"></td>
+<td>맑은물</td>
+<td>-</td>
+<td>MP를 800만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/PyI1dnD.png" alt="Medal2" style="width: 52px; height: 52px;"></td>
+<td>[메달]히든 스트리트 정복자</td>
+<td>-</td>
+<td>[보조 인벤토리에 장착해주세요.]<br>STR:[12]<br>DEX:[12]<br>INT:[12]</td>
+<td>2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">[파퀘]슬라임</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/gbIhSfv.png" alt="SlimeBubl" style="width: 52px; height: 52px;"></td>
+<td>『슬라임 방울』</td>
+<td>-</td>
+<td>물컹물컹한 신발 [재료아이템]</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">[파퀘]네키</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hYTzrsu.png" alt="RejScl" style="width: 52px; height: 52px;"></td>
+<td>『통행증』</td>
+<td>-</td>
+<td>다음지역으로 이동하세요.<br>[한분만 있으시면 됩니다.]</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">[파퀘]스티지</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/etcJzFP.png" alt="Nindzya" style="width: 52px; height: 52px;"></td>
+<td>목비 표창</td>
+<td>50</td>
+<td>공격속도20%<br>DEX:[25]</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">『RAID』킹슬라임</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/gbIhSfv.png" alt="KingSlimeBubl" style="width: 52px; height: 52px;"></td>
+<td>『킹슬라임 방울』</td>
+<td>-</td>
+<td>퀘스트 아이템[세이브 불가 아이템]-헬로토에게 가십시오.</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/gbIhSfv.png" alt="SlimeBubl" style="width: 52px; height: 52px;"></td>
+<td>『슬라임 방울』</td>
+<td>-</td>
+<td>물컹물컹한 신발 [재료아이템]</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/oTGKodG.png" alt="Medal3" style="width: 52px; height: 52px;"></td>
+<td>[메달]킹슬라임 슬레이어</td>
+<td>-</td>
+<td>[보조 인벤토리에 장착해주세요.]<br>STR:[17] | DEX:[17] | INT:[17]<br>공격력:[50]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/PwErTCx.png" alt="Polotencejpg" style="width: 52px; height: 52px;"></td>
+<td>파란색 가운</td>
+<td>30</td>
+<td>방어력[25]<br>STR:[13] | DEX:[13] | INT:[13]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hUIRPp0.png" alt="Cape" style="width: 52px; height: 52px;"></td>
+<td>허름한 망토</td>
+<td>25</td>
+<td>회피:[10%]<br>HP리젠:[초당]8<br>MP리젠:[초당]15%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/vMgl9pd.png" alt="FairyWings" style="width: 52px; height: 52px;"></td>
+<td>[치장]요정의날개</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 이동속도 +50</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QmTofU2.png" alt="Something1" style="width: 52px; height: 52px;"></td>
+<td>호신부적</td>
+<td>-</td>
+<td>이 아이템을 지닌 영웅이 전사하면 자동으로 부활합니다.</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">스티지</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/etcJzFP.png" alt="Nindzya" style="width: 52px; height: 52px;"></td>
+<td>목비 표창</td>
+<td>50</td>
+<td>공격속도20%<br>DEX:[25]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QK0d8yS.png" alt="ProllyMilk" style="width: 52px; height: 52px;"></td>
+<td>하얀포션</td>
+<td>-</td>
+<td>HP를 500만큼 회복시켜줍니다.</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Kz4u3kK.png" alt="Vodka" style="width: 52px; height: 52px;"></td>
+<td>맑은물</td>
+<td>-</td>
+<td>MP를 800만큼 회복시켜줍니다.</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Uz6zVV2.png" alt="DeusVult" style="width: 52px; height: 52px;"></td>
+<td>화이트 크로스 체인메일</td>
+<td>70</td>
+<td>방어력[35]<br>HP리젠:[5]</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">늪진흙괴물</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/J3U313Q.png" alt="HolyCape" style="width: 52px; height: 52px;"></td>
+<td>흰색 모험가의 망토</td>
+<td>60</td>
+<td>회피:[15%]<br>HP리젠:[초당]20<br>MP리젠:[초당]20%</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QK0d8yS.png" alt="ProllyMilk" style="width: 52px; height: 52px;"></td>
+<td>하얀포션</td>
+<td>-</td>
+<td>HP를 500만큼 회복시켜줍니다.</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Kz4u3kK.png" alt="Vodka" style="width: 52px; height: 52px;"></td>
+<td>맑은물</td>
+<td>-</td>
+<td>MP를 800만큼 회복시켜줍니다.</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;">『Boss』레이스</span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/j5coQIb.png" alt="JustNaruto" style="width: 52px; height: 52px;"></td>
+<td>금비 표창</td>
+<td>80</td>
+<td>공격속도25%<br>DEX:[50]</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QmTofU2.png" alt="Something1" style="width: 52px; height: 52px;"></td>
+<td>호신부적</td>
+<td>-</td>
+<td>이 아이템을 지닌 영웅이 전사하면 자동으로 부활합니다.</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/b0LMrPq.png" alt="AnotherAnimeSword" style="width: 52px; height: 52px;"></td>
+<td>나카마키</td>
+<td>90</td>
+<td>공격력[220]<br>HP:[2500]<br>STR:[20]<br>크리티컬 20%확률로 2배 추뎀+2000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/eS0wmPQ.png" alt="Punchme" style="width: 52px; height: 52px;"></td>
+<td>다크 보닌</td>
+<td>90</td>
+<td>공격력[120]<br>MP:[1500]<br>HP:[500]<br>DEX:[70]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/9C2bz8H.png" alt="HolyHammer" style="width: 52px; height: 52px;"></td>
+<td>아크 스태프</td>
+<td>90</td>
+<td>공격력[90]<br>MP:[1000]<br>HP:[300]<br>INT:[95]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/SrD92IR.png" alt="Animeeee" style="width: 52px; height: 52px;"></td>
+<td>쟈드</td>
+<td>90</td>
+<td>공격력[80]<br>HP:[2500]<br>STR:[60]<br>HP[리젠]:15</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/PYrSl0y.png" alt="MageWand5" style="width: 52px; height: 52px;"></td>
+<td>크리스탈 완드</td>
+<td>90</td>
+<td>공격력[50]<br>MP:[4000]<br>INT:[30]<br>MP리젠:[10%]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/oTGKodG.png" alt="Medal4" style="width: 52px; height: 52px;"></td>
+<td>[메달]레이스 슬레이어</td>
+<td>-</td>
+<td>[보조 인벤토리에 장착해주세요.]<br>STR:[20] | DEX:[20] | INT:[20]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/XKLzpqC.png" alt="Ring" style="width: 52px; height: 52px;"></td>
+<td>[치장]엔젤릭 블레스</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 공격력:+15%</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/77K9WkP.png" alt="LoveMe" style="width: 52px; height: 52px;"></td>
+<td>메탈 하트 귀걸이</td>
+<td>80</td>
+<td>STR:[20] | DEX:[20] | INT:[20]<br>HP:[1400]<br>MP:[1400]</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#b20000">[정예]</font><font color="#00994c">드레이크</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos" style="width: 52px; height: 52px;"></td>
+<td>메소 더미</td>
+<td>-</td>
+<td>메소 + 4000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple" style="width: 52px; height: 52px;"></td>
+<td>메이플</td>
+<td>-</td>
+<td>메이플 + 1</td>
+<td>15%,15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/cMwQaAr.png" alt="UltimateNinja" style="width: 52px; height: 52px;"></td>
+<td>토비 표창</td>
+<td>200</td>
+<td>공격속도30%<br>DEX:[90]<br>공격력:[110]<br>MP:[1100]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/z8WLmu0.png" alt="WeirdStuff" style="width: 52px; height: 52px;"></td>
+<td>미스틱 실드</td>
+<td>200</td>
+<td>마법방어력:[17%]<br>HP:[3000]<br>MP:[3000]<br>MP리젠:25%</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/C79a1gO.png" alt="Robes" style="width: 52px; height: 52px;"></td>
+<td>다크아나카룬</td>
+<td>140</td>
+<td>방어력[30]<br>INT:[50]<br>MP:[4800]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1qqMF8h.png" alt="Armor" style="width: 52px; height: 52px;"></td>
+<td>오리엔타이칸</td>
+<td>140</td>
+<td>방어력[54]<br>STR:[38]<br>HP리젠:[15]<br>HP:[4500]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/zFB8H4u.png" alt="DragonSkull" style="width: 52px; height: 52px;"></td>
+<td>『드레이크 머리뼈』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『Boss』얼음마녀</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/TqzKH7k.png" alt="Snowman" style="width: 52px; height: 52px;"></td>
+<td>[치장]함박눈</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 [순수]방어력비례:+5%</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/sXRdcBV.png" alt="DatHand" style="width: 52px; height: 52px;"></td>
+<td>다크 슬레인</td>
+<td>150</td>
+<td>공격력[340]<br>MP:[3000]<br>HP:[1500]<br>DEX:[110]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/fZmftZr.png" alt="AnotherWand" style="width: 52px; height: 52px;"></td>
+<td>쏜즈 스태프</td>
+<td>150</td>
+<td>공격력[150]<br>MP:[4000]<br>HP:[1000]<br>INT:[120]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/7yAiUNE.png" alt="Lewd" style="width: 52px; height: 52px;"></td>
+<td>아쿠아 스노우보드</td>
+<td>150</td>
+<td>공격력[540]<br>HP:[8000]<br>STR:[55]<br>크리티컬 20%확률로 3배 추뎀+3000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ZxIaZks.png" alt="SomethingSomethingCleric" style="width: 52px; height: 52px;"></td>
+<td>크로미</td>
+<td>150</td>
+<td>공격력[80]<br>MP:[8000]<br>INT:[60]<br>MP리젠:[20%]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/PWfAPOz.png" alt="WeabuStuff" style="width: 52px; height: 52px;"></td>
+<td>호검</td>
+<td>150</td>
+<td>공격력[170]<br>HP:[6000]<br>STR:[120]<br>HP[리젠]:30</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/oTGKodG.png" alt="Medal5" style="width: 52px; height: 52px;"></td>
+<td>[메달]얼음마녀 슬레이어</td>
+<td>-</td>
+<td>[보조 인벤토리에 장착해주세요.]<br>STR:[35] | DEX:[35] | INT:[35]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos" style="width: 52px; height: 52px;"></td>
+<td>메소 더미</td>
+<td>-</td>
+<td>메소 + 4000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple" style="width: 52px; height: 52px;"></td>
+<td>메이플</td>
+<td>-</td>
+<td>메이플 + 1</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/WLKY42N.png" alt="RoseNeck" style="width: 52px; height: 52px;"></td>
+<td>장미꽃 귀걸이</td>
+<td>130</td>
+<td>STR:[40] | DEX:[40] | INT:[40]<br>HP:[3000]<br>MP:[2000]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>5%, 5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100% x2</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100% x3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#4c9999">헥터</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QQkKlTr.png" alt="BoneHelm" style="width: 52px; height: 52px;"></td>
+<td>본 헬름</td>
+<td>105</td>
+<td>방어력[28]<br>HP:[3800]<br>MP:[3800]<br>이동속도:40</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#4c9999">주니어 예티</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/HXLJHX5.png" alt="MassiveWizardArmor" style="width: 52px; height: 52px;"></td>
+<td>흰색 가이야의 망토</td>
+<td>110</td>
+<td>회피:[18%]<br>HP리젠:[초당]50<br>MP리젠:[초당]23%</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#4c9999">페페</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ONY5Wh4.png" alt="BlueCape" style="width: 52px; height: 52px;"></td>
+<td>이카루스 망토</td>
+<td>240</td>
+<td>회피:[20%]<br>HP리젠:[초당]60<br>MP리젠:[초당]25%</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[정예]</font><font color="#FF8040">예티와페페</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/XKgmgxg.png" alt="BattleArmor" style="width: 52px; height: 52px;"></td>
+<td>다크 레퀴엠</td>
+<td>220</td>
+<td>방어력[65]<br>INT:[130]<br>MP:[2500]<br>HP:[5000]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/FVZmL9u.png" alt="Armor2" style="width: 52px; height: 52px;"></td>
+<td>다크 스콜피오</td>
+<td>220</td>
+<td>방어력[68]<br>DEX:[120]<br>MP:[2000]<br>HP:[7000]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/SLpKSVq.png" alt="FullPlate" style="width: 52px; height: 52px;"></td>
+<td>오리할콘 플라틴</td>
+<td>220</td>
+<td>방어력[80]<br>STR:[100]<br>HP리젠:[30]<br>HP:[10000]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple2" style="width: 52px; height: 52px;"></td>
+<td>메이플[2]</td>
+<td>-</td>
+<td>메이플 + 2</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos2" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[2]</td>
+<td>-</td>
+<td>메소 + 8000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/m8JThLD.png" alt="Spike" style="width: 52px; height: 52px;"></td>
+<td>에스터 실드</td>
+<td>350</td>
+<td>마법방어력:[23%]<br>HP:[6200]<br>MP:[6200]<br>MP리젠:27%</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Y7cJ2gr.png" alt="Naruto2" style="width: 52px; height: 52px;"></td>
+<td>뇌전수리검</td>
+<td>270</td>
+<td>공격속도30%<br>DEX:[100]<br>공격력:[400]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/vWmlS8V.png" alt="SkullEmblem" style="width: 52px; height: 52px;"></td>
+<td>해골방패</td>
+<td>250</td>
+<td>STR:[96]<br>방어력:[75]<br>HP:[9000]<br>마법방어력:[25%]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#FF8040">『Boss』페페킹</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uPqnhwU.png" alt="PunchGloves" style="width: 52px; height: 52px;"></td>
+<td>다크 기간틱</td>
+<td>300</td>
+<td>공격력[670]<br>MP:[5500]<br>HP:[2500]<br>DEX:[200]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/gIX0RtU.png" alt="Termometr?" style="width: 52px; height: 52px;"></td>
+<td>보라색 서핑보드</td>
+<td>300</td>
+<td>공격력[1057]<br>HP:[15000]<br>STR:[80]<br>크리티컬 20%확률로 4배 추뎀+4000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/UxExdDj.png" alt="Sword" style="width: 52px; height: 52px;"></td>
+<td>그리스</td>
+<td>300</td>
+<td>공격력[400]<br>HP:[9500]<br>STR:[200]<br>HP[리젠]:70</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/WYnQuz5.png" alt="CombatWand2" style="width: 52px; height: 52px;"></td>
+<td>엔젤윙즈</td>
+<td>300</td>
+<td>공격력[200]<br>MP:[20000]<br>INT:[90]<br>MP리젠:[30%]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1Ap1ud6.png" alt="DevilRod" style="width: 52px; height: 52px;"></td>
+<td>이블윙즈</td>
+<td>300</td>
+<td>공격력[250]<br>MP:[10000]<br>HP:[3000]<br>INT:[210]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/WLKY42N.png" alt="RoseNeck" style="width: 52px; height: 52px;"></td>
+<td>장미꽃 귀걸이</td>
+<td>130</td>
+<td>STR:[40] | DEX:[40] | INT:[40]<br>HP:[3000]<br>MP:[2000]</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/6ORbDqD.png" alt="Boots2" style="width: 52px; height: 52px;"></td>
+<td>퍼플 시니어 슈즈</td>
+<td>200</td>
+<td>방어력[77]<br>이동속도:60<br>HP리젠[45]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/TqzKH7k.png" alt="Snowman" style="width: 52px; height: 52px;"></td>
+<td>[치장]함박눈</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 [순수]방어력비례:+5%</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos2" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[2]</td>
+<td>-</td>
+<td>메소 + 8000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple2" style="width: 52px; height: 52px;"></td>
+<td>메이플[2]</td>
+<td>-</td>
+<td>메이플 + 2</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>5%, 5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100% x3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[정예]</font><font color="#ff8040">타우로마시스</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/m3ZAGS6.png" alt="FullPlate2" style="width: 52px; height: 52px;"></td>
+<td>다크 발퀴레</td>
+<td>350</td>
+<td>방어력[100]<br>STR:[180]<br>HP리젠:[50]<br>HP:[20000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/52j4g7A.png" alt="HolyRobe" style="width: 52px; height: 52px;"></td>
+<td>다크 크리시아</td>
+<td>350</td>
+<td>방어력[70]<br>INT:[180]<br>MP:[8000]<br>HP:[6000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/B2DSmuS.png" alt="SeduceMe" style="width: 52px; height: 52px;"></td>
+<td>다크 피라티드</td>
+<td>350</td>
+<td>방어력[80]<br>DEX:[180]<br>MP:[4000]<br>HP:[10000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Y7cJ2gr.png" alt="Naruto2" style="width: 52px; height: 52px;"></td>
+<td>뇌전수리검</td>
+<td>270</td>
+<td>공격속도30%<br>DEX:[100]<br>공격력:[400]</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/m8JThLD.png" alt="Spike" style="width: 52px; height: 52px;"></td>
+<td>에스터 실드</td>
+<td>350</td>
+<td>마법방어력:[23%]<br>HP:[6200]<br>MP:[6200]<br>MP리젠:27%</td>
+<td>2%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos3" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[3]</td>
+<td>-</td>
+<td>메소 + 15000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple3" style="width: 52px; height: 52px;"></td>
+<td>메이플[3]</td>
+<td>-</td>
+<td>메이플 + 3</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/dzSNy1R.png" alt="Horn" style="width: 52px; height: 52px;"></td>
+<td>『타우로마시스의뿔』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/gyKgIjE.png" alt="HolyShield" style="width: 52px; height: 52px;"></td>
+<td>골든 에이션트 실드</td>
+<td>400</td>
+<td>STR:[140]<br>방어력:[80]<br>HP:[15000]<br>마법방어력:[28%]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Ezg56FX.png" alt="DualDaggers" style="width: 52px; height: 52px;"></td>
+<td>소드 이어링</td>
+<td>300</td>
+<td>STR:[60] | DEX:[60] | INT:[60]<br>HP:[7000]<br>MP:[4000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100% x2</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『Boss』주니어 발록</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Ezg56FX.png" alt="DualDaggers" style="width: 52px; height: 52px;"></td>
+<td>소드 이어링</td>
+<td>300</td>
+<td>STR:[60] | DEX:[60] | INT:[60]<br>HP:[7000]<br>MP:[4000]</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/HVKyexF.png" alt="2hSword" style="width: 52px; height: 52px;"></td>
+<td>그륜힐</td>
+<td>500</td>
+<td>공격력[750]<br>HP:[18400]<br>STR:[350]<br>HP[리젠]:120</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/IAX7VmH.png" alt="SkullRod" style="width: 52px; height: 52px;"></td>
+<td>레이븐 스태프</td>
+<td>500</td>
+<td>공격력[680]<br>MP:[13000]<br>HP:[5000]<br>INT:[350]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/zvloWrZ.png" alt="CombatWand42" style="width: 52px; height: 52px;"></td>
+<td>피닉스 완드</td>
+<td>500</td>
+<td>공격력[400]<br>MP:[35000]<br>INT:[150]<br>MP리젠:[35%]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/l2giO6u.png" alt="MahSword" style="width: 52px; height: 52px;"></td>
+<td>황룡도</td>
+<td>500</td>
+<td>공격력[1950]<br>HP:[30000]<br>STR:[150]<br>크리티컬 20%확률로 5배+추뎀5000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/lIVpe3I.png" alt="Claws" style="width: 52px; height: 52px;"></td>
+<td>흑갑충</td>
+<td>500</td>
+<td>공격력[980]<br>MP:[9000]<br>HP:[7000]<br>DEX:[350]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/wC3PY4G.png" alt="SteelBoots" style="width: 52px; height: 52px;"></td>
+<td>다크 카젠부츠</td>
+<td>450</td>
+<td>방어력[80]<br>이동속도:80<br>STR:[100]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/XnrMOmO.png" alt="WeirdHead" style="width: 52px; height: 52px;"></td>
+<td>[치장]주니어 발록의 날개</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 이동속도 +50</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/joL8BYD.png" alt="INTShoes" style="width: 52px; height: 52px;"></td>
+<td>다크 크리시아슈즈</td>
+<td>450</td>
+<td>방어력[80]<br>이동속도:80<br>INT:[100]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/6GqufR8.png" alt="DEXShoes" style="width: 52px; height: 52px;"></td>
+<td>레드 루티드슈즈</td>
+<td>450</td>
+<td>방어력[80]<br>이동속도:80<br>DEX:[100]</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/oTGKodG.png" alt="Medal6" style="width: 52px; height: 52px;"></td>
+<td>[메달]주니어발록 슬레이어</td>
+<td>-</td>
+<td>[보조 인벤토리에 장착해주세요.]<br>STR:[100] | DEX:[100] | INT:[100]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos3" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[3]</td>
+<td>-</td>
+<td>메소 + 15000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple3" style="width: 52px; height: 52px;"></td>
+<td>메이플[3]</td>
+<td>-</td>
+<td>메이플 + 3</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YDQmBB6.png" alt="Parchment" style="width: 52px; height: 52px;"></td>
+<td>『베인아이템』무기강화주문서</td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[정예]</font><font color="#ff8040">웨어울프</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/KVC9Kc5.png" alt="BrownHorn" style="width: 52px; height: 52px;"></td>
+<td>『웨어울프의 발톱』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/OdmfvTt.png" alt="Shuuriken" style="width: 52px; height: 52px;"></td>
+<td>일비표창</td>
+<td>700</td>
+<td>공격속도40%<br>DEX:[300]<br>공격력:[1200]<br>크리티컬30%확률로 *4 [고정]추가데미지:27777</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/biKbeQi.png" alt="BrownCape" style="width: 52px; height: 52px;"></td>
+<td>온화의망토</td>
+<td>669</td>
+<td>회피:[25%]<br>HP리젠:[초당]150<br>MP리젠:[초당]40%<br>STR:[77] | DEX:[77] | INT:[77]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/K8Bc1ws.png" alt="CrestShield" style="width: 52px; height: 52px;"></td>
+<td>골드 아퀼라 실드</td>
+<td>700</td>
+<td>STR:[250]<br>방어력:[100]<br>HP:[35000]<br>마법방어력:[30%]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g4fUxjY.png" alt="HybridPotion" style="width: 52px; height: 52px;"></td>
+<td>엘릭서</td>
+<td>-</td>
+<td>HP/MP를 5000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos3" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[3]</td>
+<td>-</td>
+<td>메소 + 15000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple2" style="width: 52px; height: 52px;"></td>
+<td>메이플[2]</td>
+<td>-</td>
+<td>메이플 + 2</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『Boss』라이칸스로프</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/OdmfvTt.png" alt="Shuuriken" style="width: 52px; height: 52px;"></td>
+<td>일비표창</td>
+<td>700</td>
+<td>공격속도40%<br>DEX:[300]<br>공격력:[1200]<br>크리티컬30%확률로 *4 [고정]추가데미지:27777</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/biKbeQi.png" alt="BrownCape" style="width: 52px; height: 52px;"></td>
+<td>온화의망토</td>
+<td>669</td>
+<td>회피:[25%]<br>HP리젠:[초당]150<br>MP리젠:[초당]40%<br>STR:[77] | DEX:[77] | INT:[77]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/K8Bc1ws.png" alt="CrestShield" style="width: 52px; height: 52px;"></td>
+<td>골드 아퀼라 실드</td>
+<td>700</td>
+<td>STR:[250]<br>방어력:[100]<br>HP:[35000]<br>마법방어력:[30%]</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/mBYUKvX.png" alt="SaintGloves" style="width: 52px; height: 52px;"></td>
+<td>코브라스티어</td>
+<td>800</td>
+<td>공격력[1500]<br>MP:[15000]<br>HP:[15000]<br>DEX:[500]</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/v0DPsqx.png" alt="WeirdPitchfork" style="width: 52px; height: 52px;"></td>
+<td>케이그</td>
+<td>800</td>
+<td>공격력[1400]<br>MP:[20000]<br>HP:[10000]<br>INT:[500]</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/38XIQ9d.png" alt="ClericStuff" style="width: 52px; height: 52px;"></td>
+<td>마기코라스</td>
+<td>800</td>
+<td>공격력[750]<br>MP:[50000]<br>INT:[400]<br>MP리젠:[40%]</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/dlqYQpH.png" alt="HolySword" style="width: 52px; height: 52px;"></td>
+<td>그레이트 로헨</td>
+<td>800</td>
+<td>공격력[1050]<br>HP:[25000]<br>STR:[500]<br>HP[리젠]:200</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/X2LS5Me.png" alt="DamnSOn" style="width: 52px; height: 52px;"></td>
+<td>호신공창</td>
+<td>800</td>
+<td>공격력[3500]<br>HP:[50000]<br>STR:[250]<br>크리티컬 20%확률로 7배+추뎀15000</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/fOMg7sV.png" alt="1337neck" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">[유니크]</font><font color="#008000"> 알테어 이어링</font></td>
+<td>1000</td>
+<td>STR:[198] | DEX:[198] | INT:[198]<br>HP:[25000]<br>MP:[30000]<br>초마다.마법방어시전</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos3" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[3]</td>
+<td>-</td>
+<td>메소 + 15000</td>
+<td>100% x4</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple3" style="width: 52px; height: 52px;"></td>
+<td>메이플[3]</td>
+<td>-</td>
+<td>메이플 + 3</td>
+<td>100% x4</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100% x3</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/3gKVzYS.png" alt="EXPBoost1" style="width: 52px; height: 52px;"></td>
+<td>Lv + 5</td>
+<td>-</td>
+<td>사용시 영웅 LV+5가 됩니다.<br>[창고로 사용해도 영웅 LV.5가 증가됩니다.]</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『Boss』크림슨 발록</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/o7OKnam.png" alt="Shoulder" style="width: 52px; height: 52px;"></td>
+<td>메이플 실드</td>
+<td>700</td>
+<td>마법방어력:[30%]<br>HP:[50000]<br>MP:[50000]<br>MP리젠:40%</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/C0WdAQK.png" alt="Hide" style="width: 52px; height: 52px;"></td>
+<td>『크림슨 발록의털』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aSg447W.png" alt="HolyParchment" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『치장』이노센트 주문서[날개]</font></td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템<br>STR:[200] | DEX[200] | INT[200] + 증가<br>성공률10%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aSg447W.png" alt="HolyParchment" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『치장』이노센트 주문서[무기]</font></td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템<br>STR:[200] | DEX[200] | INT[200]<br>+증가<br>성공률10%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YDQmBB6.png" alt="Parchment" style="width: 52px; height: 52px;"></td>
+<td>『베인아이템』무기강화주문서</td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QY4DFB4.png" alt="FatRobe" style="width: 52px; height: 52px;"></td>
+<td>적견랑포</td>
+<td>700</td>
+<td>방어력[140]<br>INT:[480]<br>MP:[35000]<br>HP:[35000]</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QY7N0F5.png" alt="Armor5" style="width: 52px; height: 52px;"></td>
+<td>퍼플 엘소르</td>
+<td>700</td>
+<td>방어력[200]<br>STR:[480]<br>HP리젠:[200]<br>HP:[100000]</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ah6T4S2.png" alt="Something15" style="width: 52px; height: 52px;"></td>
+<td>다크 카티나스</td>
+<td>700</td>
+<td>방어력[140]<br>DEX:[480]<br>MP:[35000]<br>HP:[35000]</td>
+<td>7%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos3" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[3]</td>
+<td>-</td>
+<td>메소 + 15000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple3" style="width: 52px; height: 52px;"></td>
+<td>메이플[3]</td>
+<td>-</td>
+<td>메이플 + 3</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#59b2b2">파이렛</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/FBFx5cU.png" alt="IntShoes2" style="width: 52px; height: 52px;"></td>
+<td>다크 바르슈즈</td>
+<td>1000</td>
+<td>방어력[120]<br>이동속도:100<br>INT:[400]<br>MP:[50000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/bDtsTph.png" alt="DexShoes2" style="width: 52px; height: 52px;"></td>
+<td>다크 카티나부츠</td>
+<td>1000</td>
+<td>방어력[120]<br>이동속도:100<br>DEX:[400]<br>MP:[50000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/IR84SWH.png" alt="StrShoes2" style="width: 52px; height: 52px;"></td>
+<td>다크 크리센트 부츠</td>
+<td>1000</td>
+<td>방어력[120]<br>이동속도:100<br>STR:[400]<br>HP:[75000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/J5LSytb.png" alt="Dust" style="width: 52px; height: 52px;"></td>
+<td>『시간의여행자의모레』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『정예』게이트 키퍼</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jKCWe5m.png" alt="Lego1" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『차원의 균열 조각[A]』</font></td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/5gpDzVJ.png" alt="Lego2" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『차원의 균열 조각[B]』</font></td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/EdIxZmn.png" alt="Lego3" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『차원의 균열 조각[C]』</font></td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos4" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[4]</td>
+<td>-</td>
+<td>메소 + 20000</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple4" style="width: 52px; height: 52px;"></td>
+<td>메이플[4]</td>
+<td>-</td>
+<td>메이플 + 4</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『정예』타나토스</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jKCWe5m.png" alt="Lego1" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『차원의 균열 조각[A]』</font></td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/5gpDzVJ.png" alt="Lego2" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『차원의 균열 조각[B]』</font></td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/EdIxZmn.png" alt="Lego3" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『차원의 균열 조각[C]』</font></td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos4" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[4]</td>
+<td>-</td>
+<td>메소 + 20000</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple4" style="width: 52px; height: 52px;"></td>
+<td>메이플[4]</td>
+<td>-</td>
+<td>메이플 + 4</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[정예]</font><font color="#ff8040">바이킹</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/lK0PBKW.png" alt="Purse" style="width: 52px; height: 52px;"></td>
+<td>『바이킹의 돛』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>60%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos4" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[4]</td>
+<td>-</td>
+<td>메소 + 20000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple4" style="width: 52px; height: 52px;"></td>
+<td>메이플[4]</td>
+<td>-</td>
+<td>메이플 + 4</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/N5lc5cA.png" alt="HybridPotion2" style="width: 52px; height: 52px;"></td>
+<td>파워엘릭서</td>
+<td>-</td>
+<td>HP/MP를 10000만큼 회복시켜줍니다.</td>
+<td>100%, 50%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[파퀘]</font><font color="#ff8040">렛츠</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hYTzrsu.png" alt="Pass2" style="width: 52px; height: 52px;"></td>
+<td>『루디통행증』</td>
+<td>-</td>
+<td>다음지역으로 이동하세요.<br>[한분만 있으시면 됩니다.]</td>
+<td>40%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple2" style="width: 52px; height: 52px;"></td>
+<td>메이플[2]</td>
+<td>-</td>
+<td>메이플 + 2</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[파퀘]</font><font color="#ff8040">롬바드</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/hYTzrsu.png" alt="Pass4" style="width: 52px; height: 52px;"></td>
+<td>『루디통행증』4</td>
+<td>-</td>
+<td>다음지역으로 이동하세요.<br>[한분만 있으시면 됩니다.]</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[파퀘]</font><font color="#ff8040">라이오너</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/0DdNolI.png" alt="Pieceofsky" style="width: 52px; height: 52px;"></td>
+<td>『마법의구름』</td>
+<td>-</td>
+<td>다음지역으로 이동하세요.<br>[한분만 있으시면 됩니다.]</td>
+<td>40%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple4" style="width: 52px; height: 52px;"></td>
+<td>메이플[4]</td>
+<td>-</td>
+<td>메이플 + 4</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[파퀘]</font><font color="#ff8040">샐리온</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/QPsJeIC.png" alt="CacaoBean" style="width: 52px; height: 52px;"></td>
+<td>『마법의씨앗』2</td>
+<td>-</td>
+<td>다음지역으로 이동하세요.<br>[한분만 있으시면 됩니다.]</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">『RAID』</font><font color="#407f7f">파풀라투스2</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ZlgGknZ.png" alt="SkullStaff" style="width: 52px; height: 52px;"></td>
+<td>다이몬의 완드</td>
+<td>1500</td>
+<td>공격력[1500]<br>MP:[100000]<br>INT:[650]<br>MP리젠:[45%]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1ARjdR0.png" alt="WakeMeUp" style="width: 52px; height: 52px;"></td>
+<td>라 투헨더</td>
+<td>1500</td>
+<td>공격력[2200]<br>HP:[80000]<br>STR:[800]<br>HP[리젠]:300</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/4HsT2h7.png" alt="EpicRod" style="width: 52px; height: 52px;"></td>
+<td>블루마린</td>
+<td>1500</td>
+<td>공격력[2500]<br>MP:[50000]<br>HP:[25000]<br>INT:[800]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jFdtFGf.png" alt="CantWakeUp" style="width: 52px; height: 52px;"></td>
+<td>캐스터스</td>
+<td>1500</td>
+<td>공격력[3000]<br>MP:[35000]<br>HP:[35000]<br>DEX:[800]</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/6nAlTO4.png" alt="EpicAnimeSword" style="width: 52px; height: 52px;"></td>
+<td>페어프로즌</td>
+<td>1500</td>
+<td>공격력[8000]<br>HP:[100000]<br>STR:[650]<br>크리티컬 25%확률로 8배+추뎀20000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/LFTCj9Q.png" alt="WAKEMEUP!!" style="width: 52px; height: 52px;"></td>
+<td>[치장]파풀라투스의시계</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 HP/MP:10만</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/uX2jdHt.png" alt="ClownCape" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">[유니크]</font>루디브리엄의망토</td>
+<td>2000</td>
+<td>회피:[30%]<br>HP리젠:[초당]500<br>MP리젠:[초당]50%<br>STR:[1000] | DEX:[1000] | INT:[1000]</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/E3fvE2P.png" alt="BlueFullPlate" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">[유니크]</font>이온 슈트</td>
+<td>1500</td>
+<td>방어력[300]<br>STR:[800] | DEX:[800] | INT:[800]<br>MP:[200000]<br>HP:[200000]</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos4" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[4]</td>
+<td>-</td>
+<td>메소 + 20000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple4" style="width: 52px; height: 52px;"></td>
+<td>메이플[4]</td>
+<td>-</td>
+<td>메이플 + 4</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aSg447W.png" alt="HolyParchment" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『치장』이노센트 주문서[날개]</font></td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템<br>STR:[200] | DEX[200] | INT[200] + 증가<br>성공률10%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aSg447W.png" alt="HolyParchment" style="width: 52px; height: 52px;"></td>
+<td><font color="#8000ff">『치장』이노센트 주문서[무기]</font></td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템<br>STR:[200] | DEX[200] | INT[200]<br>+증가<br>성공률10%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/aSg447W.png" alt="HolyParchment2" style="width: 52px; height: 52px;"></td>
+<td>『치장』이노센트 주문서[오라]</td>
+<td>-</td>
+<td>대장장이에게 강화시도!(세이브)불가 아이템<br>HP:[50000]<br>MP[50000]<br>+증가<br>성공률10%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/U0DBnQJ.png" alt="Spiral" style="width: 52px; height: 52px;"></td>
+<td>『다크 타키온』</td>
+<td>-</td>
+<td>3차전직 재료아이템</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#407f7f">본 피쉬</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/g6Jhqw3.png" alt="EhPowder" style="width: 52px; height: 52px;"></td>
+<td>『석회가루병』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">[정예]</font><font color="#ff8040">샤크</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos5" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[5]</td>
+<td>-</td>
+<td>메소 + 30000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple5" style="width: 52px; height: 52px;"></td>
+<td>메이플[5]</td>
+<td>-</td>
+<td>메이플 + 5</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/bAaLUgw.png" alt="AgileFullPlate" style="width: 52px; height: 52px;"></td>
+<td>블랙 가리나</td>
+<td>1500</td>
+<td>방어력[200]<br>DEX:[700]<br>MP:[80000]<br>HP:[80000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/DKbtuX6.png" alt="FattyFullPlate" style="width: 52px; height: 52px;"></td>
+<td>블루 드래곤갑옷</td>
+<td>1500</td>
+<td>방어력[250]<br>STR:[700]<br>HP리젠:[300]<br>HP:[150000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/tdcLNp3.png" alt="WisdomRobe" style="width: 52px; height: 52px;"></td>
+<td>블루 바즈라</td>
+<td>1500</td>
+<td>방어력[200]<br>INT:[700]<br>MP:[80000]<br>HP:[80000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/LPJXXke.png" alt="SharkFin" style="width: 52px; height: 52px;"></td>
+<td>『냉동 샥스핀』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">『RAID』</font><font color="#407f7f">피아누스(오른쪽)</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/XBk95Qa.png" alt="ButcherSword" style="width: 52px; height: 52px;"></td>
+<td>참화도</td>
+<td>2000</td>
+<td>공격력[5000]<br>HP:[200000]<br>STR:[1500]<br>HP[리젠]:400</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#FF8040">『정예』불독</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ZlgGknZ.png" alt="SkullStaff" style="width: 52px; height: 52px;"></td>
+<td>다이몬의 완드</td>
+<td>1500</td>
+<td>공격력[1500]<br>MP:[100000]<br>INT:[650]<br>MP리젠:[45%]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1ARjdR0.png" alt="WakeMeUp" style="width: 52px; height: 52px;"></td>
+<td>라 투헨더</td>
+<td>1500</td>
+<td>공격력[2200]<br>HP:[80000]<br>STR:[800]<br>HP[리젠]:300</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/4HsT2h7.png" alt="EpicRod" style="width: 52px; height: 52px;"></td>
+<td>블루마린</td>
+<td>1500</td>
+<td>공격력[2500]<br>MP:[50000]<br>HP:[25000]<br>INT:[800]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jFdtFGf.png" alt="CantWakeUp" style="width: 52px; height: 52px;"></td>
+<td>캐스터스</td>
+<td>1500</td>
+<td>공격력[3000]<br>MP:[35000]<br>HP:[35000]<br>DEX:[800]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/6nAlTO4.png" alt="EpicAnimeSword" style="width: 52px; height: 52px;"></td>
+<td>페어프로즌</td>
+<td>1500</td>
+<td>공격력[8000]<br>HP:[100000]<br>STR:[650]<br>크리티컬 25%확률로 8배+추뎀20000</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/lLx3cU4.png" alt="Violetsareblue" style="width: 52px; height: 52px;"></td>
+<td>메이플 표창</td>
+<td>1500</td>
+<td>공격속도45%<br>DEX:[800]<br>공격력:[7000]<br>크리티컬30%확률로 *8 [고정]추가데미지:120000</td>
+<td>1.4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/eN2emqj.png" alt="Rosesarered" style="width: 52px; height: 52px;"></td>
+<td>인내의 포스쉴드</td>
+<td>1500</td>
+<td>마법방어력:[35%]<br>HP:[100000]<br>MP:[100000]<br>MP리젠:45%</td>
+<td>1.4%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Omaewamoushindeiru" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[5]</td>
+<td>-</td>
+<td>메소 + 30000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple5" style="width: 52px; height: 52px;"></td>
+<td>메이플[5]</td>
+<td>-</td>
+<td>메이플 + 5</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/2fYTlKi.png" alt="MorePixels" style="width: 52px; height: 52px;"></td>
+<td>『불독의 송곳니』</td>
+<td>-</td>
+<td>조합아이템</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff0000">『RAID』</font><font color="#407f7f">자쿰</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/1r5oUOv.png" alt="Star" style="width: 52px; height: 52px;"></td>
+<td>『어둠의크리스탈』</td>
+<td>-</td>
+<td>3차전직 재료아이템</td>
+<td>100%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/UKPwExk.png" alt="Glove" style="width: 52px; height: 52px;"></td>
+<td>[치장]자쿰의 손</td>
+<td>-</td>
+<td>[치장 인벤토리에 장착해주세요.]<br>자신 이동속도 +50</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/PXpr4Ml.png" alt="Helm" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">[유니크]</font>자쿰의투구</td>
+<td>2500</td>
+<td>STR:[3000] | DEX:[3000] | INT:[3000]<br>HP:[300000]<br>MP:[300000]<br>초마다.마법방어시전</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/lLx3cU4.png" alt="Someth23" style="width: 52px; height: 52px;"></td>
+<td>메이플 표창</td>
+<td>1500</td>
+<td>공격속도45%<br>DEX:[800]<br>공격력:[7000]<br>크리티컬30%확률로 *8 [고정]추가데미지:120000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/eN2emqj.png" alt="Something512" style="width: 52px; height: 52px;"></td>
+<td>인내의 포스쉴드</td>
+<td>1500</td>
+<td>마법방어력:[35%]<br>HP:[100000]<br>MP:[100000]<br>MP리젠:45%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos5" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[5]</td>
+<td>-</td>
+<td>메소 + 30000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple5" style="width: 52px; height: 52px;"></td>
+<td>메이플[5]</td>
+<td>-</td>
+<td>메이플 + 5</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+</div>
+</center>
+<div id="crafting" class="tabcontent">
+<div class="crafthead2">
+<p>진행중인 작업</p>
+</div>
+<ul>
+<li>진행중인 작업</li>
+</ul>
+</div>
+<div id="credits" class="tabcontent">
+  <p>Thanks to <a href="https://www.w3schools.com">w3schools.com</a> for HTML code.</p>
+  <p>Few HTML things from <a href="https://tympanus.net">tympanus.net</a></p>
+  <p>Scrollbar "remove" from <a href="https://stackoverflow.com/a/30680994">stackoverflow.com</a></p>
+  <p>Thanks <b>edt.14o5</b> for helping me!</p>
+</div>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() 
+{
+    if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) 
+    {
+        document.getElementById("myBtn").style.display = "block";
+    } else 
+    {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() 
+{
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+function openCity(evt, cityName) 
+{
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) 
+    {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) 
+    {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+</body>
+</html>
