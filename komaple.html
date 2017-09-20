@@ -188,6 +188,19 @@ ul li:last-child {
 	border: 1px solid black;
     text-align: center;
 }
+.craftt, table {
+	border-spacing: 1px;
+	background-color: #ffffff;
+	width: 740px;
+	height: 70px;
+	padding: 1px;
+	display: inline-table;
+}
+.craftt, td{
+	table-layout:fixed;
+	border: 1px solid black;
+    text-align: center;
+}
 button.accordion {
     background-color: #ddd;
     color: #000000;
@@ -222,11 +235,13 @@ div.panel {
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'droptable')">드랍 목록</button>
+  <button class="tablinks" onclick="openCity(event, 'crafting')">조합법</button>
   <button class="tablinks" onclick="openCity(event, 'credits')">도움</button>
 </div>
 <div id="droptable" class="tabcontent">
 <div class="info">
-  <p>맵 버전: 0.38</p>
+  <p>맵 버전: 0.39</p>
+  <p>누락된것 있으면 댓글로 남겨주세요 - cafe.naver.com/skfmsldk/387864</p>
 </div>
 <span style="font-size: 18pt;"><font color="#666600">[이벤트]로랑</font></span>
 <div style="font-size: 9pt; font-family: Arial;">
@@ -3481,14 +3496,14 @@ div.panel {
 <td>[치장]자쿰의 손</td>
 <td>-</td>
 <td>[치장 인벤토리에 장착해주세요.]<br>자신 이동속도 +50</td>
-<td>1.5%</td>
+<td>1.2%</td>
 </tr>
 <tr>
 <td><img src="https://i.imgur.com/PXpr4Ml.png" alt="Helm" style="width: 52px; height: 52px;"></td>
 <td><font color="#ff0000">[유니크]</font>자쿰의투구</td>
 <td>2500</td>
 <td>STR:[3000] | DEX:[3000] | INT:[3000]<br>HP:[300000]<br>MP:[300000]<br>초마다.마법방어시전</td>
-<td>5%</td>
+<td>10%</td>
 </tr>
 <tr>
 <td><img src="https://i.imgur.com/lLx3cU4.png" alt="Someth23" style="width: 52px; height: 52px;"></td>
@@ -3529,8 +3544,333 @@ div.panel {
 </table>
 </div>
 <br><br>
+<h3>0.39</h3>
+<span style="font-size: 18pt;"><font color="#4c9999">켄타우로스</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos5" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[5]</td>
+<td>-</td>
+<td>메소 + 30000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple5" style="width: 52px; height: 52px;"></td>
+<td>메이플[5]</td>
+<td>-</td>
+<td>메이플 + 5</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/zmY6lPw.png" alt="BettleGloves" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">님블리스트</font></td>
+<td>2000</td>
+<td>마법방어력:[38%]<br>HP:[200000]<br>DEX[2000]<br>HP리젠[300]</td>
+<td>1.2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#4c9999">하프</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos5" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[5]</td>
+<td>-</td>
+<td>메소 + 30000</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple5" style="width: 52px; height: 52px;"></td>
+<td>메이플[5]</td>
+<td>-</td>
+<td>메이플 + 5</td>
+<td>5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>3%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/ZLMPqB1.png" alt="Magicsomething" style="width: 52px; height: 52px;"></td>
+<td><font color="#ff0000">지혜의 포스실드</font></td>
+<td>2000</td>
+<td>마법방어력:[38%]<br>HP:[200000]<br>INT[2000]<br>HP리젠[300]</td>
+<td>1.2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『정예』코니언</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos6" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[6]</td>
+<td>-</td>
+<td>메소 + 40000</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple6" style="width: 52px; height: 52px;"></td>
+<td>메이플[6]</td>
+<td>-</td>
+<td>메이플 + 6</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/AYzWpM1.png" alt="WeirdMaterial" style="width: 52px; height: 52px;"></td>
+<td>『질긴 용가죽』</td>
+<td>-</td>
+<td>-</td>
+<td>30%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/8RFPYU0.png" alt="Shields" style="width: 52px; height: 52px;"></td>
+<td>드래곤 실드</td>
+<td>2000</td>
+<td>마법방어력:[38%]<br>HP:[200000]<br>STR[2000]<br>HP리젠[300]</td>
+<td>1.2%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『Boss』그리프</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/IeuP7ca.png" alt="MaterialHorn" style="width: 52px; height: 52px;"></td>
+<td>『그리프의뿔』</td>
+<td>-</td>
+<td>-</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/xVynn9c.png" alt="Magic%2" style="width: 52px; height: 52px;"></td>
+<td>크로우 스태프</td>
+<td>2500</td>
+<td>MP회복량[50%]<br>MP:[200000]<br>HP:[150000]<br>INT:[3000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/Mhfy1DX.png" alt="Claws" style="width: 52px; height: 52px;"></td>
+<td>드래곤 슬레브</td>
+<td>2500</td>
+<td>공격력[10000]<br>MP:[150000]<br>HP:[200000]<br>DEX:[3000]</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos6" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[6]</td>
+<td>-</td>
+<td>메소 + 40000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple6" style="width: 52px; height: 52px;"></td>
+<td>메이플[6]</td>
+<td>-</td>
+<td>메이플 + 6</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
+<span style="font-size: 18pt;"><font color="#ff8040">『Boss』마뇽</font></span>
+<div style="font-size: 9pt; font-family: Arial;">
+<table class="dropt">
+<tbody>
+<tr>
+<td width="52">아이콘</td>
+<td width="250">이름</td>
+<td width="35">착용제한</td>
+<td width="350">옵션</td>
+<td width="70">드랍 확률</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/q74tnAS.png" alt="MaterialTail" style="width: 52px; height: 52px;"></td>
+<td>『마뇽의꼬리』</td>
+<td>-</td>
+<td>-</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/5Pu8y5p.png" alt="Str24" style="width: 52px; height: 52px;"></td>
+<td>드래곤 클레이모어</td>
+<td>2500</td>
+<td>공격력[8000]<br>HP:[300000]<br>STR:[3000]<br>HP[리젠]:500</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/vOiEzFs.png" alt="Spear222" style="width: 52px; height: 52px;"></td>
+<td>드래곤 팔티잔</td>
+<td>2500</td>
+<td>공격력[20000]<br>HP:[250000]<br>STR:[1500]<br>크리티컬 25%확률로 15배+추뎀100000</td>
+<td>1.5%</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/BGgK08q.png" alt="Mesos6" style="width: 52px; height: 52px;"></td>
+<td>메소 더미[6]</td>
+<td>-</td>
+<td>메소 + 40000</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/YrDqvS8.png" alt="Maple6" style="width: 52px; height: 52px;"></td>
+<td>메이플[6]</td>
+<td>-</td>
+<td>메이플 + 6</td>
+<td>100% x5</td>
+</tr>
+<tr>
+<td><img src="https://i.imgur.com/jqIuGGV.png" alt="HybridPotion3" style="width: 52px; height: 52px;"></td>
+<td>밸류 포션</td>
+<td>-</td>
+<td>HP/MP를 50000만큼 회복시켜줍니다.</td>
+<td>100% x5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br><br>
 </div>
 </center>
+<div id="crafting" class="tabcontent">
+<div class="crafthead2">
+<p>이벤트</p>
+</div>
+<ul>
+<li>『이벤트』킹크랑의등껍질[1] + 『이벤트』집게발 x100 = <div class="tooltip"><font color="#4c9999">[이벤트]</font><font color="#800080">[STR]연금술사의반지</font><span class="tooltiptext"><img src="https://i.imgur.com/53fu3E6.png" alt="EventRIng1" style="width: 52px; height: 52px;"><br><font color="#8000ff">HP:10000 갯수마다.<br>1단위마다.<br>공격력2000/HP10000씩 증가합니다.<br>5단위 갯수마다.<br>STR + 500이 됩니다.</font></span></div></li>
+</ul>
+<ul>
+<li>『이벤트』킹크랑의등껍질[2] + 『이벤트』집게발 x100 = <div class="tooltip"><font color="#4c9999">[이벤트]</font><font color="#800080">[DEX]연금술사의반지</font><span class="tooltiptext"><img src="https://i.imgur.com/53fu3E6.png" alt="EventRIng2" style="width: 52px; height: 52px;"><br><font color="#8000ff">HP:4500/MP4500 갯수마다.<br>1단위마다.<br>공격력2000/HP/MP4500씩 증가합니다.<br>5단위 갯수마다.<br>DEX + 500이 됩니다.</font></span></div></li>
+</ul>
+<ul>
+<li>『이벤트』킹크랑의등껍질[3] + 『이벤트』집게발 x100 = <div class="tooltip"><font color="#4c9999">[이벤트]</font><font color="#800080">[INT]연금술사의반지</font><span class="tooltiptext"><img src="https://i.imgur.com/53fu3E6.png" alt="EventRIng3" style="width: 52px; height: 52px;"><br><font color="#8000ff">HP:4500/MP4500 갯수마다.<br>1단위마다.<br>공격력2000/HP/MP4500씩 증가합니다.<br>5단위 갯수마다.<br>INT + 500이 됩니다.</font></span></div></li>
+</ul>
+<div class="crafthead2">
+<p>신발</p>
+</div>
+<ul>
+<li>『슬라임 방울』 x30 + 『킹슬라임 모형』 x5 + 3500 메소 = <div class="tooltip"><font color="#ff80ff">물컹물컹한 신발</font><span class="tooltiptext"><img src="https://i.imgur.com/z3RxsAi.png" alt="SlimeBoots" style="width: 52px; height: 52px;"><br><font color="#8000ff">[착용제한:20]</font><br><font color="#ff8040">방어력[20]<br>이동속도:50<br>HP:[1500]<br>MP:[1500]</font></span></div></li>
+</ul>
+<ul>
+<li>물컹물컹한 신발 + 『킹슬라임 모형』 x10 + 『슬라임 방울』 x50 + 10000 메소 = <div class="tooltip"><font color="#ff80ff">물컹물컹한 신발[2]</font><span class="tooltiptext"><img src="https://i.imgur.com/yeIqpjb.png" alt="SlimeBoots2" style="width: 52px; height: 52px;"><br><font color="#8000ff">[착용제한:100]</font><br><font color="#ff8040">방어력[50]<br>이동속도:75<br>HP:[5000]<br>MP:[5000]</font></span></div></li>
+</ul>
+<ul>
+<li>『마왕 발록의털』 x5 + 『타우로마시스의뿔』 x10 + 100000 메소 = <div class="tooltip"><font color="#ff80ff">발록의 가죽신발</font><span class="tooltiptext"><img src="https://i.imgur.com/Mpd35du.png" alt="BrownBoots" style="width: 52px; height: 52px;"><br><font color="#8000ff">[착용제한:500]</font><br><font color="#ff8040">방어력[99]<br>이동속도:80<br>HP:[20000]<br>MP:[20000]</font></span></div></li>
+</ul>
+<ul>
+<li>『여신의깃털』 x10 + 여신의신발[DEX] / 여신의신발[INT] / 여신의신발[STR] + 300000 메소 = <div class="tooltip"><font color="#ff0000">[유니크]</font><font color="#008000">여신미네르바의신발</font><span class="tooltiptext"><img src="https://i.imgur.com/RPJKUVo.png" alt="UniqueBoots" style="width: 52px; height: 52px;"><br><font color="#8000ff">[착용제한:2000]</font><br><font color="#ff8040">방어력[180]<br>이동속도:120</font><br><font color="#ffff00">STR:[700]<br>DEX:[700]<br>INT:[700]</font><br><font color="#800080">HP:[150000]</font></span></div></li>
+</ul>
+<div class="crafthead2">
+<p>메달</p>
+</div>
+<ul>
+<li>『드레이크 머리뼈』 x15 + [메달]히든 스트리트 정복자 + 30000 메소 = <div class="tooltip"><font color="#4c9999">[메달]히든 스트리트 정복자2</font><span class="tooltiptext"><img src="https://i.imgur.com/PyI1dnD.png" alt="x2Medal" style="width: 52px; height: 52px;"><br><font color="#8000ff">[보조 인벤토리에 장착해주세요.]</font><br><font color="#ff8040">STR:[36]<br>DEX:[36]<br>INT:[36]</font></span></div></li>
+</ul>
+<ul>
+<li>『타우로마시스의뿔』 x15 + [메달]히든 스트리트 정복자2 + 50000 메소 = <div class="tooltip"><font color="#4c9999">[메달]히든 스트리트 정복자3</font><span class="tooltiptext"><img src="https://i.imgur.com/PyI1dnD.png" alt="x3Medal" style="width: 52px; height: 52px;"><br><font color="#8000ff">[보조 인벤토리에 장착해주세요.]</font><br><font color="#ff8040">STR:[75]<br>DEX:[75]<br>INT:[75]</font></span></div></li>
+</ul>
+<ul>
+<li>『웨어울프의 발톱』 x30 + [메달]히든 스트리트 정복자3 + 100000 메소 = <div class="tooltip"><font color="#4c9999">[메달]히든 스트리트 정복자4</font><span class="tooltiptext"><img src="https://i.imgur.com/1V2WYkm.png" alt="x4Medal" style="width: 52px; height: 52px;"><br><font color="#8000ff">[보조 인벤토리에 장착해주세요.]</font><br><font color="#ff8040">STR:[120]<br>DEX:[120]<br>INT:[120]</font></span></div></li>
+</ul>
+<ul>
+<li>『냉동 샥스핀』 x30 + [메달]히든 스트리트 정복자4 + 300000 메소 = <div class="tooltip"><font color="#4c9999">[메달]히든 스트리트 정복자5</font><span class="tooltiptext"><img src="https://i.imgur.com/1V2WYkm.png" alt="x5Medal" style="width: 52px; height: 52px;"><br><font color="#8000ff">[보조 인벤토리에 장착해주세요.]</font><br><font color="#ff8040">STR:[300]<br>DEX:[300]<br>INT:[300]</font></span></div></li>
+</ul>
+<ul>
+<li>『크림슨 발록의털』 x3 + [메달]머쉬맘 슬레이어 + [메달]킹슬라임 슬레이어 + [메달]레이스 슬레이어 + 150000 메소 = <div class="tooltip"><font color="#4c9999">[메달]크림슨발록 슬레이어</font><span class="tooltiptext"><img src="https://i.imgur.com/9b8V0eA.png" alt="HighMedal" style="width: 52px; height: 52px;"><br><font color="#8000ff">[보조 인벤토리에 장착해주세요.]</font><br><font color="#ff8040">STR:[175]<br>DEX:[175]<br>INT:[175]</font></span></div></li>
+</ul>
+<ul>
+<li>『마왕 발록의털』 x5 + [메달]주니어발록 슬레이어 + 100000 메소 = <div class="tooltip"><font color="#4c9999">[메달]마왕발록 슬레이어</font><span class="tooltiptext"><img src="https://i.imgur.com/9b8V0eA.png" alt="HighMedal" style="width: 52px; height: 52px;"><br><font color="#8000ff">[보조 인벤토리에 장착해주세요.]</font><br><font color="#ff8040">STR:[225]<br>DEX:[225]<br>INT:[225]</font></span></div></li>
+</ul>
+<div class="crafthead2">
+<p>기타</p>
+</div>
+<ul>
+<li>『차원의 균열 조각[A]』 x3 + 『차원의 균열 조각[B]』 x3 + 『차원의 균열 조각[C]』 x3 + 『바이킹의 돛』 x50 + 『시간의여행자의모레』 x100 + 500000 메소 + 100 메이플 = <div class="tooltip"><font color="#ff0000">[유니크]</font><font color="#ff8040">차원의 균열 조각</font><span class="tooltiptext"><img src="https://i.imgur.com/6t6u0Fi.png" alt="UniqueMedal" style="width: 52px; height: 52px;"><br><font color="#ffff00">[파풀라투스RAID에 입장할수있다.]</font><br><font color="#ff8040">STR:[500]<br>DEX:[500]<br>INT:[500]</font></span></div></li>
+</ul>
+<ul>
+<li>『알리샤르의 열쇠』 x10 + 50000 메소 = <div class="tooltip"><font color="#ff0000">[유니크]</font><font color="#666600">붉은 채찍</font><span class="tooltiptext"><img src="https://i.imgur.com/jwPp85S.png" alt="UniqueRing" style="width: 52px; height: 52px;"><br><font color="#8000ff">[착용제한:500]</font><br><font color="#ff8040">공격력[5000]</font><br><font color="#0000ff">MP:[40000]</font><br><font color="#ff0000">HP:[40000]</font><br><font color="#ffff00">STR:[350]<br>DEX:[350]<br>INT:[350]</font></span></div></li>
+</ul>
+<ul>
+<li>[메달]크림슨발록 슬레이어 + 『냉동 샥스핀』 x30 + 『석회가루병』 x50 + 500000 메소 = <div class="tooltip"><font color="#ff0000">[유니크]</font><font color="#666600">피아누스 미니어처</font><span class="tooltiptext"><img src="https://i.imgur.com/eybe92R.png" alt="UniqueFishMushroom" style="width: 52px; height: 52px;"><br><font color="#ffff00">[피아누스 RAID에 입장할수있다.]</font><br><font color="#ff0000">STR:[750]</font><br><font color="#ff8040">DEX:[750]</font><br><font color="#80ffff">INT:[750]</font></span></div></li>
+</ul>
+<ul>
+<li>『불독의 송곳니』 x50 + [메달]마왕발록 슬레이어 + 400000 메소 = <div class="tooltip"><font color="#ff0000">[유니크]</font><font color="#666600">붉은 눈</font><span class="tooltiptext"><img src="https://i.imgur.com/Yvy2i7u.png" alt="UniqueBall" style="width: 52px; height: 52px;"><br><font color="#ffff00">[자쿰 RAID에 입장할수있다.]</font><br><font color="#ff0000">STR:[1225]</font><br><font color="#ff8040">DEX:[1225]</font><br><font color="#80ffff">INT:[1225]</font></span></div></li>
+</ul>
+<ul>
+<li>『어둠의크리스탈』 + 『피아누스의 비명』 + 『다크 타키온』 = <div class="tooltip"><font color="#999900">『어둠의 주문서』</font><span class="tooltiptext"><img src="https://i.imgur.com/QmFg8D5.png" alt="DemonicScroll" style="width: 52px; height: 52px;"><br><font color="#0000ff">전직의성소로 가세요</font></span></div></li>
+</ul>
+<ul>
+<li>『마뇽의꼬리』 x3 + 『그리프의뿔』 x3 + 『질긴 용가죽』 x100 + 200000 메소 = <div class="tooltip"><font color="#999900">『마뇽의울음소리』</font><span class="tooltiptext"><img src="https://i.imgur.com/LTozq1I.png" alt="HONK!" style="width: 52px; height: 52px;"><br><font color="#0000ff">조합아이템</font></span></div></li>
+</ul>
+<ul>
+<li>[유니크]붉은 눈 + [유니크]피아누스 미니어처 + [유니크]차원의 균열 조각 + 『마뇽의울음소리』 + 500000 메소 = <div class="tooltip"><font color="#ff0000">[유니크]</font><font color="#666600">결사대의 증표</font><span class="tooltiptext"><img src="https://i.imgur.com/6HaeK8R.png" alt="UniqueMedal" style="width: 52px; height: 52px;"><br><font color="#ffff00">[자쿰,피아누스,파풀라투스,혼테일 RAID에 입장할수있다.]</font><br><font color="#ff0000">STR:[3000]</font><br><font color="#ff8040">DEX:[3000]</font><br><font color="#80ffff">INT:[3000]</font></span></div></li>
+</ul>
+</div>
 <div id="credits" class="tabcontent">
   <p>Thanks to <a href="https://www.w3schools.com">w3schools.com</a> for HTML code.</p>
   <p>Few HTML things from <a href="https://tympanus.net">tympanus.net</a></p>
