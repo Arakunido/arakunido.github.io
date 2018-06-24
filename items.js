@@ -241,9 +241,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "2%"
 	},
-	"scarletpotion" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/PT3RiJ6.png' alt='scarletpotion' />",
-		"id" : "I00M",
+	"I00M" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/PT3RiJ6.png' alt='I00M' />",
 		"name" : "주홍포션",
 		"type" : "소모품",
 		"effects" : ["HP를 200만큼 회복시켜줍니다.","[창고로 사용가능]"],
@@ -251,9 +250,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["5%", "5%", "5%"]
 	},
-	"bigbluepotion" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/hU3nc9E.png' alt='bigbluepotion' />",
-		"id" : "I00N",
+	"I00N" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/hU3nc9E.png' alt='I00N' />",
 		"name" : "마나 엘릭서",
 		"type" : "소모품",
 		"effects" : ["MP를 300만큼 회복시켜줍니다.","[창고로 사용가능]"],
@@ -261,9 +259,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["5%", "5%", "5%"]
 	},
-	"gauntlet" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CIStMkV.png' alt='gauntlet' />",
-		"id" : "I00H",
+	"I00H" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CIStMkV.png' alt='I00H' />",
 		"name" : "메바",
 		"type" : "무기",
 		"stats" : {
@@ -276,9 +273,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},
-	"filed_dagger" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/g2ohc3E.png' alt='fileddagger' />",
-		"id" : "I0BM",
+	"I0BM" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/g2ohc3E.png' alt='I0BM' />",
 		"name" : "필드 대거",
 		"type" : "무기",
 		"stats" : {
@@ -292,9 +288,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},
-	"mithril_wand" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/dKKXeP1.png' alt='mithrilwand' />",
-		"id" : "I00J",
+	"I00J" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/dKKXeP1.png' alt='I00J' />",
 		"name" : "미스릴 완드",
 		"type" : "무기",
 		"stats" : {
@@ -307,9 +302,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"twohanded_sword" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/2carhGb.png' alt='twohandedsword' />",
-		"id" : "I00K",
+	"I00K" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/2carhGb.png' alt='I00K' />",
 		"name" : "양손검",
 		"type" : "무기",
 		"stats" : {
@@ -322,9 +316,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"red_bow" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Tdfn06r.png' alt='red_bow' />",
-		"id" : "I0G7",
+	"I0G7" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Tdfn06r.png' alt='I0G7' />",
 		"name" : "배틀 보우",
 		"type" : "무기",
 		"stats" : {
@@ -338,9 +331,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"pink_wand" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Z62nJNy.png' alt='pinkwand' />",
-		"id" : "I00I",
+	"I00I" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Z62nJNy.png' alt='I00I' />",
 		"name" : "위저드 스태프",
 		"type" : "무기",
 		"stats" : {
@@ -353,9 +345,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"basic_pike" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/BULPksW.png' alt='basicpike' />",
-		"id" : "I00L",
+	"I00L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/BULPksW.png' alt='I00L' />",
 		"name" : "포크창",
 		"type" : "무기",
 		"stats" : {
@@ -368,9 +359,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"shuriken2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/l2G8ip1.png' alt='shuriken2' />",
-		"id" : "I00O",
+	"I00O" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/l2G8ip1.png' alt='I00O' />",
 		"name" : "월비 표창",
 		"type" : "무기",
 		"stats" : {
@@ -382,9 +372,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"necklace" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/auxW71Y.png' alt='necklace' />",
-		"id" : "I00P",
+	"I00P" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/auxW71Y.png' alt='I00P' />",
 		"name" : "번개 귀걸이",
 		"type" : "장신구",
 		"stats" : {
@@ -399,9 +388,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"hercloak" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/vboLO31.png' alt='hercloak' />",
-		"id" : "I0ER",
+	"I0ER" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/vboLO31.png' alt='I0ER' />",
 		"name" : "[치장]그녀의망토",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -413,9 +401,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.3%", "1.1%", "1.3%", "2%", "1.5%", "2%"]
 	},	
-	"mushroomslayer" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='mushroomslayer' />",
-		"id" : "I015",
+	"I015" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I015' />",
 		"name" : "[메달]머쉬맘 슬레이어",
 		"type" : "메달",
 		"effects" : ["[보조 인벤토리에 장착해주세요.]"],
@@ -428,9 +415,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "4%"
 	},							
-	"realgloves" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wZHZCZe.png' alt='realgloves' />",
-		"id" : "I01S",
+	"I01S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wZHZCZe.png' alt='I01S' />",
 		"name" : "머쉬킹의 레더 글로브",
 		"type" : "장비",
 		"effects" : ["[보조 인벤토리에 장착해주세요.]"],
@@ -444,9 +430,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},							
-	"woodenshield" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/c6BMIUc.png' alt='woodenshield' />",
-		"id" : "I00Q",
+	"I00Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/c6BMIUc.png' alt='I00Q' />",
 		"name" : "우드 버클러",
 		"type" : "장비",
 		"stats" : {
@@ -459,9 +444,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "2%"
 	},							
-	"kendosuit" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/HGuHSgV.png' alt='kendosuit' />",
-		"id" : "I00R",
+	"I00R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/HGuHSgV.png' alt='I00R' />",
 		"name" : "흰색 검도복",
 		"type" : "장비",
 		"stats" : {
@@ -472,9 +456,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "2%"
 	},							
-	"blueboots" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Z4kyAkL.png' alt='blueboots' />",
-		"id" : "I01C",
+	"I01C" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Z4kyAkL.png' alt='I01C' />",
 		"name" : "파란색 캔버스화",
 		"type" : "장비",
 		"stats" : {
@@ -486,9 +469,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "2%"
 	},	
-	"blackdragonrobe" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/B1gTADK.png' alt='blackdragonrobe' />",
-		"id" : "I01D",
+	"I01D" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/B1gTADK.png' alt='I01D' />",
 		"name" : "흑룡포",
 		"type" : "장비",
 		"stats" : {
@@ -499,9 +481,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "2%"
 	},	
-	"combatgloves" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/EDTPAOm.png' alt='combatgloves' />",
-		"id" : "I016",
+	"I016" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/EDTPAOm.png' alt='I016' />",
 		"name" : "다크 가디언",
 		"type" : "무기",
 		"stats" : {
@@ -514,9 +495,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"katar" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/nefuDuy.png' alt='katar' />",
-		"id" : "I0BN",
+	"I0BN" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/nefuDuy.png' alt='I0BN' />",
 		"name" : "삼각 자마다르",
 		"type" : "무기",
 		"stats" : {
@@ -530,9 +510,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"pig_bandana" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Jq8bmot.png' alt='pigbandana' />",
-		"id" : "I01Q",
+	"I01Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Jq8bmot.png' alt='I01Q' />",
 		"name" : "돼지머리띠",
 		"type" : "장비",
 		"stats" : {
@@ -544,9 +523,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"pitchfork" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/RI5rDTo.png' alt='pitchfork' />",
-		"id" : "I019",
+	"I019" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/RI5rDTo.png' alt='I019' />",
 		"name" : "삼지창",
 		"type" : "무기",
 		"stats" : {
@@ -559,9 +537,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"yellowbow" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CO2XrDu.png' alt='yellowbow' />",
-		"id" : "I0G8",
+	"I0G8" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CO2XrDu.png' alt='I0G8' />",
 		"name" : "라이덴",
 		"type" : "무기",
 		"stats" : {
@@ -575,9 +552,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"wangfu" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/PD3WKT2.png' alt='wangfu' />",
-		"id" : "I018",
+	"I018" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/PD3WKT2.png' alt='I018' />",
 		"name" : "왕푸",
 		"type" : "무기",
 		"stats" : {
@@ -591,9 +567,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"wizard_wand" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/TpCjZFz.png' alt='wizardwand' />",
-		"id" : "I017",
+	"I017" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/TpCjZFz.png' alt='I017' />",
 		"name" : "위저드 완드",
 		"type" : "무기",
 		"stats" : {
@@ -606,9 +581,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"petal_staff" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/NrBIFgN.png' alt='petalstaff' />",
-		"id" : "I01A",
+	"I01A" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/NrBIFgN.png' alt='I01A' />",
 		"name" : "페탈 스태프",
 		"type" : "무기",
 		"stats" : {
@@ -621,9 +595,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"blue_moon" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/XgpllQe.png' alt='bluemoon' />",
-		"id" : "I01B",
+	"I01B" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/XgpllQe.png' alt='I01B' />",
 		"name" : "블루 문",
 		"type" : "장신구",
 		"stats" : {
@@ -638,9 +611,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},	
-	"white_potion" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ZCL96yz.png' alt='whitepotion' />",
-		"id" : "I01W",
+	"I01W" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ZCL96yz.png' alt='I01W' />",
 		"name" : "하얀포션",
 		"type" : "소모품",
 		"effects" : ["HP를 500만큼 회복시켜줍니다.", "[창고로 사용가능]"],
@@ -648,9 +620,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%", "4%", "10%", "10%"]
 	},	
-	"clear_water" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/qhnJtUS.png' alt='clearwater' />",
-		"id" : "I01X",
+	"I01X" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/qhnJtUS.png' alt='I01X' />",
 		"name" : "맑은물",
 		"type" : "소모품",
 		"effects" : ["MP를 800만큼 회복시켜줍니다.", "[창고로 사용가능]"],
@@ -658,9 +629,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%", "4%", "10%", "10%"]
 	},	
-	"lvlup5" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/FGMhpyC.png' alt='lvlup5' />",
-		"id" : "I02G",
+	"I02G" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/FGMhpyC.png' alt='I02G' />",
 		"name" : "Lv + 5",
 		"type" : "소모품",
 		"effects" : ["사용시 영웅 LV+5가 됩니다.", "[창고로 사용해도 영웅 LV.5가 증가됩니다.]", "경고:LV.6000이 되는 분들은 사용하지 말아주세요."],
@@ -668,9 +638,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["4%", "10%", "4%", "5% & 5%", "5% & 5%", "5%", "5%"]
 	},	
-	"hidden_conqueror" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SkMmGr4.png' alt='hiddenconqueror' />",
-		"id" : "I01E",
+	"I01E" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/SkMmGr4.png' alt='I01E' />",
 		"name" : "[메달]히든 스트리트 정복자",
 		"type" : "메달",
 		"effects" : ["[보조 인벤토리에 장착해주세요.]"],
@@ -683,9 +652,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "4%"
 	},	
-	"kingslime_drop" : {
-		"icon" : "<img class='icon' src='' alt='givemeimage' />",
-		"id" : "I00Z",
+	"I00Z" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/mzjLTKB.png' alt='I00Z' />",
 		"name" : "『킹슬라임 방울』",
 		"type" : "기타",
 		"effects" : ["퀘스트 아이템[세이브 불가 아이템]-헬로토에게 가십시오."],
@@ -693,18 +661,16 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "3x 100%"
 	},	
-	"slime_bubble" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/mzjLTKB.png' alt='slimebubble' />",
-		"id" : "I00U",
+	"I00U" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/mzjLTKB.png' alt='I00U' />",
 		"name" : "『슬라임 방울』",
 		"type" : "기타",
 		"mob" : ["『RAID』킹슬라임", "[파퀘]슬라임"],
 		"karta" : "Victoria",
 		"chance" : ["5x 100%", "100%"]
 	},	
-	"promotion1" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion1' />",
-		"id" : "I01F",
+	"I01F" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I01F' />",
 		"name" : "- 1차승급 - 전직서[스피어맨]",
 		"type" : "기타",
 		"effects" : ["전직서:스피어맨 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -712,9 +678,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"promotion2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion2' />",
-		"id" : "I0BK",
+	"I0BK" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I0BK' />",
 		"name" : "- 1차승급 - 전직서[시프]",
 		"type" : "기타",
 		"effects" : ["전직서:시프 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -722,9 +687,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"promotion3" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion3' />",
-		"id" : "I001",
+	"I001" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I001' />",
 		"name" : "- 1차승급 - 전직서[어쌔신]",
 		"type" : "기타",
 		"effects" : ["전직서:어쌔신 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -732,9 +696,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"promotion4" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion4' />",
-		"id" : "I01G",
+	"I01G" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I01G' />",
 		"name" : "- 1차승급 - 전직서[위자드]",
 		"type" : "기타",
 		"effects" : ["전직서:위자드 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -742,9 +705,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"promotion5" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion5' />",
-		"id" : "I01I",
+	"I01I" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I01I' />",
 		"name" : "- 1차승급 - 전직서[클레릭]",
 		"type" : "기타",
 		"effects" : ["전직서:클레릭 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -752,9 +714,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"promotion6" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion6' />",
-		"id" : "I01H",
+	"I01H" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I01H' />",
 		"name" : "- 1차승급 - 전직서[페이지]",
 		"type" : "기타",
 		"effects" : ["전직서:페이지 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -762,9 +723,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"promotion7" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='promotion7' />",
-		"id" : "I0G3",
+	"I0G3" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/atgwC8V.png' alt='I0G3' />",
 		"name" : "- 1차승급 - 전직서[헌터]",
 		"type" : "기타",
 		"effects" : ["전직서:헌터 전직의성소 나무에게 가세요. -세이브 불가아이템-"],
@@ -772,9 +732,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "100%"
 	},	
-	"king_slime_slayer" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SkMmGr4.png' alt='kingslimeslayer' />",
-		"id" : "I01Y",
+	"I01Y" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I01Y' />",
 		"name" : "[메달]킹슬라임 슬레이어",
 		"type" : "메달",
 		"effects" : ["[보조 인벤토리에 장착해주세요.]"],
@@ -788,9 +747,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "3%"
 	},		
-	"blue_robe" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/q0YaG3T.png' alt='bluerobe' />",
-		"id" : "I00S",
+	"I00S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/q0YaG3T.png' alt='I00S' />",
 		"name" : "파란색 가운",
 		"type" : "장비",
 		"stats" : {
@@ -804,9 +762,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},				
-	"cape" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/l2AQ1IP.png' alt='cape' />",
-		"id" : "I00W",
+	"I00W" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/l2AQ1IP.png' alt='I00W' />",
 		"name" : "허름한 망토",
 		"type" : "장비",
 		"stats" : {
@@ -819,9 +776,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},				
-	"fairywings" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Ckcjaa8.png' alt='fairywings' />",
-		"id" : "I00X",
+	"I00X" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Ckcjaa8.png' alt='I00X' />",
 		"name" : "[치장]요정의날개",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "자신 이동속도 +50"],
@@ -829,9 +785,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "2%"]
 	},				
-	"power_elixir" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/93A9Rqz.png' alt='powerelixir' />",
-		"id" : "I03V",
+	"I03V" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/93A9Rqz.png' alt='I03V' />",
 		"name" : "파워엘릭서",
 		"type" : "소모품",
 		"effects" : ["HP/MP를 10000만큼 회복시켜줍니다.", "[창고로 사용가능]"],
@@ -839,9 +794,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%", "50%", "30%", "2x 100%", "100%", "3x 100%", "100%", "5x 100%", "100%", "3x 100%", "5x 100%", "100% & 50%"]
 	},				
-	"pass" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='pass' />",
-		"id" : "I010",
+	"I010" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='I010' />",
 		"name" : "『통행증』",
 		"type" : "기타",
 		"effects" : ["다음지역으로 이동하세요.[한분만 있으시면 됩니다.]"],
@@ -849,9 +803,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},					
-	"mokbi" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/0nbOWbC.png' alt='mokbi' />",
-		"id" : "I01O",
+	"I01O" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/0nbOWbC.png' alt='I01O' />",
 		"name" : "목비 표창",
 		"type" : "무기",
 		"stats" : {
@@ -863,9 +816,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%"]
 	},		
-	"deusvult" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/UGvFIq9.png' alt='deusvult' />",
-		"id" : "I01U",
+	"I01U" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/UGvFIq9.png' alt='I01U' />",
 		"name" : "화이트 크로스 체인메일",
 		"type" : "장비",
 		"stats" : {
@@ -877,9 +829,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "1.5%"
 	},		
-	"holyrobe" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/VbFDbwR.png' alt='holyrobe' />",
-		"id" : "I01R",
+	"I01R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/VbFDbwR.png' alt='I01R' />",
 		"name" : "흰색 모험가의 망토",
 		"type" : "장비",
 		"stats" : {
@@ -892,9 +843,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "1.5%"
 	},		
-	"blacknaruto" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/9tTMYjz.png' alt='blacknaruto' />",
-		"id" : "I027",
+	"I027" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/9tTMYjz.png' alt='I027' />",
 		"name" : "토비 표창",
 		"type" : "무기",
 		"stats" : {
@@ -908,9 +858,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["0.9%", "1.5%"]
 	},		
-	"skull_helm" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/S9JVFEU.png' alt='skullhelm' />",
-		"id" : "I02R",
+	"I02R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/S9JVFEU.png' alt='I02R' />",
 		"name" : "본 헬름",
 		"type" : "장비",
 		"stats" : {
@@ -924,9 +873,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.1%", "1.5%"]
 	},		
-	"tail" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/yNB3Vwu.png' alt='tail' />",
-		"id" : "I0EP",
+	"I0EP" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/yNB3Vwu.png' alt='I0EP' />",
 		"name" : "[치장]월묘꼬리",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -940,9 +888,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["0.8%", "1.4%", "1.2%", "1.5%", "2%"]
 	},		
-	"goldmedal" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/oxLvCwO.png' alt='goldmedal' />",
-		"id" : "I01P",
+	"I01P" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/oxLvCwO.png' alt='I01P' />",
 		"name" : "금비 표창",
 		"type" : "장신구?",
 		"stats" : {
@@ -953,9 +900,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "5%"
 	},		
-	"nagamaki" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kdaylUu.png' alt='nagamaki' />",
-		"id" : "I01K",
+	"I01K" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kdaylUu.png' alt='I01K' />",
 		"name" : "나카마키",
 		"type" : "무기",
 		"stats" : {
@@ -969,9 +915,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},		
-	"dark_bon" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/OpsWj26.png' alt='darkbon' />",
-		"id" : "I01J",
+	"I01J" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/OpsWj26.png' alt='I01J' />",
 		"name" : "다크 보닌",
 		"type" : "무기",
 		"stats" : {
@@ -985,9 +930,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},		
-	"arcstaff" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/nPKlgjk.png' alt='arcstaff' />",
-		"id" : "I01N",
+	"I01N" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/nPKlgjk.png' alt='I01N' />",
 		"name" : "아크 스태프",
 		"type" : "무기",
 		"stats" : {
@@ -1001,9 +945,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},		
-	"cha" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/9zh4D7Y.png' alt='cha' />",
-		"id" : "I0BO",
+	"I0BO" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/9zh4D7Y.png' alt='I0BO' />",
 		"name" : "차",
 		"type" : "무기",
 		"stats" : {
@@ -1017,9 +960,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},		
-	"bow31" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/koPZlD3.png' alt='bow31' />",
-		"id" : "I0G9",
+	"I0G9" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/koPZlD3.png' alt='I0G9' />",
 		"name" : "메이플 헌터스",
 		"type" : "무기",
 		"stats" : {
@@ -1033,9 +975,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},		
-	"jard" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/hA1ICCz.png' alt='jard' />",
-		"id" : "I01M",
+	"I01M" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/hA1ICCz.png' alt='I01M' />",
 		"name" : "쟈드",
 		"type" : "무기",
 		"stats" : {
@@ -1049,9 +990,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},							
-	"staff2312" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/NOFV2MW.png' alt='staff2312' />",
-		"id" : "I01L",
+	"I01L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/NOFV2MW.png' alt='I01L' />",
 		"name" : "크리스탈 완드",
 		"type" : "무기",
 		"stats" : {
@@ -1065,9 +1005,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "10%"
 	},							
-	"zombiemedal" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SkMmGr4.png' alt='zombiemedal' />",
-		"id" : "I01Z",
+	"I01Z" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I01Z' />",
 		"name" : "[메달]좀비머쉬맘 슬레이어",
 		"type" : "메달",
 		"effects" : "[보조 인벤토리에 장착해주세요.]",
@@ -1080,9 +1019,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "2%"
 	},									
-	"purplering" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/GnrY7yT.png' alt='purplering' />",
-		"id" : "I01V",
+	"I01V" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/GnrY7yT.png' alt='I01V' />",
 		"name" : "[치장]엔젤릭 블레스",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "자신[순수]공격력비례 공격력:+15%"],
@@ -1090,9 +1028,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "1.5%"
 	},									
-	"loveace" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ZdBgo5E.png' alt='loveace' />",
-		"id" : "I01T",
+	"I01T" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ZdBgo5E.png' alt='I01T' />",
 		"name" : "메탈 하트 귀걸이",
 		"type" : "장신구",
 		"stats" : {
@@ -1107,9 +1044,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : "5%"
 	},						
-	"meso1" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso1' />",
-		"id" : "I025",
+	"I025" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I025' />",
 		"name" : "메소 더미",
 		"type" : "기타",
 		"effects" : "메소 + 4000",
@@ -1117,9 +1053,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "5x 100%"]
 	},						
-	"maple1" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple1' />",
-		"id" : "I026",
+	"I026" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I026' />",
 		"name" : "메이플",
 		"type" : "기타",
 		"effects" : "메이플 + 1",
@@ -1127,9 +1062,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15% & 15%", "x3 100%"]
 	},						
-	"anotherblackshur" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/rf5FyZV.png' alt='anotherblackshur' />",
-		"id" : "I027",
+	"I027" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/rf5FyZV.png' alt='I027' />",
 		"name" : "토비 표창",
 		"type" : "무기",
 		"stats" : {
@@ -1143,9 +1077,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},						
-	"weirdthing" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/pP4cOo2.png' alt='weirdthing' />",
-		"id" : "I02D",
+	"I02D" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/pP4cOo2.png' alt='I02D' />",
 		"name" : "미스틱 실드",
 		"type" : "장신구",
 		"stats" : {
@@ -1159,9 +1092,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},						
-	"longcoat" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ZoIZjyr.png' alt='longcoat' />",
-		"id" : "I02F",
+	"I02F" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ZoIZjyr.png' alt='I02F' />",
 		"name" : "다크아나카룬",
 		"type" : "장비",
 		"stats" : {
@@ -1174,9 +1106,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},						
-	"green_orientican" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/OgLL7rF.png' alt='orientican' />",
-		"id" : "I02E",
+	"I02E" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/OgLL7rF.png' alt='I02E' />",
 		"name" : "오리엔타이칸",
 		"type" : "장비",
 		"stats" : {
@@ -1190,9 +1121,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},									
-	"skullfdas" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/1R4n4K9.png' alt='skullfdas' />",
-		"id" : "I02B",
+	"I02B" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/1R4n4K9.png' alt='I02B' />",
 		"name" : "『드레이크 머리뼈』",
 		"type" : "장비",
 		"effects" : "조합아이템",
@@ -1200,9 +1130,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%"]
 	},									
-	"snegovik" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/o7rjVu0.png' alt='snegovik' />",
-		"id" : "I02K",
+	"I02K" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/o7rjVu0.png' alt='I02K' />",
 		"name" : "[치장]함박눈",
 		"type" : "치장",
 		"effects" : "[치장 인벤토리에 장착해주세요.]",
@@ -1213,9 +1142,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "1.5%", "2%"]
 	},									
-	"dark_slane" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/6KolGaW.png' alt='darkslane' />",
-		"id" : "I02P",
+	"I02P" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/6KolGaW.png' alt='I02P' />",
 		"name" : "다크 슬레인",
 		"type" : "무기",
 		"stats" : {
@@ -1229,9 +1157,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},									
-	"ddebt" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kx15w4t.png' alt='ddebt' />",
-		"id" : "I0BP",
+	"I0BP" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kx15w4t.png' alt='I0BP' />",
 		"name" : "태극부채",
 		"type" : "무기",
 		"stats" : {
@@ -1245,9 +1172,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},									
-	"thornsstaff" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/N6BHh16.png' alt='thornsstaff' />",
-		"id" : "I02L",
+	"I02L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/N6BHh16.png' alt='I02L' />",
 		"name" : "쏜즈 스태프",
 		"type" : "무기",
 		"stats" : {
@@ -1261,9 +1187,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},									
-	"22000" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/5aiGlHK.png' alt='22000' />",
-		"id" : "I0GA",
+	"I0GA" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/5aiGlHK.png' alt='I0GA' />",
 		"name" : "발터2000",
 		"type" : "무기",
 		"stats" : {
@@ -1277,9 +1202,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},																	
-	"aqua" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/1U1raDe.png' alt='aqua' />",
-		"id" : "I02O",
+	"I02O" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/1U1raDe.png' alt='I02O' />",
 		"name" : "아쿠아 스노우보드",
 		"type" : "무기",
 		"stats" : {
@@ -1293,9 +1217,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},									
-	"сhromie" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kk9OhaJ.png' alt='сhromie' />",
-		"id" : "I02N",
+	"I02N" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kk9OhaJ.png' alt='I02N' />",
 		"name" : "크로미",
 		"type" : "무기",
 		"stats" : {
@@ -1309,9 +1232,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},				
-	"sword" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/hVGOe57.png' alt='sword' />",
-		"id" : "I02M",
+	"I02M" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/hVGOe57.png' alt='I02M' />",
 		"name" : "호검",
 		"type" : "무기",
 		"stats" : {
@@ -1325,9 +1247,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},					
-	"icewitch_medal" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SkMmGr4.png' alt='icewitchmedal' />",
-		"id" : "I02T",
+	"I02T" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I02T' />",
 		"name" : "[메달]얼음마녀 슬레이어",
 		"type" : "메달",
 		"stats" : {
@@ -1339,9 +1260,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["4%"]
 	},				
-	"leather_handbag" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/yTzJtl7.png' alt='leatherhandbag' />",
-		"id" : "I0EO",
+	"I0EO" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/yTzJtl7.png' alt='I0EO' />",
 		"name" : "[치장]가죽핸드백",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -1353,9 +1273,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.3%", "2%", "1.5%"]
 	},				
-	"roseneck" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/puDjoAB.png' alt='roseneck' />",
-		"id" : "I02Q",
+	"I02Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/puDjoAB.png' alt='I02Q' />",
 		"name" : "장미꽃 귀걸이",
 		"type" : "장신구",
 		"stats" : {
@@ -1370,9 +1289,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%", "5%"]
 	},								
-	"holycape" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/tcclUmg.png' alt='holycape' />",
-		"id" : "I02S",
+	"I02S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/tcclUmg.png' alt='I02S' />",
 		"name" : "흰색 가이야의 망토",
 		"type" : "장비",
 		"stats" : {
@@ -1385,9 +1303,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},								
-	"bblue" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SckJ0qs.png' alt='bblue' />",
-		"id" : "I037",
+	"I037" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/SckJ0qs.png' alt='I037' />",
 		"name" : "이카루스 망토",
 		"type" : "장비",
 		"stats" : {
@@ -1400,9 +1317,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},							
-	"fholyrobe" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/3MEtKyA.png' alt='fholyrobe' />",
-		"id" : "I02U",
+	"I02U" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/3MEtKyA.png' alt='I02U' />",
 		"name" : "다크 레퀴엠",
 		"type" : "장비",
 		"stats" : {
@@ -1416,9 +1332,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},							
-	"gasd" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/OPOstqe.png' alt='gasd' />",
-		"id" : "I02W",
+	"I02W" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/OPOstqe.png' alt='I02W' />",
 		"name" : "다크 스콜피오",
 		"type" : "장비",
 		"stats" : {
@@ -1432,9 +1347,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},							
-	"platin" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/8GAPxyH.png' alt='platin' />",
-		"id" : "I02V",
+	"I02V" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/8GAPxyH.png' alt='I02V' />",
 		"name" : "오리할콘 플라틴",
 		"type" : "장비",
 		"stats" : {
@@ -1448,9 +1362,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},							
-	"maple2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple2' />",
-		"id" : "I02Y",
+	"I02Y" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I02Y' />",
 		"name" : "메이플[2]",
 		"type" : "기타",
 		"effects" : "메이플 + 2",
@@ -1458,9 +1371,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%", "x3 100%", "15%", "15%"]
 	},									
-	"meso2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso2' />",
-		"id" : "I02X",
+	"I02X" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I02X' />",
 		"name" : "메소 더미[2]",
 		"type" : "기타",
 		"effects" : "메소 + 8000",
@@ -1468,9 +1380,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "5x 100%"]
 	},					
-	"kunai" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CINHkks.png' alt='kunai' />",
-		"id" : "I030",
+	"I030" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CINHkks.png' alt='I030' />",
 		"name" : "뇌전수리검",
 		"type" : "장신구",
 		"stats" : {
@@ -1484,9 +1395,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "2%"]
 	},			
-	"bluetit" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/b6lcTFh.png' alt='bluetit' />",
-		"id" : "I02Z",
+	"I02Z" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/b6lcTFh.png' alt='I02Z' />",
 		"name" : "에스터 실드",
 		"type" : "장신구",
 		"stats" : {
@@ -1500,9 +1410,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "2%"]
 	},			
-	"skullshield" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ekzUmnS.png' alt='skullshield' />",
-		"id" : "I031",
+	"I031" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ekzUmnS.png' alt='I031' />",
 		"name" : "해골방패",
 		"type" : "장비",
 		"stats" : {
@@ -1516,9 +1425,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},			
-	"goldenglove" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Zs4Np43.png' alt='goldenglove' />",
-		"id" : "I0B7",
+	"I0B7" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Zs4Np43.png' alt='I0B7' />",
 		"name" : "골든 와이어스",
 		"type" : "장비",
 		"stats" : {
@@ -1531,9 +1439,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.2%", "1.2%"]
 	},			
-	"darkgauntles" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/by8mFII.png' alt='darkgauntles' />",
-		"id" : "I032",
+	"I032" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/by8mFII.png' alt='I032' />",
 		"name" : "다크 기간틱",
 		"type" : "무기",
 		"stats" : {
@@ -1547,9 +1454,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"purplesurfboard" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ytQFkta.png' alt='purplesurfboard' />",
-		"id" : "I034",
+	"I034" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ytQFkta.png' alt='I034' />",
 		"name" : "보라색 서핑보드",
 		"type" : "무기",
 		"stats" : {
@@ -1563,9 +1469,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"greece" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/3qm4p6v.png' alt='greece' />",
-		"id" : "I036",
+	"I036" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/3qm4p6v.png' alt='I036' />",
 		"name" : "그리스",
 		"type" : "무기",
 		"stats" : {
@@ -1579,9 +1484,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"angelwings" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/dbL7M7O.png' alt='angelwings' />",
-		"id" : "I035",
+	"I035" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/dbL7M7O.png' alt='I035' />",
 		"name" : "엔젤윙즈",
 		"type" : "무기",
 		"stats" : {
@@ -1595,9 +1499,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"evilwings" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/QVjEXaC.png' alt='evilwings' />",
-		"id" : "I033",
+	"I033" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/QVjEXaC.png' alt='I033' />",
 		"name" : "이블윙즈",
 		"type" : "무기",
 		"stats" : {
@@ -1611,9 +1514,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"gandiva" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/yhDOLz2.png' alt='gandiva' />",
-		"id" : "I0GB",
+	"I0GB" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/yhDOLz2.png' alt='I0GB' />",
 		"name" : "메이플 간디바",
 		"type" : "무기",
 		"stats" : {
@@ -1627,9 +1529,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"shinkita" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/auUff8U.png' alt='shinkita' />",
-		"id" : "I0BQ",
+	"I0BQ" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/auUff8U.png' alt='I0BQ' />",
 		"name" : "신기타",
 		"type" : "무기",
 		"stats" : {
@@ -1643,9 +1544,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"purplboots" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/bzsqS8j.png' alt='purplboots' />",
-		"id" : "I03P",
+	"I03P" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/bzsqS8j.png' alt='I03P' />",
 		"name" : "퍼플 시니어 슈즈",
 		"type" : "장비",
 		"stats" : {
@@ -1658,9 +1558,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},			
-	"snowmanmedal" : {
-		"icon" : "<img class='icon' src='?' alt='snowmanmedal' />",
-		"id" : "I0C3",
+	"I0C3" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I0C3' />",
 		"name" : "[메달]스노우맨 슬레이어",
 		"type" : "메달",
 		"effects" : "[보조 인벤토리에 장착해주세요.]",
@@ -1673,9 +1572,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["4%"]
 	},			
-	"fullplate" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/daPUDO7.png' alt='fullplate' />",
-		"id" : "I038",
+	"I038" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/daPUDO7.png' alt='I038' />",
 		"name" : "다크 발퀴레",
 		"type" : "장비",
 		"effects" : "[보조 인벤토리에 장착해주세요.]",
@@ -1690,9 +1588,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},			
-	"fullholy" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/aiBwfX1.png' alt='fullholy' />",
-		"id" : "I039",
+	"I039" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/aiBwfX1.png' alt='I039' />",
 		"name" : "다크 크리시아",
 		"type" : "장비",
 		"effects" : "[보조 인벤토리에 장착해주세요.]",
@@ -1707,9 +1604,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},														
-	"fullholy" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/aiBwfX1.png' alt='fullholy' />",
-		"id" : "I03A",
+	"I03A" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/aiBwfX1.png' alt='I03A' />",
 		"name" : "다크 피라티드",
 		"type" : "장비",
 		"effects" : "[보조 인벤토리에 장착해주세요.]",
@@ -1724,9 +1620,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},														
-	"meso3" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso3' />",
-		"id" : "I03M",
+	"I03M" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I03M' />",
 		"name" : "메소 더미[3]",
 		"type" : "기타",
 		"effects" : "메소 + 15000",
@@ -1734,9 +1629,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "5x 100%", "30%", "4x 100%", "5x 100%"]
 	},								
-	"maple3" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple3' />",
-		"id" : "I03N",
+	"I03N" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I03N' />",
 		"name" : "메이플[3]",
 		"type" : "기타",
 		"effects" : "메이플 + 3",
@@ -1744,18 +1638,16 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%", "3x 100%", "4x 100%", "5x 100%", "6x 100%"]
 	},											
-	"horn" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/S49iT3g.png' alt='horn' />",
-		"id" : "I03D",
+	"I03D" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/S49iT3g.png' alt='I03D' />",
 		"name" : "『타우로마시스의뿔』",
 		"type" : "기타",
 		"mob" : "[정예]타우로마시스",
 		"karta" : "Victoria",
 		"chance" : "15%"
 	},							
-	"goldenshield" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/8Y9aPrn.png' alt='goldenshield' />",
-		"id" : "I03B",
+	"I03B" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/8Y9aPrn.png' alt='I03B' />",
 		"name" : "골든 에이션트 실드",
 		"type" : "장비",
 		"stats" : {
@@ -1769,9 +1661,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},
-	"goldenear" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Tx7SAmm.png' alt='goldenear' />",
-		"id" : "I03C",
+	"I03C" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Tx7SAmm.png' alt='I03C' />",
 		"name" : "소드 이어링",
 		"type" : "장신구",
 		"stats" : {
@@ -1786,9 +1677,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "5%"]
 	},
-	"2hsord" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/V5PbCux.png' alt='2hsord' />",
-		"id" : "I03G",
+	"I03G" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5PbCux.png' alt='I03G' />",
 		"name" : "그륜힐",
 		"type" : "무기",
 		"stats" : {
@@ -1802,9 +1692,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"skullstaff" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/jqxufkX.png' alt='skullstaff' />",
-		"id" : "I03K",
+	"I03K" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/jqxufkX.png' alt='I03K' />",
 		"name" : "레이븐 스태프",
 		"type" : "무기",
 		"stats" : {
@@ -1818,9 +1707,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"phoenixwand" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/2e6YT7g.png' alt='phoenixwand' />",
-		"id" : "I03J",
+	"I03J" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/2e6YT7g.png' alt='I03J' />",
 		"name" : "피닉스 완드",
 		"type" : "무기",
 		"stats" : {
@@ -1834,9 +1722,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"hwangryongdo" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/MBcbyZu.png' alt='hwangryongdo' />",
-		"id" : "I03I",
+	"I03I" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/MBcbyZu.png' alt='I03I' />",
 		"name" : "황룡도",
 		"type" : "무기",
 		"stats" : {
@@ -1850,9 +1737,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"blackinsect" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/clSl3iR.png' alt='blackinsect' />",
-		"id" : "I03H",
+	"I03H" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/clSl3iR.png' alt='I03H' />",
 		"name" : "흑갑충",
 		"type" : "무기",
 		"stats" : {
@@ -1866,9 +1752,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"bluehinkel" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CAzKZCa.png' alt='bluehinkel' />",
-		"id" : "I0GC",
+	"I0GC" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CAzKZCa.png' alt='I0GC' />",
 		"name" : "블루 힌켈",
 		"type" : "무기",
 		"stats" : {
@@ -1882,9 +1767,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"geta" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/c9yiovm.png' alt='geta' />",
-		"id" : "I0BR",
+	"I0BR" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/c9yiovm.png' alt='I0BR' />",
 		"name" : "게타",
 		"type" : "무기",
 		"stats" : {
@@ -1898,9 +1782,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-	"darkkasenboots" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/2RH4AQb.png' alt='darkkasenboots' />",
-		"id" : "I03Q",
+	"I03Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/2RH4AQb.png' alt='I03Q' />",
 		"name" : "다크 카젠부츠",
 		"type" : "장비",
 		"stats" : {
@@ -1913,9 +1796,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%"]
 	},
-	"minotaurhead" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/8IeHew4.png' alt='minotaurhead' />",
-		"id" : "I04D",
+	"I04D" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/8IeHew4.png' alt='I04D' />",
 		"name" : "[치장]주니어발록 날개",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "자신 이동속도 +50"],
@@ -1923,9 +1805,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},
-	"darkkasenboots2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/C2SdOLP.png' alt='darkkasenboots2' />",
-		"id" : "I03R",
+	"I03R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/C2SdOLP.png' alt='I03R' />",
 		"name" : "다크 크리시아슈즈",
 		"type" : "장비",
 		"stats" : {
@@ -1938,9 +1819,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%"]
 	},
-	"darkkasenboots3" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/z53TbrB.png' alt='darkkasenboots3' />",
-		"id" : "I03S",
+	"I03S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/z53TbrB.png' alt='I03S' />",
 		"name" : "레드 루티드슈즈",
 		"type" : "장비",
 		"stats" : {
@@ -1953,9 +1833,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%"]
 	},
-	"minmedal" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='minmedal' /> ?",
-		"id" : "I03L",
+	"I03L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I03L' />",
 		"name" : "[메달]주니어발록 슬레이어",
 		"type" : "메달",
 		"effects" : "[보조 인벤토리에 장착해주세요.]",
@@ -1968,9 +1847,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["4%"]
 	},
-	"weirdstaff" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/dfugzGD.png' alt='weirdstaff' />",
-		"id" : "I0EN",
+	"I0EN" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/dfugzGD.png' alt='I0EN' />",
 		"name" : "[치장]물고기작살",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -1984,9 +1862,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "1.15%", "1.3%", "1.5%", "2%"]
 	},
-	"leat2her" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/4m5VsjI.png' alt='leat2her' />",
-		"id" : "I04T",
+	"I04T" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/4m5VsjI.png' alt='I04T' />",
 		"name" : "『석양의 발록주문서』",
 		"type" : "기타",
 		"effects" : "대장장이에게 강화시도!(세이브)불가 아이템",
@@ -1994,18 +1871,16 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "30%"]
 	},
-	"dhorn" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/q091piy.png' alt='dhorn' />",
-		"id" : "I04V",
+	"I04V" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/q091piy.png' alt='I04V' />",
 		"name" : "『웨어울프의 발톱』",
 		"type" : "기타",
 		"mob" : ["[정예]웨어울프"],
 		"karta" : "Victoria",
 		"chance" : ["30%"]
 	},
-	"ninjaaward" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kuJ4uRE.png' alt='ninjaaward' />",
-		"id" : "I04X",
+	"I04X" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kuJ4uRE.png' alt='I04X' />",
 		"name" : "일비표창",
 		"type" : "장비",
 		"effects" : ["[고정]추가데미지:27777"],
@@ -2021,9 +1896,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "3%", "3%"]
 	},
-	"beastcoat" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/tPA5GbB.png' alt='beastcoat' />",
-		"id" : "I04Y",
+	"I04Y" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/tPA5GbB.png' alt='I04Y' />",
 		"name" : "온화의망토",
 		"type" : "장비",
 		"stats" : {
@@ -2039,9 +1913,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "3%", "3%"]
 	},
-	"gold_aquila_shield" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/szxsjMF.png' alt='goldaquilashield' />",
-		"id" : "I04Z",
+	"I04Z" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/szxsjMF.png' alt='I04Z' />",
 		"name" : "골드 아퀼라 실드",
 		"type" : "장비",
 		"stats" : {
@@ -2055,9 +1928,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "3%", "3%"]
 	},
-	"gold_aquila_shield" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/szxsjMF.png' alt='goldaquilashield' />",
-		"id" : "I04Z",
+	"I04Z" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/szxsjMF.png' alt='I04Z' />",
 		"name" : "골드 아퀼라 실드",
 		"type" : "장비",
 		"stats" : {
@@ -2071,9 +1943,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "3%", "3%"]
 	},
-	"blackglovess" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/a8P0yIf.png' alt='blackglovess' />",
-		"id" : "I0B8",
+	"I0B8" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/a8P0yIf.png' alt='I0B8' />",
 		"name" : "다크 엠페러",
 		"type" : "무기",
 		"stats" : {
@@ -2086,9 +1957,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.2%", "3%"]
 	},	
-	"cobra_steel" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/fhJahq5.png' alt='cobrasteel' />",
-		"id" : "I054",
+	"I054" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/fhJahq5.png' alt='I054' />",
 		"name" : "코브라스티어",
 		"type" : "무기",
 		"stats" : {
@@ -2102,9 +1972,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},	
-	"shstaff" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/37FZefT.png' alt='shstaff' />",
-		"id" : "I051",
+	"I051" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/37FZefT.png' alt='I051' />",
 		"name" : "케이그",
 		"type" : "무기",
 		"stats" : {
@@ -2118,9 +1987,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},	
-	"candine" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/GBKFlxl.png' alt='candine' />",
-		"id" : "I0BS",
+	"I0BS" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/GBKFlxl.png' alt='I0BS' />",
 		"name" : "칸디네",
 		"type" : "무기",
 		"stats" : {
@@ -2134,9 +2002,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},	
-	"goldenrod" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/vkv8Sig.png' alt='goldenrod' />",
-		"id" : "I050",
+	"I050" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/vkv8Sig.png' alt='I050' />",
 		"name" : "마기코라스",
 		"type" : "무기",
 		"stats" : {
@@ -2150,9 +2017,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},	
-	"wingedsword" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/63XVGPx.png' alt='wingedsword' />",
-		"id" : "I052",
+	"I052" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/63XVGPx.png' alt='I052' />",
 		"name" : "그레이트 로헨",
 		"type" : "무기",
 		"stats" : {
@@ -2166,9 +2032,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},	
-	"redwinbow" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/vE3q6M7.png' alt='redwinbow' />",
-		"id" : "I0GD",
+	"I0GD" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/vE3q6M7.png' alt='I0GD' />",
 		"name" : "메투스",
 		"type" : "무기",
 		"stats" : {
@@ -2182,9 +2047,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},	
-	"strangekatar" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/1Q7lGZt.png' alt='strangekatar' />",
-		"id" : "I0GD",
+	"I0GD" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/1Q7lGZt.png' alt='I0GD' />",
 		"name" : "호신공창",
 		"type" : "무기",
 		"stats" : {
@@ -2198,9 +2062,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%", "3%"]
 	},
-	"necklacerainwo" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/0Mlxjjp.png' alt='necklacerainwo' />",
-		"id" : "I055",
+	"I055" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/0Mlxjjp.png' alt='I055' />",
 		"name" : "[유니크]알테어 이어링",
 		"type" : "장신구",
 		"effects" : ["60초마다.마법방어시전", "[설명]: 찬란하도다.."],
@@ -2216,9 +2079,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},
-	"candy" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/0Mlxjjp.png' alt='candy' />",
-		"id" : "I0EM",
+	"I0EM" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/0Mlxjjp.png' alt='I0EM' />",
 		"name" : "[치장]막대사탕",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -2230,9 +2092,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "1.3%", "2%", "1.5%", "2%"]
 	},
-	"lycan_slayer" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='lycanslayer' />",
-		"id" : "I0C4",
+	"I0C4" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/V5rgN4W.png' alt='I0C4' />",
 		"name" : "[메달]라이칸스로프 슬레이어",
 		"type" : "메달",
 		"stats" : {
@@ -2267,9 +2128,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%"]
 	},
-	"upgscrollwing" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='upgscrollwing' />",
-		"id" : "I058",
+	"I058" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='I058' />",
 		"name" : "『치장』이노센트 주문서[날개]",
 		"type" : "기타",
 		"effects" : ["[대장장이에게 강화시도!(세이브)불가 아이템]", "성공률25%"],
@@ -2283,9 +2143,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%"]
 	},
-	"upgscrollweapom" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='upgscrollweapom' />",
-		"id" : "I05K",
+	"I05K" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='I05K' />",
 		"name" : "『치장』이노센트 주문서[무기]",
 		"type" : "기타",
 		"effects" : ["[대장장이에게 강화시도!(세이브)불가 아이템]", "성공률25%"],
@@ -2299,9 +2158,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%"]
 	},
-	"dogarm" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/RMzvDhy.png' alt='dogarm' />",
-		"id" : "I05M",
+	"I05M" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/RMzvDhy.png' alt='I05M' />",
 		"name" : "적견랑포",
 		"type" : "장비",
 		"stats" : {
@@ -2315,9 +2173,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%"]
 	},
-	"dogarm2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/fCuSo5T.png' alt='dogarm2' />",
-		"id" : "I05N",
+	"I05N" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/fCuSo5T.png' alt='I05N' />",
 		"name" : "퍼플 엘소르",
 		"type" : "장비",
 		"stats" : {
@@ -2331,9 +2188,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%"]
 	},
-	"dogarm3" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/9pd5Ajs.png' alt='dogarm3' />",
-		"id" : "I05L",
+	"I05L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/9pd5Ajs.png' alt='I05L' />",
 		"name" : "다크 카티나스",
 		"type" : "장비",
 		"stats" : {
@@ -2347,9 +2203,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["7%"]
 	},
-	"stillillegal" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/33LxQIy.png' alt='stillillegal' />",
-		"id" : "I0EK",
+	"I0EK" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/33LxQIy.png' alt='I0EK' />",
 		"name" : "[치장]신문지칼",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -2361,9 +2216,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "1.4%", "1.4%", "2%", "1.5%", "2%"]
 	},
-	"egg2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/aSrYFM0.png' alt='egg2' />",
-		"id" : "I0EL",
+	"I0EL" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/aSrYFM0.png' alt='I0EL' />",
 		"name" : "[치장]프라이팬",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -2375,9 +2229,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "1.4%", "1.4%", "2%", "1.5%", "2%"]
 	},
-	"wannabealladn" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/OihCfJU.png' alt='wannabealladn' />",
-		"id" : "I05S",
+	"I05S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/OihCfJU.png' alt='I05S' />",
 		"name" : "다크 바르슈즈",
 		"type" : "장비",
 		"stats" : {
@@ -2391,9 +2244,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},
-	"wannabealladn2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/MBjuWhc.png' alt='wannabealladn2' />",
-		"id" : "I05R",
+	"I05R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/MBjuWhc.png' alt='I05R' />",
 		"name" : "다크 카티나부츠",
 		"type" : "장비",
 		"stats" : {
@@ -2407,9 +2259,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},	
-	"wannabealladn3" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/63vyRc6.png' alt='wannabealladn3' />",
-		"id" : "I05Q",
+	"I05Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/63vyRc6.png' alt='I05Q' />",
 		"name" : "다크 크리센트 부츠",
 		"type" : "장비",
 		"stats" : {
@@ -2423,45 +2274,40 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},	
-	"songtomb" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kj8n6C1.png' alt='songtomb' />",
-		"id" : "I05U",
+	"I05U" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kj8n6C1.png' alt='I05U' />",
 		"name" : "『시간의여행자의모레』",
 		"type" : "기타",
 		"mob" : "파이렛",
 		"karta" : "Victoria",
 		"chance" : "30%"
 	},	
-	"passa" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/oYK9MuY.png' alt='passa' />",
-		"id" : "I05W",
+	"I05W" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/oYK9MuY.png' alt='I05W' />",
 		"name" : "『차원의 균열 조각[A]』",
 		"type" : "기타",
 		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스"],
 		"karta" : "Victoria",
 		"chance" : ["20%", "20%"]
 	},	
-	"passb" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kR86abo.png' alt='passb' />",
-		"id" : "I05X",
+	"I05X" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kR86abo.png' alt='I05X' />",
 		"name" : "『차원의 균열 조각[B]』",
 		"type" : "기타",
 		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스"],
 		"karta" : "Victoria",
 		"chance" : ["20%", "20%"]
 	},	
-	"passc" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/z2Ibxmu.png' alt='passc' />",
-		"id" : "I05V",
+	"I05V" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/z2Ibxmu.png' alt='I05V' />",
 		"name" : "『차원의 균열 조각[C]』",
 		"type" : "기타",
 		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스"],
 		"karta" : "Victoria",
 		"chance" : ["20%", "20%"]
 	},	
-	"valuepotuion" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/rD3ZVz8.png' alt='valuepotuion' />",
-		"id" : "I069",
+	"I069" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/rD3ZVz8.png' alt='I069' />",
 		"name" : "밸류 포션",
 		"type" : "소모품",
 		"effects" : ["HP/MP를 100000만큼 회복시켜줍니다.", "[창고로 사용가능]"],
@@ -2469,9 +2315,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["50%", "50%", "5x 100%", "15%", "50%", "50%", "5x 100%", "3%", "3%", "5x 100%", "5x 100%", "50% & 50%", "50%"]
 	},
-	"meso4" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso4' />",
-		"id" : "I05Z",
+	"I05Z" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I05Z' />",
 		"name" : "메소 더미[4]",
 		"type" : "기타",
 		"effects" : "메소 + 20000",
@@ -2479,9 +2324,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["50%", "50%", "30%", "5x 100%"]
 	},						
-	"maple4" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple4' />",
-		"id" : "I060",
+	"I060" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I060' />",
 		"name" : "메이플[4]",
 		"type" : "기타",
 		"effects" : "메이플 + 4",
@@ -2489,9 +2333,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["50%", "50%", "15%", "5x 100%", "15%"]
 	},	
-	"gklis" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/xSLs1tm.png' alt='gklis' />",
-		"id" : "I0B9",
+	"I0B9" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/xSLs1tm.png' alt='I0B9' />",
 		"name" : "블랙 가리나 글러브",
 		"type" : "장비",
 		"stats" : {
@@ -2504,18 +2347,16 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%", "1.5%", "1.2%"]
 	},	
-	"kaver" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/AjUSSDR.png' alt='kaver' />",
-		"id" : "I05T",
+	"I05T" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/AjUSSDR.png' alt='I05T' />",
 		"name" : "『바이킹의 돛』",
 		"type" : "기타",
 		"mob" : ["[정예]바이킹"],
 		"karta" : "Victoria",
 		"chance" : ["60%"]
 	},	
-	"daemon_wand" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/cP6GRz7.png' alt='daemon_wand' />",
-		"id" : "I066",
+	"I066" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/cP6GRz7.png' alt='I066' />",
 		"name" : "다이몬의 완드",
 		"type" : "무기",
 		"stats" : {
@@ -2529,9 +2370,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"2asd2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/S39vb1G.png' alt='2asd2' />",
-		"id" : "I068",
+	"I068" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/S39vb1G.png' alt='I068' />",
 		"name" : "라 투헨더",
 		"type" : "무기",
 		"stats" : {
@@ -2545,9 +2385,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"II2_(17)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/H8uDcuL.png' alt='II2_(17)' />",
-		"id" : "I065",
+	"I065" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/H8uDcuL.png' alt='I065' />",
 		"name" : "블루마린",
 		"type" : "무기",
 		"stats" : {
@@ -2561,9 +2400,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"II3(21)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/zLeNw5I.png' alt='II3(21)' />",
-		"id" : "I064",
+	"I064" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/zLeNw5I.png' alt='I064' />",
 		"name" : "캐스터스",
 		"type" : "무기",
 		"stats" : {
@@ -2577,9 +2415,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"II8(10)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/7kOtLz9.png' alt='II8(10)' />",
-		"id" : "I0BT",
+	"I0BT" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/7kOtLz9.png' alt='I0BT' />",
 		"name" : "용천권",
 		"type" : "무기",
 		"stats" : {
@@ -2593,9 +2430,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"II10(3)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SelEGyT.png' alt='II10(3)' />",
-		"id" : "I0GE",
+	"I0GE" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/SelEGyT.png' alt='I0GE' />",
 		"name" : "다크 니스룩",
 		"type" : "무기",
 		"stats" : {
@@ -2609,9 +2445,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"II6(20)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/gBHSNhC.png' alt='II6(20)' />",
-		"id" : "I067",
+	"I067" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/gBHSNhC.png' alt='I067' />",
 		"name" : "페어프로즌",
 		"type" : "무기",
 		"stats" : {
@@ -2625,9 +2460,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "1.5%", "3%"]
 	},	
-	"II7(66)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/kvksYJM.png' alt='II7(66)' />",
-		"id" : "I06C",
+	"I06C" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/kvksYJM.png' alt='I06C' />",
 		"name" : "[치장]파풀라투스의시계",
 		"type" : "치장",
 		"effects" : "[치장 인벤토리에 장착해주세요.]",
@@ -2639,9 +2473,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},			
-	"II4(27)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/WeEwFFR.png' alt='II4(27)' />",
-		"id" : "I063",
+	"I063" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/WeEwFFR.png' alt='I063' />",
 		"name" : "[유니크]루디브리엄의망토",
 		"type" : "장비",
 		"effects" : "[설명:파풀라투스 원정대 성공 증표]",
@@ -2658,9 +2491,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["5%"]
 	},			
-	"II4(78)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/g62Wip5.png' alt='II4(78)' />",
-		"id" : "I06H",
+	"I06H" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/g62Wip5.png' alt='I06H' />",
 		"name" : "[유니크]이온 슈트",
 		"type" : "장비",
 		"effects" : "아이템설명:[루디브리엄의 사수하라!!]",
@@ -2686,9 +2518,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%", "60%|50%|40%"]
 	},			
-	"II7(10)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/jeI9Dkj.png' alt='II7(10)' />",
-		"id" : "I0HI",
+	"I0HI" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/jeI9Dkj.png' alt='I0HI' />",
 		"name" : "[치장]파풀라투스의날개",
 		"type" : "치장",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "[강화 불가 아이템]"],
@@ -2702,9 +2533,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},																		
-	"upgscrollwadf" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='upgscrollwadf' />",
-		"id" : "I06X",
+	"I06X" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='I06X' />",
 		"name" : "『치장』이노센트 주문서[오라]",
 		"type" : "기타",
 		"effects" : ["대장장이에게 강화시도!(세이브)불가 아이템", "성공률25%"],
@@ -2717,9 +2547,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%"]
 	},		
-	"II(71)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/6iajumQ.png' alt='II(71)' />",
-		"id" : "I08S",
+	"I08S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/6iajumQ.png' alt='I08S' />",
 		"name" : "『다크 타키온』",
 		"type" : "기타",
 		"effects" : ["3차전직 재료아이템"],
@@ -2727,9 +2556,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%"]
 	},	
-	"udypass" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/6iajumQ.png' alt='udypass' />",
-		"id" : "I06I",
+	"I06I" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/6iajumQ.png' alt='I06I' />",
 		"name" : "『루디통행증』",
 		"type" : "기타",
 		"effects" : ["다음지역으로 이동하세요.[한분만 있으시면 됩니다.]"],
@@ -2737,9 +2565,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["40%"]
 	},	
-	"udypass2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='udypass2' />",
-		"id" : "I06L",
+	"I06L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='I06L' />",
 		"name" : "『루디통행증』4",
 		"type" : "기타",
 		"effects" : ["다음지역으로 이동하세요.[한분만 있으시면 됩니다.]"],
@@ -2747,9 +2574,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%"]
 	},	
-	"II(60)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/5zzorhB.png' alt='II(60)' />",
-		"id" : "I06O",
+	"I06O" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/5zzorhB.png' alt='I06O' />",
 		"name" : "『마법의구름』",
 		"type" : "기타",
 		"effects" : ["다음지역으로 이동하세요.[한분만 있으시면 됩니다.]"],
@@ -2757,9 +2583,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["40%"]
 	},	
-	"II(59)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ne65Eiv.png' alt='II(59)' />",
-		"id" : "I06Q",
+	"I06Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ne65Eiv.png' alt='I06Q' />",
 		"name" : "『마법의씨앗』2",
 		"type" : "기타",
 		"effects" : ["다음지역으로 이동하세요.[한분만 있으시면 됩니다.]"],
@@ -2767,9 +2592,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%"]
 	},	
-	"II(64)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/lnSs8u0.png' alt='II(64)' />",
-		"id" : "I07M",
+	"I07M" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/lnSs8u0.png' alt='I07M' />",
 		"name" : "『석회가루병』",
 		"type" : "기타",
 		"effects" : ["조합아이템"],
@@ -2777,9 +2601,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["20%"]
 	},	
-	"meso5" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso5' />",
-		"id" : "I07G",
+	"I07G" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I07G' />",
 		"name" : "메소 더미[5]",
 		"type" : "기타",
 		"effects" : "메소 + 30000",
@@ -2787,9 +2610,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%", "30%", "5x 100%", "3x 100%", "20%", "20%"]
 	},						
-	"maple5" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple5' />",
-		"id" : "I07F",
+	"I07F" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I07F' />",
 		"name" : "메이플[5]",
 		"type" : "기타",
 		"effects" : "메이플 + 5",
@@ -2797,9 +2619,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["15%", "15%", "5x 100%", "3x 100%", "10%", "10%"]
 	},								
-	"II4(83)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/Y0RoyUv.png' alt='II4(83)' />",
-		"id" : "I07J",
+	"I07J" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Y0RoyUv.png' alt='I07J' />",
 		"name" : "블랙 가리나",
 		"type" : "장비",
 		"stats" : {
@@ -2813,9 +2634,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},		
-	"II4(81)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/xk37jK6.png' alt='II4(81)' />",
-		"id" : "I07K",
+	"I07K" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/xk37jK6.png' alt='I07K' />",
 		"name" : "블루 드래곤갑옷",
 		"type" : "장비",
 		"stats" : {
@@ -2829,9 +2649,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},					
-	"II4(82)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/cmhH3mM.png' alt='II4(82)' />",
-		"id" : "I07I",
+	"I07I" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/cmhH3mM.png' alt='I07I' />",
 		"name" : "블루 바즈라",
 		"type" : "장비",
 		"stats" : {
@@ -2845,9 +2664,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},					
-	"II(63)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/SUr5B6C.png' alt='II(63)' />",
-		"id" : "I07L",
+	"I07L" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/SUr5B6C.png' alt='I07L' />",
 		"name" : "『냉동 샥스핀』",
 		"type" : "기타",
 		"effects" : ["조합아이템"],
@@ -2855,9 +2673,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%"]
 	},					
-	"II5(15)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CArbaCd.png' alt='II5(15)' />",
-		"id" : "I07Q",
+	"I07Q" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CArbaCd.png' alt='I07Q' />",
 		"name" : "참화도",
 		"type" : "무기",
 		"stats" : {
@@ -2871,9 +2688,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%", "3%"]
 	},			
-	"II3(9)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ZJkZJCv.png' alt='II3(9)' />",
-		"id" : "I08A",
+	"I08A" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ZJkZJCv.png' alt='I08A' />",
 		"name" : "메이플 표창",
 		"type" : "장비",
 		"stats" : {
@@ -2888,9 +2704,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.4%", "30%"]
 	},			
-	"II4(84)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/fRMfqoI.png' alt='II4(84)' />",
-		"id" : "I08B",
+	"I08B" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/fRMfqoI.png' alt='I08B' />",
 		"name" : "인내의 포스쉴드",
 		"type" : "장비",
 		"stats" : {
@@ -2904,9 +2719,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.4%", "30%"]
 	},			
-	"II(66)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ZyPwrqY.png' alt='II(66)' />",
-		"id" : "I08C",
+	"I08C" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ZyPwrqY.png' alt='I08C' />",
 		"name" : "『불독의 송곳니』",
 		"type" : "기타",
 		"effects" : ["조합아이템"],
@@ -2914,9 +2728,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["30%"]
 	},						
-	"II(69)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/EagjtxR.png' alt='II(69)' />",
-		"id" : "I08R",
+	"I08R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/EagjtxR.png' alt='I08R' />",
 		"name" : "『어둠의크리스탈』",
 		"type" : "기타",
 		"effects" : ["3차전직 재료아이템"],
@@ -2924,9 +2737,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["100%"]
 	},						
-	"II4(80)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/74OGQzI.png' alt='II4(80)' />",
-		"id" : "I08W",
+	"I08W" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/74OGQzI.png' alt='I08W' />",
 		"name" : "[치장]자쿰의 손",
 		"type" : "기타",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "자신 이동속도 +50"],
@@ -2934,9 +2746,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.2%"]
 	},						
-	"II4(2)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/IDCTXTd.png' alt='II4(2)' />",
-		"id" : "I08V",
+	"I08V" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/IDCTXTd.png' alt='I08V' />",
 		"name" : "[유니크]자쿰의투구",
 		"type" : "장비",
 		"effects" : ["60초마다.마법방어시전", "[설명]: 자쿰 원정대를 성공한 증표이다."],
@@ -2952,9 +2763,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["20%"]
 	},							
-	"II4(94)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/0QLrNnb.png' alt='II4(94)' />",
-		"id" : "I0B6",
+	"I0B6" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/0QLrNnb.png' alt='I0B6' />",
 		"name" : "『레전더리』자쿰의 망토",
 		"type" : "장비",
 		"effects" : ["설명:자쿰 원정대 성공 증표]"],
@@ -2971,27 +2781,24 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.5%"]
 	},							
-	"II9(7)_2" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/x56AaSc.png' alt='II9(7)_2' />",
-		"id" : "I0CB",
+	"I0CB" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/x56AaSc.png' alt='I0CB' />",
 		"name" : "『소울조각:자쿰』",
 		"type" : "기타",
 		"mob" : ["『RAID』자쿰"],
 		"karta" : "Victoria",
 		"chance" : ["20%"]
 	},							
-	"II4(92)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/iz3Xain.png' alt='II4(92)' />",
-		"id" : "I0AL",
+	"I0AL" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/iz3Xain.png' alt='I0AL' />",
 		"name" : "『자쿰의 돌 조각』",
 		"type" : "기타",
 		"mob" : ["『RAID』자쿰"],
 		"karta" : "Victoria",
 		"chance" : ["100%"]
 	},							
-	"II7(36)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/NI9C09g.png' alt='II7(36)' />",
-		"id" : "I0EJ",
+	"I0EJ" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/NI9C09g.png' alt='I0EJ' />",
 		"name" : "[치장]자쿰의나뭇가지",
 		"type" : "기타",
 		"effects" : ["[치장 인벤토리에 장착해주세요.]", "INT+1000", "MP리젠:25%", "[강화 불가 아이템]"],
@@ -3008,9 +2815,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["1.1%", "1.1%", "1.1%", "1.1%", "1.1%"]
 	},							
-	"IIE(20)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/yCPaZQO.png' alt='IIE(20)' />",
-		"id" : "I0MT",
+	"I0MT" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/yCPaZQO.png' alt='I0MT' />",
 		"name" : "[에픽]갈색삿갓",
 		"type" : "장비",
 		"effects" : ["특수능력:30%확률로 섀도우계열&나이트로드계열 타겟성 스킬에 DEX*40 추가데미지를 줍니다.", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3025,9 +2831,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},					
-	"IIE(27)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/mcMjnGF.png' alt='IIE(27)' />",
-		"id" : "I0MX",
+	"I0MX" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/mcMjnGF.png' alt='I0MX' />",
 		"name" : "[에픽]슈퍼겔만의 목걸이",
 		"type" : "장비",
 		"effects" : ["특수능력:피격시 10%확률로 파풀라투스 콩 소환 콩데미지 자신HP500% 데미지를 줍니다.", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3044,9 +2849,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},					
-	"IIE(26)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/gMw8TG9.png' alt='IIE(26)' />",
-		"id" : "I0MZ",
+	"I0MZ" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/gMw8TG9.png' alt='I0MZ' />",
 		"name" : "[에픽]백의 서",
 		"type" : "장비",
 		"effects" : ["특수능력:아크메이지&비숍이 마법사용시 10%확률로  자신위치 400XP범위 적에게 썬더스톰을 시전합니다.", "INT*75 데미지를 줍니다..", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3091,9 +2895,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},		
-	"IIE(31)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/8TUea7f.png' alt='IIE(31)' />",
-		"id" : "I0N2",
+	"I0N2" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/8TUea7f.png' alt='I0N2' />",
 		"name" : "[에픽]템페스트 벨트",
 		"type" : "장비",
 		"effects" : ["특수능력:아크메이지&비숍이 타겟 마법사용시 30%확률로 썬더볼트 시전 300XP 적에게 INT*80 데미지를 줍니다..", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3106,9 +2909,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},		
-	"IIE(32)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/RMoCrxF.png' alt='IIE(32)' />",
-		"id" : "I0N0",
+	"I0N0" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/RMoCrxF.png' alt='I0N0' />",
 		"name" : "[에픽]템페스트 팬던트",
 		"type" : "장비",
 		"effects" : [" 특수능력:팔라딘&다크나이트가 피격시 6%확률로 고정HP100만이 회복되고 파동시전 200XP범위 적에게 STR*55 데미지를 줍니다.", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3121,18 +2923,16 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},		
-	"II6(14)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/831R7cx.png' alt='II6(14)' />",
-		"id" : "I0B0",
+	"I0B0" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/831R7cx.png' alt='I0B0' />",
 		"name" : "[치장]냉동참치",
 		"type" : "치장",		
 		"mob" : ["『Boss』세르프"],
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},		
-	"meso8" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso8' />",
-		"id" : "I0EW",
+	"I0EW" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I0EW' />",
 		"name" : "메소 더미[8]",
 		"type" : "기타",
 		"effects" : "메소 + 75000",
@@ -3140,9 +2940,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3x 100%"]
 	},					
-	"maple8" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple8' />",
-		"id" : "I0CV",
+	"I0CV" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I0CV' />",
 		"name" : "메이플[8]",
 		"type" : "기타",
 		"effects" : "메이플 + 8",
@@ -3150,9 +2949,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3x 100%", "6x 100%"]
 	},			
-	"IIE(30)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CUdS3tq.png' alt='IIE(30)' />",
-		"id" : "I0N3",
+	"I0N3" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CUdS3tq.png' alt='I0N3' />",
 		"name" : "[에픽]천룡추",
 		"type" : "장비",
 		"effects" : ["특수능력:다크나이트&팔라딘이 공격시 거대도끼 휘두르기!!이펙 1%확률로 STR*70 데미지를 주며 HP150만씩 고정 회복합니다.", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3165,9 +2963,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},					
-	"IIE(24)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/tj05FCg.png' alt='IIE(24)' />",
-		"id" : "I0N4",
+	"I0N4" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/tj05FCg.png' alt='I0N4' />",
 		"name" : "[에픽]무한의 마법 화살",
 		"type" : "장비",
 		"effects" : ["특수능력:보우마스터가 공격시 3%확률로 DEX*89 데미지를 주고 하늘에서 화살이 떨어집니다.", "나이트로드인 경우 공격시 3%확률로 DEX*89 데미지를 주고 박쥐가 나옵니다.", "섀도우인 경우 공격시 3%확률로 DEX*89 데미지를주고 붉은손톱이 발동됩니다.", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3180,9 +2977,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},					
-	"IIE(25)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/0wIhsve.png' alt='IIE(25)' />",
-		"id" : "I0N5",
+	"I0N5" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/0wIhsve.png' alt='I0N5' />",
 		"name" : "[에픽]백금의 서",
 		"type" : "장비",
 		"effects" : ["특수능력:아크메이지가 마법 사용시 10%확률로 프로즌오브가 자동 소환됩니다..", "비숍인 경우 마법사용시 10%확률로 200XP범위 미니 제네시스가 발동됩니다.", "특수 보스몬스터에게 드랍되는 희귀성 아이템입니다."],
@@ -3195,9 +2991,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},							
-	"II3(23)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/oxGf2j5.png' alt='II3(23)' />",
-		"id" : "I07S",
+	"I07S" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/oxGf2j5.png' alt='I07S' />",
 		"name" : "레드 크리븐",
 		"type" : "무기",
 		"stats" : {
@@ -3211,9 +3006,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%"]
 	},							
-	"II8(6)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/gFQmqJP.png' alt='II8(6)' />",
-		"id" : "I0BU",
+	"I0BU" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/gFQmqJP.png' alt='I0BU' />",
 		"name" : "블러드 대거",
 		"type" : "무기",
 		"stats" : {
@@ -3227,9 +3021,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%"]
 	},	
-	"II6(25)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/vVoHL1c.png' alt='II6(25)' />",
-		"id" : "I07R",
+	"I07R" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/vVoHL1c.png' alt='I07R' />",
 		"name" : "피나카",
 		"type" : "무기",
 		"stats" : {
@@ -3243,9 +3036,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%"]
 	},	
-	"II10(16)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/VBcbvsy.png' alt='II10(16)' />",
-		"id" : "I0GF",
+	"I0GF" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/VBcbvsy.png' alt='I0GF' />",
 		"name" : "크로우 롱보우",
 		"type" : "무기",
 		"stats" : {
@@ -3259,9 +3051,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%"]
 	},	
-	"II2(26)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/YPRSe7s.png' alt='II2(26)' />",
-		"id" : "I07O",
+	"I07O" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/YPRSe7s.png' alt='I07O' />",
 		"name" : "드래곤 완드",
 		"type" : "무기",
 		"stats" : {
@@ -3275,9 +3066,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%"]
 	},	
-	"II2(25)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/1w80seU.png' alt='II2(25)' />",
-		"id" : "I07P",
+	"I07P" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/1w80seU.png' alt='I07P' />",
 		"name" : "드래곤 스태프",
 		"type" : "무기",
 		"stats" : {
@@ -3291,9 +3081,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%"]
 	},	
-	"II4(8)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/7ozujbV.png' alt='II4(8)' />",
-		"id" : "I0AT",
+	"I0AT" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/7ozujbV.png' alt='I0AT' />",
 		"name" : "[유니크]메이플 이어링",
 		"type" : "장신구",
 		"stats" : {
@@ -3309,9 +3098,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3%", "1.2%"]
 	},	
-	"II7(4)" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/ykLrKyi.png' alt='II7(4)' />",
-		"id" : "I04U",
+	"I04U" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/ykLrKyi.png' alt='I04U' />",
 		"name" : "[치장]화염의카타나",
 		"type" : "치장",
 		"effects" : "[치장 인벤토리에 장착해주세요.]",
@@ -3322,9 +3110,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["2%"]
 	},	
-	"meso8" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='meso8' />",
-		"id" : "I0FP",
+	"I0FP" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I0FP' />",
 		"name" : "메소 더미[9]",
 		"type" : "기타",
 		"effects" : "메소 + 90000",
@@ -3332,9 +3119,8 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3x 100%"]
 	},					
-	"maple9" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='maple9' />",
-		"id" : "I0CW",
+	"I0CW" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I0CW' />",
 		"name" : "메이플[9]",
 		"type" : "기타",
 		"effects" : "메이플 + 9",
@@ -4039,6 +3825,22 @@ var items = {
 	"I0BW" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/TICQPEH.png' alt='I0BW' />",
 		"name" : "[유니크]베인 단검",
+		"type" : "장비",
+		"effects" : ["아이템 사용시 발록 메테오시전 DEX*30", "[설명:마왕발록 원정대 성공 증표]"],
+		"stats" : {
+			"reqlvl" : "500",
+			"atk" : "4000",
+			"hp" : "50000",
+			"dex" : "200",
+			"atkspd" : "10"
+		},			
+		"mob" : ["『RAID』마왕 발록"],
+		"karta" : "Victoria",
+		"chance" : ["3% (1 항목 만)"]
+	},
+	"I049" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/TICQPEH.png' alt='I049' />",
+		"name" : "[유니크]베인 바이터",
 		"type" : "장비",
 		"effects" : ["아이템 사용시 발록 메테오시전 DEX*30", "[설명:마왕발록 원정대 성공 증표]"],
 		"stats" : {
