@@ -1,0 +1,16 @@
+.tooltip-inner {
+    max-width: 450px; 
+} 
+
+.tooltip {
+  min-width: 150px;
+}
+
+.item-tooltip {
+    white-space: nowrap;
+}
+
+img.icon { 
+	max-height: 52px;
+	max-width: 52px;
+}
