@@ -790,9 +790,9 @@ var items = {
 		"name" : "파워엘릭서",
 		"type" : "소모품",
 		"effects" : ["HP/MP를 10000만큼 회복시켜줍니다.", "[창고로 사용가능]"],
-		"mob" : ["『RAID』킹슬라임", "『Boss』좀비머쉬맘", "[정예]드레이크", "『Boss』얼음마녀", "[정예]예티와페페", "『Boss』스노우맨", "[정예]타우로마시스", "『Boss』주니어 발록", "[정예]웨어울프", "『Boss』라이칸스로프", "『Boss』크림슨 발록", "[정예]바이킹"],
+		"mob" : ["『RAID』킹슬라임", "『Boss』좀비머쉬맘", "[정예]드레이크", "『Boss』얼음마녀", "[정예]예티와페페", "『Boss』스노우맨", "[정예]타우로마시스", "『Boss』주니어 발록", "[정예]웨어울프", "『Boss』라이칸스로프", "『Boss』크림슨 발록", "[정예]바이킹", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["100%", "50%", "30%", "2x 100%", "100%", "3x 100%", "100%", "5x 100%", "100%", "3x 100%", "5x 100%", "100% & 50%"]
+		"chance" : ["100%", "50%", "30%", "2x 100%", "100%", "3x 100%", "100%", "5x 100%", "100%", "3x 100%", "5x 100%", "100% & 50%", "5x 100%"]
 	},				
 	"I010" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='I010' />",
@@ -1269,9 +1269,9 @@ var items = {
 			"int" : "400",
 			"hp" : "30000"
 		},
-		"mob" : ["『Boss』얼음마녀", "[엘리트]모카딘", "[엘리트]싸움꾼 플레트"],
+		"mob" : ["『Boss』얼음마녀", "[엘리트]모카딘", "[엘리트]싸움꾼 플레트", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["1.3%", "2%", "1.5%"]
+		"chance" : ["1.3%", "2%", "1.5%", "3%"]
 	},				
 	"I02Q" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/puDjoAB.png' alt='I02Q' />",
@@ -1367,9 +1367,9 @@ var items = {
 		"name" : "메이플[2]",
 		"type" : "기타",
 		"effects" : "메이플 + 2",
-		"mob" : ["[정예]예티와페페", "『Boss』스노우맨", "[정예]웨어울프", "[파퀘]렛츠", ""],
+		"mob" : ["[정예]예티와페페", "『Boss』스노우맨", "[정예]웨어울프", "[파퀘]렛츠", "[파퀘]블록골렘"],
 		"karta" : "Victoria",
-		"chance" : ["15%", "x3 100%", "15%", "15%"]
+		"chance" : ["15%", "x3 100%", "15%", "15%", "5x 100%"]
 	},									
 	"I02X" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I02X' />",
@@ -1625,18 +1625,18 @@ var items = {
 		"name" : "메소 더미[3]",
 		"type" : "기타",
 		"effects" : "메소 + 15000",
-		"mob" : ["[정예]타우로마시스", "『Boss』주니어 발록", "[정예]웨어울프", "『Boss』라이칸스로프", "『Boss』크림슨 발록"],
+		"mob" : ["[정예]타우로마시스", "『Boss』주니어 발록", "[정예]웨어울프", "『Boss』라이칸스로프", "『Boss』크림슨 발록", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["30%", "5x 100%", "30%", "4x 100%", "5x 100%"]
+		"chance" : ["30%", "5x 100%", "30%", "4x 100%", "5x 100%", "5x 100%"]
 	},								
 	"I03N" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/wt0o8KS.png' alt='I03N' />",
 		"name" : "메이플[3]",
 		"type" : "기타",
 		"effects" : "메이플 + 3",
-		"mob" : ["[정예]타우로마시스", "『Boss』주니어 발록", "『Boss』라이칸스로프", "『Boss』크림슨 발록", "[엘리트]줄라이"],
+		"mob" : ["[정예]타우로마시스", "『Boss』주니어 발록", "『Boss』라이칸스로프", "『Boss』크림슨 발록", "[엘리트]줄라이", "『RAID』마왕 발록", "[파퀘]롬바드"],
 		"karta" : "Victoria",
-		"chance" : ["15%", "3x 100%", "4x 100%", "5x 100%", "6x 100%"]
+		"chance" : ["15%", "3x 100%", "4x 100%", "5x 100%", "6x 100%", "5x 100%", "3x 100%"]
 	},											
 	"I03D" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/S49iT3g.png' alt='I03D' />",
@@ -1657,9 +1657,9 @@ var items = {
 			"hp" : "15000",
 			"mdef" : "28%"
 		},
-		"mob" : ["[정예]타우로마시스"],
+		"mob" : ["[정예]타우로마시스", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["1.5%"]
+		"chance" : ["1.5%", "10%"]
 	},
 	"I03C" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/Tx7SAmm.png' alt='I03C' />",
@@ -1673,9 +1673,9 @@ var items = {
 			"hp" : "7000",
 			"mp" : "4000"
 		},
-		"mob" : ["[정예]타우로마시스", "『Boss』주니어 발록"],
+		"mob" : ["[정예]타우로마시스", "『Boss』주니어 발록", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["1.5%", "5%"]
+		"chance" : ["1.5%", "5%", "20%"]
 	},
 	"I03G" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/V5PbCux.png' alt='I03G' />",
@@ -1688,9 +1688,9 @@ var items = {
 			"str" : "350",
 			"hpreg" : "120"
 		},
-		"mob" : ["『Boss』주니어 발록"],
+		"mob" : ["『Boss』주니어 발록", "『RAID』마왕 발록", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["10%"]
+		"chance" : ["10%", "20%", "10%"]
 	},
 	"I03K" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/jqxufkX.png' alt='I03K' />",
@@ -1703,9 +1703,9 @@ var items = {
 			"hp" : "5000",
 			"int" : "350"
 		},
-		"mob" : ["『Boss』주니어 발록"],
+		"mob" : ["『Boss』주니어 발록", "『RAID』마왕 발록", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["10%"]
+		"chance" : ["10%", "20%", "10%"]
 	},
 	"I03J" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/2e6YT7g.png' alt='I03J' />",
@@ -1718,9 +1718,9 @@ var items = {
 			"int" : "150",
 			"mpreg" : "35%"
 		},
-		"mob" : ["『Boss』주니어 발록"],
+		"mob" : ["『Boss』주니어 발록", "『RAID』마왕 발록", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["10%"]
+		"chance" : ["10%", "20%", "[파퀘]알리샤르"]
 	},
 	"I03I" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/MBcbyZu.png' alt='I03I' />",
@@ -1733,9 +1733,9 @@ var items = {
 			"str" : "150",
 			"crit" : "20%확률로 5배+추뎀5000"
 		},
-		"mob" : ["『Boss』주니어 발록"],
+		"mob" : ["『Boss』주니어 발록", "『RAID』마왕 발록", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["10%"]
+		"chance" : ["10%", "20%", "10%"]
 	},
 	"I03H" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/clSl3iR.png' alt='I03H' />",
@@ -1748,9 +1748,9 @@ var items = {
 			"hp" : "7000",
 			"dex" : "350"
 		},
-		"mob" : ["『Boss』주니어 발록"],
+		"mob" : ["『Boss』주니어 발록", "『RAID』마왕 발록", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["10%"]
+		"chance" : ["10%", "20%", "10%"]
 	},
 	"I0GC" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/CAzKZCa.png' alt='I0GC' />",
@@ -1778,9 +1778,9 @@ var items = {
 			"dex" : "120",
 			"atkspd" : "8"
 		},
-		"mob" : ["『Boss』주니어 발록"],
+		"mob" : ["『Boss』주니어 발록", "『RAID』마왕 발록", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["10%"]
+		"chance" : ["10%", "20%", "10%"]
 	},
 	"I03Q" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/2RH4AQb.png' alt='I03Q' />",
@@ -1867,9 +1867,9 @@ var items = {
 		"name" : "『석양의 발록주문서』",
 		"type" : "기타",
 		"effects" : "대장장이에게 강화시도!(세이브)불가 아이템",
-		"mob" : ["『Boss』주니어 발록", "『Boss』크림슨 발록"],
+		"mob" : ["『Boss』주니어 발록", "『Boss』크림슨 발록", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["10%", "30%"]
+		"chance" : ["10%", "30%", "100%"]
 	},
 	"I04V" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/q091piy.png' alt='I04V' />",
@@ -2075,9 +2075,9 @@ var items = {
 			"hp" : "25000",
 			"mp" : "30000"
 		},
-		"mob" : ["『Boss』라이칸스로프"],
+		"mob" : ["『Boss』라이칸스로프", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["1.5%"]
+		"chance" : ["1.5%", "2%"]
 	},
 	"I0EM" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/0Mlxjjp.png' alt='I0EM' />",
@@ -2139,9 +2139,9 @@ var items = {
 			"int" : "200",
 			"misc" : "+증가"
 		},
-		"mob" : ["『Boss』크림슨 발록", "『RAID』파풀라투스2", "『RAID』자쿰", "『Boss』그리프", "『Boss』마뇽", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘"],
+		"mob" : ["『Boss』크림슨 발록", "『RAID』파풀라투스2", "『RAID』자쿰", "『Boss』그리프", "『Boss』마뇽", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%"]
+		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%", "10% (1 항목 만)"]
 	},
 	"I05K" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/p7UV70x.png' alt='I05K' />",
@@ -2154,9 +2154,9 @@ var items = {
 			"int" : "200",
 			"misc" : "+증가"
 		},
-		"mob" : ["『Boss』크림슨 발록", "『RAID』파풀라투스2", "『RAID』자쿰", "『Boss』그리프", "『Boss』마뇽", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘"],
+		"mob" : ["『Boss』크림슨 발록", "『RAID』파풀라투스2", "『RAID』자쿰", "『Boss』그리프", "『Boss』마뇽", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%"]
+		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%", "10% (1 항목 만)"]
 	},
 	"I05M" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/RMzvDhy.png' alt='I05M' />",
@@ -2329,9 +2329,9 @@ var items = {
 		"name" : "메이플[4]",
 		"type" : "기타",
 		"effects" : "메이플 + 4",
-		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스", "[정예]바이킹", "『RAID』파풀라투스2", "[파퀘]스타픽시"],
+		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스", "[정예]바이킹", "『RAID』파풀라투스2", "[파퀘]스타픽시", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["50%", "50%", "15%", "5x 100%", "15%"]
+		"chance" : ["50%", "50%", "15%", "5x 100%", "15%", "5x 100%"]
 	},	
 	"I0B9" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/xSLs1tm.png' alt='I0B9' />",
@@ -2543,9 +2543,9 @@ var items = {
 			"mp" : "50000",
 			"misc" : "+증가"
 		},
-		"mob" : ["『RAID』파풀라투스2", "『RAID』자쿰", "『파퀘』파라오", "『Boss』그리프", "『Boss』마뇽", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘"],
+		"mob" : ["『RAID』파풀라투스2", "『RAID』자쿰", "『파퀘』파라오", "『Boss』그리프", "『Boss』마뇽", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%"]
+		"chance" : ["30%", "30%", "30%", "30%", "30%", "10%", "15%", "17%", "20%", "10% (1 항목 만)"]
 	},		
 	"I08S" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/6iajumQ.png' alt='I08S' />",
@@ -2557,7 +2557,7 @@ var items = {
 		"chance" : ["100%"]
 	},	
 	"I06I" : {
-		"icon" : "<img class='icon' src='https://i.imgur.com/6iajumQ.png' alt='I06I' />",
+		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='I06I' />",
 		"name" : "『루디통행증』",
 		"type" : "기타",
 		"effects" : ["다음지역으로 이동하세요.[한분만 있으시면 됩니다.]"],
@@ -3106,9 +3106,9 @@ var items = {
 		"stats" : {
 			"atkspd" : "35"
 		},			
-		"mob" : ["『Boss』포장마차"],
+		"mob" : ["『Boss』포장마차", "『RAID』마왕 발록"],
 		"karta" : "Victoria",
-		"chance" : ["2%"]
+		"chance" : ["2%", "1%"]
 	},	
 	"I0FP" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/CylQyNi.png' alt='I0FP' />",
@@ -3245,9 +3245,9 @@ var items = {
 		"icon" : "<img class='icon' src='https://i.imgur.com/unl2NgK.png' alt='I0CJ' />",
 		"name" : "『소울인첸터』",
 		"type" : "기타",		
-		"mob" : ["『파퀘』파라오", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘"],
+		"mob" : ["『파퀘』파라오", "[엘리트]줄라이", "[엘리트]카리아인", "[엘리트]싸움꾼 플레트", "[엘리트]모카딘", "[파퀘]알리샤르"],
 		"karta" : "Victoria",
-		"chance" : ["15%", "5%", "10%", "12%", "15%"]
+		"chance" : ["15%", "5%", "10%", "12%", "15%", "5%"]
 	},						
 	"I0AA" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/NOIVAy0.png' alt='I0AA' />",
@@ -3854,16 +3854,114 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["3% (1 항목 만)"]
 	},
+	"I04C" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/pra3ub4.png' alt='I04C' />",
+		"name" : "[유니크]베인 스워드",
+		"type" : "장비",
+		"effects" : ["아이템 사용시 발록 메테오시전 STR*30", "[설명:마왕발록 원정대 성공 증표]"],
+		"stats" : {
+			"reqlvl" : "500",
+			"atk" : "1300",
+			"hp" : "25000",
+			"str" : "500",
+			"hpreg" : "150"
+		},			
+		"mob" : ["『RAID』마왕 발록"],
+		"karta" : "Victoria",
+		"chance" : ["3% (1 항목 만)"]
+	},
+	"I04A" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/C1V7WT9.png' alt='I04A' />",
+		"name" : "[유니크]베인 폴암",
+		"type" : "장비",
+		"effects" : ["아이템 사용시 발록 메테오시전 STR*30", "[설명:마왕발록 원정대 성공 증표]"],
+		"stats" : {
+			"reqlvl" : "500",
+			"atk" : "4000",
+			"hp" : "50000",
+			"str" : "200",
+			"crit" : "25% 확률로 7배+추뎀 15000"
+		},			
+		"mob" : ["『RAID』마왕 발록"],
+		"karta" : "Victoria",
+		"chance" : ["3% (1 항목 만)"]
+	},
+	"I04B" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/FDU6HQe.png' alt='I04B' />",
+		"name" : "[유니크]베인 윙즈",
+		"type" : "장비",
+		"effects" : ["아이템 사용시 발록 메테오시전 INT*30", "[설명:마왕발록 원정대 성공 증표]"],
+		"stats" : {
+			"reqlvl" : "500",
+			"atk" : "1500",
+			"mp" : "50000",
+			"int" : "400",
+			"mpreg" : "40%"
+		},			
+		"mob" : ["『RAID』마왕 발록"],
+		"karta" : "Victoria",
+		"chance" : ["3% (1 항목 만)"]
+	},
+	"I03E" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/FSNqxaM.png' alt='I03E' />",
+		"name" : "[치장]마왕발록 날개",
+		"type" : "치장",
+		"effects" : ["[치장 인벤토리에 장착해주세요.]", "자신 이동속도 +50"],
+		"mob" : ["『RAID』마왕 발록"],
+		"karta" : "Victoria",
+		"chance" : ["1%"]
+	},	
+	"I047" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/A1M5rfH.png' alt='I047' />",
+		"name" : "『마왕 발록의털』",
+		"type" : "기타",
+		"mob" : "『RAID』마왕 발록",
+		"karta" : "Victoria",
+		"chance" : "3x 100%"
+	},	
+	"I0C8" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/XdaYDAx.png' alt='I0C8' />",
+		"name" : "『소울조각:마왕발록』",
+		"type" : "기타",
+		"mob" : "『RAID』마왕 발록",
+		"karta" : "Victoria",
+		"chance" : "10%"
+	},	
+	"I06J" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/pqxcxwk.png' alt='I06J' />",
+		"name" : "『루디통행증』2",
+		"type" : "기타",
+		"mob" : "[파퀘]블록골렘",
+		"karta" : "Victoria",
+		"chance" : "3x 100%"
+	},
+	"I077" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/YUK3bvc.png' alt='I077' />",
+		"name" : "『알리샤르의 열쇠』",
+		"type" : "기타",
+		"mob" : "[파퀘]알리샤르",
+		"karta" : "Victoria",
+		"chance" : "10x 100%"
+	},
+	"I0FI" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/haz40wT.png' alt='I0FI' />",
+		"name" : "[유니크]금이 간 안경",
+		"type" : "장비",
+		"effects" : ["60초마다.마법방어시전", "[설명]: 찬란하도다.."],
+		"stats" : {
+			"reqlvl" : "1000",
+			"str" : "220",
+			"dex" : "220",
+			"int" : "220",
+			"hp" : "40000",
+			"mp" : "40000"
+		},			
+		"mob" : ["[파퀘]알리샤르"],
+		"karta" : "Victoria",
+		"chance" : ["10%"]
+	},
 
 
 
-
-
-
-
-
-
-	
-		
 	
 }
