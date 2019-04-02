@@ -2329,9 +2329,9 @@ var items = {
 		"name" : "메이플[4]",
 		"type" : "기타",
 		"effects" : "메이플 + 4",
-		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스", "[정예]바이킹", "『RAID』파풀라투스2", "[파퀘]스타픽시", "[파퀘]알리샤르"],
+		"mob" : ["『정예』게이트 키퍼", "『정예』타나토스", "[정예]바이킹", "『RAID』파풀라투스2", "[파퀘]스타픽시", "[파퀘]알리샤르", "[파퀘]네펜더스"],
 		"karta" : "Victoria",
-		"chance" : ["50%", "50%", "15%", "5x 100%", "15%", "5x 100%"]
+		"chance" : ["50%", "50%", "15%", "5x 100%", "15%", "5x 100%", "5X 100%"]
 	},	
 	"I0B9" : {
 		"icon" : "<img class='icon' src='https://i.imgur.com/xSLs1tm.png' alt='I0B9' />",
@@ -3960,7 +3960,14 @@ var items = {
 		"karta" : "Victoria",
 		"chance" : ["10%"]
 	},
-
+	"I06P" : {
+		"icon" : "<img class='icon' src='https://i.imgur.com/Zm0yqES.png' alt='I06P' />",
+		"name" : "『마법의씨앗』",
+		"type" : "기타",
+		"mob" : "[파퀘]네펜더스",
+		"karta" : "Victoria",
+		"chance" : "3x 100%"
+	},
 
 
 	

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CyberRPG Drop Table">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="author" content="Arakunido & juvian">
+    <title>CyberRPG - 드랍목록</title>
+	
+    <!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+	
+	<style>
+      html {
+        padding: 100px;
+      }
+	</style>
+  
+	<script>
+		config = {
+			lang: new URLSearchParams(window.location.search).get("lang") || "kor"
+		}
+		serverRender = false
+	</script>
+	
+	<script src="common.js"></script>
+	<script src= "translations.js"></script>
+	<link rel="stylesheet" href="common.css"></link>
+	
+	<!-- jQuery, Tether, Bootstrap JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-confirmation/1.0.7/bootstrap-confirmation.min.js"></script>
+	
+	<!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Arakunido's Hideout</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/list">RPGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/credits">Credits</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</head>
+	
+	<link rel="stylesheet" href="bootstrap-table.css">
+	<link rel="stylesheet" href="style.css">
+	
+	<body>
+	<div class="alert alert-info" role="alert">
+	<center>
+	누락된것 있으면 댓글로 남겨주세요 - [PLACEHOLDER]<br>드롭률은 <b>추정한</b> 확률으로서 <b>약간에</b> 오차가 있을수 있으니 주위하시길 바랍니다.<br>CHANGELOG - https://github.com/Arakunido/arakunido.github.io
+	</center>
+	</div>
+	<div class="alert alert-warning" role="alert">
+	<center>
+	3.192ZN 버전부터 모든 드롭확률이 감소됩니다. 따라서 새로운 값으로 업데이트하는데 긴시간이 걸릴 것입니다.
+	</center>
+	</div>
+	
+	<h1 class = "text-center title">CyberRPG - <span class="badge badge-pill badge-info">v3.192W</span></h1>
+	<!-- LANGUAGE PLACEHOLDER -->
+	
+    <table id="table"></table>
+   
+	</body>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/bootstrap-table.min.js" integrity="sha256-SEIAoqCRt4WrGYMzCCPOXZEFxkB5e1dcmhDz1tjwzjw=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.5/locale/bootstrap-table-ko-KR.js" integrity="sha256-c8Qotpa0HqfMBPkJTfjg2cocc8r/H8+rEqz6bWxKaPI=" crossorigin="anonymous"></script>
+	
+	<script src="client.js"></script>
+	<script src="cyberrpgitems.js"></script>
+	<script>checkLanguage(items, config.lang);</script>
+	<script src="Utils.js"></script>
+	<link href="items.css" rel ="stylesheet"></link>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.css"></link>
+	<div class="modal fade" id="item-tree-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title text-center col-12"></h5>
+		</div>
+		<div class="modal-body">
+        <div id="item-tree" style="width:100%;height:500px"></div>    
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .node { 
+    padding: 0 2px;
+    min-width: 60px;
+    text-align: center;
+    height: 30px;
+    background: #fff; 
+  }
+
+  .node.node-name {
+    line-height: 30px;
+    color: #9B9B9B;
+  }
+</style>
+
+<script>
+  var simple_chart_config = {
+        chart: {
+            container: "#item-tree",
+            rootOrientation: "EAST",
+            nodeAlign: "BOTTOM",
+            connectors: {
+              type: "step",
+              style: {
+                "stroke-width": 2
+              }
+            },
+            levelSeparation:    45,
+        },
+        nodeStructure: null
+    };
+
+    $('#item-tree-modal').on('shown.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var item = button.data('item') // Extract info from data-* attributes
+      simple_chart_config.nodeStructure = getItemTree(item);
+      item = items[item];
+      var modal = $(this);
+      modal.find(".modal-title").html(`${translate("조합 트리 -")} <span class = '${item.color}'>${item.name}</span>`)
+      new Treant(simple_chart_config);
+      $('#item-tree-modal').find(".item-tooltip").tooltip({container: $('#item-tree-modal'), placement: "bottom"});
+    })
+
+    $(".item-tooltip").tooltip({placement: "bottom"});
+</script>
+</html>
