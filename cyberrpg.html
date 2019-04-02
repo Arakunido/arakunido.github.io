@@ -99,7 +99,7 @@
 			<h5 class="modal-title text-center col-12"></h5>
 		</div>
 		<div class="modal-body">
-        <div id="item-tree" style="width:100%;height:500px"></div>    
+        <div id="item-tree" style="width:100%;height:550px"></div>    
       </div>
     </div>
   </div>
@@ -129,10 +129,10 @@
             connectors: {
               type: "step",
               style: {
-                "stroke-width": 2
+                "stroke-width": 3
               }
             },
-            levelSeparation:    45,
+            levelSeparation:    62,
         },
         nodeStructure: null
     };
@@ -143,7 +143,7 @@
       simple_chart_config.nodeStructure = getItemTree(item);
       item = items[item];
       var modal = $(this);
-      modal.find(".modal-title").html(`${translate("조합 트리 -")} <span class = '${item.color}'>${item.name}</span>`)
+      modal.find(".modal-title").html(`${translate("조합 트리 -")} ${item.name}`)
       new Treant(simple_chart_config);
       $('#item-tree-modal').find(".item-tooltip").tooltip({container: $('#item-tree-modal'), placement: "bottom"});
     })
