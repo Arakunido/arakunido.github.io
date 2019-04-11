@@ -63,7 +63,7 @@ function formatStat (stat, val, lang) {
       else if (stat == "maxhp") return translate("최대 체력", lang) + ": +"+val;
       else if (stat == "maxmp") return translate("최대 마력", lang) + ": +"+val;
       else if (stat == "mp") return translate("MP", lang) + ": +"+val;
-      else if (stat == "movement_speed") return translate("Movement Speed", lang) + ": +"+val+ "%";
+      else if (stat == "movement_speed") return translate("이동속도", lang) + ": +"+val+ "%";
       else if (stat == "armor") return translate("방어력", lang) +": +" +val;
 	  else if (stat == "misc") return "" +val;
 	  else if (stat == "misc2") return "" +val;

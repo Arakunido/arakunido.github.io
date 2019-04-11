@@ -26,6 +26,7 @@ var translations = {
   '촉매제': 'Catalyst',
   '기타': 'Misc',
   '마법 면역력': 'Magic Resistance',
+  '이동속도': 'Movement Speed',
   '공격속도': 'Attack Speed',
   '모든 능력치': 'All Stats',
   '방어력': 'Defense',
