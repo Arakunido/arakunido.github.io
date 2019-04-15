@@ -46,7 +46,7 @@ var items = {
 		"type" : "빈카드",
 		"effects" : ["빈카드를 사용하여 몬스터를 봉인할수있습니다.", "도치를 봉인합니다."],
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "1%"
+		"chance" : "0.99%"
 	},	
 	"I091" : {
 		"name" : "생명의 검[유니크]",
@@ -57,14 +57,14 @@ var items = {
 			"str" : "240"
 		},
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I09I" : {
 		"name" : "도치의 뇌와 척수",
 		"type" : "재료",
 		"effects" : ["도치의 뇌와 척수를 뽑아온 아이템", "조합에 사용됨"],
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I093" : {
 		"name" : "생명의 투구[유니크]",
@@ -77,7 +77,7 @@ var items = {
 			"armor" : "15"
 		},
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I092" : {
 		"name" : "생명의 갑옷[유니크]",
@@ -87,7 +87,7 @@ var items = {
 			"armor" : "50"
 		},
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I094" : {
 		"name" : "도치의 꽃[유니크]",
@@ -97,7 +97,7 @@ var items = {
 			"allstats" : "60"
 		},
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I095" : {
 		"name" : "생명의 지팡이[유니크]",
@@ -108,7 +108,7 @@ var items = {
 			"int" : "250"
 		},
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I096" : {
 		"name" : "생명의 도치발[유니크]",
@@ -120,7 +120,7 @@ var items = {
 			"attack_speed" : "20"
 		},
 		"mob" : "생명의 숲 지킴이 도치",
-		"chance" : "20%"
+		"chance" : "14.29%"
 	},
 	"I08T" : {
 		"name" : "나비요정[빈카드]",
@@ -2524,7 +2524,7 @@ var items = {
 			"agi" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LO" : {
 		"name" : "민첩성의 목걸이[세트]",
@@ -2534,7 +2534,7 @@ var items = {
 			"agi" : "200"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LQ" : {
 		"name" : "민첩성의 투구[세트]",
@@ -2545,7 +2545,7 @@ var items = {
 			"agi" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LN" : {
 		"name" : "민첩한 갑옷[세트]",
@@ -2556,7 +2556,7 @@ var items = {
 			"agi" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LL" : {
 		"name" : "지능의 로브[세트]",
@@ -2567,7 +2567,7 @@ var items = {
 			"int" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LK" : {
 		"name" : "지능의 목걸이[세트]",
@@ -2577,7 +2577,7 @@ var items = {
 			"int" : "200"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LJ" : {
 		"name" : "지능의 뿔피리[세트]",
@@ -2588,7 +2588,7 @@ var items = {
 			"int" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LM" : {
 		"name" : "지능의 투구[세트]",
@@ -2599,7 +2599,7 @@ var items = {
 			"int" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I00G" : {
 		"name" : "힘의 갑옷[세트]",
@@ -2610,7 +2610,7 @@ var items = {
 			"str" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LI" : {
 		"name" : "힘의 검[세트]",
@@ -2621,7 +2621,7 @@ var items = {
 			"str" : "100"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LG" : {
 		"name" : "힘의 반지[세트]",
@@ -2631,7 +2631,7 @@ var items = {
 			"str" : "200"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LH" : {
 		"name" : "힘의 투구[세트]",
@@ -2641,7 +2641,7 @@ var items = {
 			"str" : "200"
 		},
 		"mob" : "Lv. 2-40",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LV" : {
 		"name" : "레튜의 단검[세트]",
@@ -2652,7 +2652,7 @@ var items = {
 			"agi" : "1000"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LY" : {
 		"name" : "민첩의 부츠[세트]",
@@ -2662,7 +2662,7 @@ var items = {
 			"agi" : "2000"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LX" : {
 		"name" : "재빠른 탈[세트]",
@@ -2673,7 +2673,7 @@ var items = {
 			"agi" : "400"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LW" : {
 		"name" : "숲지기 갑옷[세트]",
@@ -2684,7 +2684,7 @@ var items = {
 			"agi" : "400"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M0" : {
 		"name" : "해골 갑옷[세트]",
@@ -2695,7 +2695,7 @@ var items = {
 			"int" : "400"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M2" : {
 		"name" : "루나의 반지[세트]",
@@ -2705,7 +2705,7 @@ var items = {
 			"int" : "2000"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LZ" : {
 		"name" : "해골 지팡이[세트]",
@@ -2716,7 +2716,7 @@ var items = {
 			"int" : "1000"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M1" : {
 		"name" : "해골 모자[세트]",
@@ -2727,7 +2727,7 @@ var items = {
 			"int" : "400"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LS" : {
 		"name" : "검은 갑옷[세트]",
@@ -2738,7 +2738,7 @@ var items = {
 			"str" : "400"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LR" : {
 		"name" : "암흑의 검[세트]",
@@ -2749,7 +2749,7 @@ var items = {
 			"str" : "1000"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LT" : {
 		"name" : "아르크의 팔찌[세트]",
@@ -2759,7 +2759,7 @@ var items = {
 			"str" : "2000"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0LU" : {
 		"name" : "아르크의 가면[세트]",
@@ -2770,7 +2770,7 @@ var items = {
 			"str" : "400"
 		},
 		"mob" : "Lv. 20-55",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M4" : {
 		"name" : "골렘 갑옷[세트]",
@@ -2781,7 +2781,7 @@ var items = {
 			"str" : "1000"
 		},
 		"mob" : ["Lv. 45-62", "고대의 골렘"],
-		"chance" : ["0.009%", "0.327%"]
+		"chance" : ["0.01%", "0.327%"]
 	},
 	"I0M6" : {
 		"name" : "베르크의 심장[세트]",
@@ -2791,7 +2791,7 @@ var items = {
 			"str" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M3" : {
 		"name" : "베르세르크의 검[세트]",
@@ -2802,7 +2802,7 @@ var items = {
 			"str" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M5" : {
 		"name" : "베르크의 투구[세트]",
@@ -2813,7 +2813,7 @@ var items = {
 			"str" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M8" : {
 		"name" : "메탄의 단검[세트]",
@@ -2824,7 +2824,7 @@ var items = {
 			"agi" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MA" : {
 		"name" : "날쌘 인장[세트]",
@@ -2834,7 +2834,7 @@ var items = {
 			"agi" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MB" : {
 		"name" : "메르크의 머리[세트]",
@@ -2845,7 +2845,7 @@ var items = {
 			"agi" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0ME" : {
 		"name" : "미노의 갑옷[세트]",
@@ -2856,7 +2856,7 @@ var items = {
 			"agi" : "1000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M7" : {
 		"name" : "아이스 지팡이[세트]",
@@ -2867,7 +2867,7 @@ var items = {
 			"int" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0M9" : {
 		"name" : "마법사의 심장[세트]",
@@ -2877,7 +2877,7 @@ var items = {
 			"int" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MD" : {
 		"name" : "마녀의 로브[세트]",
@@ -2888,7 +2888,7 @@ var items = {
 			"int" : "1000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MC" : {
 		"name" : "마력의 가면[세트]",
@@ -2899,7 +2899,7 @@ var items = {
 			"int" : "2000"
 		},
 		"mob" : "Lv. 45-62",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MG" : {
 		"name" : "그론의 갑옷[세트]",
@@ -2910,7 +2910,7 @@ var items = {
 			"str" : "2000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MF" : {
 		"name" : "반 자르크의 검[세트]",
@@ -2921,7 +2921,7 @@ var items = {
 			"str" : "3000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MI" : {
 		"name" : "매직 키 체인[세트]",
@@ -2931,7 +2931,7 @@ var items = {
 			"str" : "4000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MH" : {
 		"name" : "데스 레번의 투구[세트]",
@@ -2942,7 +2942,7 @@ var items = {
 			"str" : "3000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MK" : {
 		"name" : "메탈 스피어[세트]",
@@ -2953,7 +2953,7 @@ var items = {
 			"agi" : "3000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MN" : {
 		"name" : "데몬 갑옷[세트]",
@@ -2964,7 +2964,7 @@ var items = {
 			"agi" : "2000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MQ" : {
 		"name" : "달의 열쇠[세트]",
@@ -2974,7 +2974,7 @@ var items = {
 			"agi" : "4000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0ML" : {
 		"name" : "둠의 투구[세트]",
@@ -2985,7 +2985,7 @@ var items = {
 			"agi" : "3000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MJ" : {
 		"name" : "피닉스의 지팡이[세트]",
@@ -2996,7 +2996,7 @@ var items = {
 			"int" : "3000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MP" : {
 		"name" : "달의 돌[세트]",
@@ -3006,7 +3006,7 @@ var items = {
 			"int" : "4000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MO" : {
 		"name" : "마법의 갑옷[세트]",
@@ -3017,7 +3017,7 @@ var items = {
 			"int" : "2000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0MM" : {
 		"name" : "드래곤 헤드[세트]",
@@ -3028,7 +3028,7 @@ var items = {
 			"int" : "3000"
 		},
 		"mob" : "Lv. 54-95",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I04J" : {
 		"name" : "메이븐 갑옷[세트]",
@@ -3039,7 +3039,7 @@ var items = {
 			"agi" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I040" : {
 		"name" : "도기칼[세트]",
@@ -3050,7 +3050,7 @@ var items = {
 			"agi" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I059" : {
 		"name" : "매직 가드[세트]",
@@ -3060,7 +3060,7 @@ var items = {
 			"str" : "6000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I057" : {
 		"name" : "고블린 모자[세트]",
@@ -3071,7 +3071,7 @@ var items = {
 			"agi" : "4000"
 		},
 		"mob" : ["Lv. 90-180", "고블린"],
-		"chance" : ["0.009%", "0.48%"]
+		"chance" : ["0.01%", "0.48%"]
 	},
 	"I03W" : {
 		"name" : "매직 핸드[세트]",
@@ -3082,7 +3082,7 @@ var items = {
 			"int" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I041" : {
 		"name" : "무라딘 갑옷[세트]",
@@ -3093,7 +3093,7 @@ var items = {
 			"str" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I058" : {
 		"name" : "포이즌 오브[세트]",
@@ -3103,7 +3103,7 @@ var items = {
 			"agi" : "6000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I04I" : {
 		"name" : "네루비안 투구[세트]",
@@ -3114,7 +3114,7 @@ var items = {
 			"str" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I03X" : {
 		"name" : "파워 핸드[세트]",
@@ -3125,7 +3125,7 @@ var items = {
 			"str" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I05A" : {
 		"name" : "매직 뷰[세트]",
@@ -3135,7 +3135,7 @@ var items = {
 			"int" : "6000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I055" : {
 		"name" : "메이든 갑옷[세트]",
@@ -3146,7 +3146,7 @@ var items = {
 			"int" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I056" : {
 		"name" : "드레이니의 투구[세트]",
@@ -3157,7 +3157,7 @@ var items = {
 			"int" : "4000"
 		},
 		"mob" : "Lv. 90-180",
-		"chance" : "0.009%"
+		"chance" : "0.01%"
 	},
 	"I0Q7" : {
 		"name" : "지배자의 갑옷[유물]",
@@ -6976,35 +6976,35 @@ var items = {
 		"type" : "재료",
 		"effects" : ["어둠에 파묻힌 보석, 어디서 이런 어둠의 기운이 서렸을까", "특수 조합에 사용됨"],
 		"mob" : "헬드라",
-		"chance" : "0.00909%"
+		"chance" : "0.014%"
 	},
 	"I1IR" : {
 		"name" : "빛",
 		"type" : "재료",
 		"effects" : ["세상에 희망을 주기 위해 만들어진 보석이라고 해서 빛이라는 이름이 붙었다.", "특수 조합에 사용됨"],
 		"mob" : "헬드라",
-		"chance" : "0.00909%"
+		"chance" : "0.014%"
 	},
 	"I1IS" : {
 		"name" : "재능",
 		"type" : "재료",
 		"effects" : ["재능이 없는 사람들은 결국 잊혀지기 마련이다.", "특수 조합에 사용됨"],
 		"mob" : "헬드라",
-		"chance" : "0.00909%"
+		"chance" : "0.014%"
 	},
 	"I1IT" : {
 		"name" : "추억",
 		"type" : "재료",
 		"effects" : ["어디서나 존재하는 추억의 집합체, 추억이 있으면서도 없으며 그것은 아름다운 보석이 되었다.", "특수 조합에 사용됨"],
 		"mob" : "헬드라",
-		"chance" : "0.00909%"
+		"chance" : "0.014%"
 	},
 	"I1IU" : {
 		"name" : "간지",
 		"type" : "재료",
 		"effects" : ["간지폭풍 무지개 파워 라고 적혀있는 돌", "특수 조합에 사용됨"],
 		"mob" : "헬드라",
-		"chance" : "0.00909%"
+		"chance" : "0.014%"
 	},
 	"I0XW" : {
 		"name" : "레나몬 용병알",
@@ -7547,6 +7547,7 @@ var items = {
 			"misc" : "최대 서먼 게이지 +5"
 		},
 		"mob" : "왕궁 크루세이더TX",
+		"materials" : ["I1J7","I1J5","I1J4","I1CD"],
 		"chance" : "0.01%"
 	},
 	"I1KT" : {
@@ -7626,7 +7627,7 @@ var items = {
 			"allstats" : "300000",
 			"misc" : "공격시 15% 확률로 45만 데미지"
 		},
-		"materials" : ["I1NI","I1KO","I1OI","I1OW"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1NI" : {
 		"name" : "지브릴 투구[카오스]",
@@ -7637,7 +7638,7 @@ var items = {
 			"allstats" : "150000",
 			"maxhp" : "2000000"
 		},
-		"materials" : ["I1JZ","I1JJ","I1NC","I1N9","I1KA","I1N3"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PN" : {
 		"name" : "터미네이터 헬멧[카오스]",
@@ -7649,7 +7650,7 @@ var items = {
 			"agi_crit_chance" : "35",
 			"phys_crit_chance" : "45"
 		},
-		"materials" : ["I1NI","I1JZ","I1OI","I1OQ"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PM" : {
 		"name" : "더미 골렘의 꿈[카오스]",
@@ -7661,7 +7662,7 @@ var items = {
 			"misc" : "근접 및 원거리 유닛 250% 데미지 증가",
 			"misc2" : "버프 유닛 200000 고정 추가 데미지"
 		},
-		"materials" : ["I1NI","I1JJ","I1OI","I1OQ"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PL" : {
 		"name" : "크루세이더 투구[카오스]",
@@ -7673,7 +7674,7 @@ var items = {
 			"maxhp" : "24000000",
 			"misc" : "공격 받을때마다 체력 회복 + 70000"
 		},
-		"materials" : ["I1NI","I1K5","I1OG","I1OO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PK" : {
 		"name" : "뮤턴트 메시아[카오스]",
@@ -7685,7 +7686,7 @@ var items = {
 			"misc" : "언데드 재물 최대 소환수 +5",
 			"misc2" : "주변 아군 이동속도 15% 증가 및 언데드 유닛이 공격시 추가 데미지 +280000"
 		},
-		"materials" : ["I1NI","I1KB","I1OG","I1OS"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PJ" : {
 		"name" : "혼돈의 왕관[카오스]",
@@ -7697,7 +7698,7 @@ var items = {
 			"int" : "420000",
 			"magic_crit_chance" : "45"
 		},
-		"materials" : ["I1NI","I1K1","I1OG","I1OL"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PI" : {
 		"name" : "디스트로이 코어[카오스]",
@@ -7707,7 +7708,7 @@ var items = {
 			"dmg" : "17000000",
 			"maxhp" : "24000000"
 		},
-		"materials" : ["I1NH","I1JT","I1OI","I1OW"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1NH" : {
 		"name" : "콜로서스[카오스]",
@@ -7717,7 +7718,7 @@ var items = {
 			"allstats" : "330000",
 			"maxhp" : "3500000"
 		},
-		"materials" : ["I1KS","I1KO","I1NC","I1NA","I1K6","I1KN"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PH" : {
 		"name" : "혼세반[카오스]",
@@ -7727,7 +7728,7 @@ var items = {
 			"agi" : "530000",
 			"misc" : "주변 아군의 공격속도 +15% 증가 및 아군 유닛이 언데드 일시 공격받으면 체력회복 +90000"
 		},
-		"materials" : ["I1NH","I1KF","I1OI","I1OS"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PG" : {
 		"name" : "가이아의 가호[카오스]",
@@ -7739,7 +7740,7 @@ var items = {
 			"misc" : "주변 아군 방어력 +1500",
 			"misc2" : "버프 걸린 상태의 영웅이 아닌 일반 유닛이 때릴 경우 체력 회복 +75000"
 		},
-		"materials" : ["I1NH","I1JX","I1OG","I1OQ"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PF" : {
 		"name" : "흡혈귀 군주의 목걸이[카오스]",
@@ -7750,7 +7751,7 @@ var items = {
 			"misc" : "적 공격시 체력 회복 +150000",
 			"misc2" : "적 공격시 마력 회복 +1500"
 		},
-		"materials" : ["I1NH","I1K9","I1OI","I1OL"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PE" : {
 		"name" : "태황의 쉴드[카오스]",
@@ -7763,7 +7764,7 @@ var items = {
 			"misc" : "적에게 공격받을시 120000 체력 회복",
 			"misc2" : "150000 추가 데미지"
 		},
-		"materials" : ["I1NH","I1JH","I1OI","I1OO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PD" : {
 		"name" : "활력의 조개[카오스]",
@@ -7774,7 +7775,7 @@ var items = {
 			"maxhp" : "5000000",
 			"misc" : "공격시 체력 회복 +150000"
 		},
-		"materials" : ["I1NH","I1KQ","I1OG","I1OS"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PC" : {
 		"name" : "오아시스[카오스]",
@@ -7785,7 +7786,7 @@ var items = {
 			"maxhp" : "8000000",
 			"misc" : "자신의 체력 회복 +2%"
 		},
-		"materials" : ["I1NH","I1LL","I1OG","I1OL"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PB" : {
 		"name" : "데메시아 날개[카오스]",
@@ -7796,7 +7797,7 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1600"
 		},
-		"materials" : ["I1NG","I1KW","I1OG","I1OO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1PA" : {
 		"name" : "격분의 날개[카오스]",
@@ -7807,7 +7808,7 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1900"
 		},
-		"materials" : ["I1NG","I1KU","I1OG","I1OQ"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P9" : {
 		"name" : "대현자의 날개[카오스]",
@@ -7818,7 +7819,7 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1700"
 		},
-		"materials" : ["I1NG","I1KY","I1OG","I1OW"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P8" : {
 		"name" : "헤르메스의 날개[카오스]",
@@ -7829,7 +7830,7 @@ var items = {
 			"maxhp" : "15000000",
 			"movement_speed" : "150"
 		},
-		"materials" : ["I1NG","I1OD","I1OG","I1OL"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P7" : {
 		"name" : "흐름의 날개[카오스]",
@@ -7840,7 +7841,7 @@ var items = {
 			"armor" : "3500",
 			"maxhp" : "8000000"
 		},
-		"materials" : ["I1NG","I1KS","I1OG","I1ND"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P6" : {
 		"name" : "명풍치월[카오스]",
@@ -7852,7 +7853,7 @@ var items = {
 			"maxhp" : "24000000",
 			"misc" : "공격시 50%확률로 50만 추가 데미지"
 		},
-		"materials" : ["I1NF","I1KO","I1OH","I1OQ"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P5" : {
 		"name" : "하데스의 숨결[카오스]",
@@ -7864,7 +7865,7 @@ var items = {
 			"maxhp" : "3500000",
 			"misc" : "주변 아군 유닛 이동속도 +15% 증가 및 언데드일경우 50%확률 280000 추가 데미지"
 		},
-		"materials" : ["I1NF","I1KD","I1OH","I1OS"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P4" : {
 		"name" : "감금[카오스]",
@@ -7877,7 +7878,7 @@ var items = {
 			"agi_crit_dmg" : "850",
 			"misc" : "공격시 체력 +30000"
 		},
-		"materials" : ["I1NE","I1JN","I1OF","I1OO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P3" : {
 		"name" : "요정왕의 로브[카오스]",
@@ -7890,7 +7891,7 @@ var items = {
 			"misc" : "마나 리저레이션 +15%",
 			"misc2" : "공격시 마나 회복 +1500"
 		},
-		"materials" : ["I1NF","I1JR","I1GS","I1OH","I1OW"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P2" : {
 		"name" : "네메아의 사자 가죽[카오스]",
@@ -7903,7 +7904,7 @@ var items = {
 			"mpreg" : "15%",
 			"magic_resistance" : "55"
 		},
-		"materials" : ["I1NF","I1JP","I1OH","I1OL"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P1" : {
 		"name" : "블랙슈트[카오스]",
@@ -7915,7 +7916,7 @@ var items = {
 			"maxhp" : "15000000",
 			"agi" : "450000"
 		},
-		"materials" : ["I1NF","I1J1","I1OH","I1OL"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1P0" : {
 		"name" : "만리장성[카오스]",
@@ -7927,7 +7928,7 @@ var items = {
 			"maxhp" : "30000000",
 			"misc" : "공격 받을시 체력회복 +50000"
 		},
-		"materials" : ["I1NF","I1KQ","I1OH","I1OO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1OZ" : {
 		"name" : "아누비스 지팡이[카오스]",
@@ -7938,7 +7939,7 @@ var items = {
 			"misc" : "주변 아군 공격속도 및 이동속도 20% 증가",
 			"misc2" : "언데드 유닛이 버프를 받을 경우 45만 추뎀, 이집트 좀비 시체 소환"
 		},
-		"materials" : ["I1NE","I1KB","I1OF","I1OS","I15U"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1OY" : {
 		"name" : "천공의 뿔[카오스]",
@@ -7949,18 +7950,7 @@ var items = {
 			"maxhp" : "3500000",
 			"misc" : "조련사가 사용시 천공의 아르콘 소환"
 		},
-		"materials" : ["I1NE","I1NT","I1OG","I1OQ"]
-	},
-	"I1NT" : {
-		"name" : "아르콘의 뿔[신화]",
-		"type" : "무기",
-		"effects" : ["고대 유니콘을 봉인한 지팡이로 유니콘이 담겨있다고 전해지는 신화 아이템", "[ 푸르릉... 푸릉 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"int" : "330000",
-			"dmg" : "200000",
-			"misc" : "조련사가 사용시 아르콘 소환"
-		},
-		"materials" : ["I1KR","I1IV","I1IX","I1CF","I1HJ","I1I1"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1OX" : {
 		"name" : "그림타워[카오스]",
@@ -7972,7 +7962,7 @@ var items = {
 			"allstats" : "200000",
 			"misc" : "적에게 공격 받을시 10만 회복, 15만 추가 데미지"
 		},
-		"materials" : ["I1NF","I1JH","I1OF","I1OO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1OV" : {
 		"name" : "공허의 지팡이[카오스]",
@@ -7984,7 +7974,121 @@ var items = {
 			"magic_crit_dmg" : "1300",
 			"misc" : "공격시 마력 +800"
 		},
-		"materials" : ["I1NE","I1JD","I1OF","I1OW"]
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1OU" : {
+		"name" : "백화의검[카오스]",
+		"type" : "무기",
+		"effects" : ["고대 식물 중 벚꽃에 유래된 무구로 전해진다. 그건..", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"dmg" : "3100000",
+			"allstats" : "200000",
+			"attack_speed" : "110",
+			"phys_crit_dmg" : "1400"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1OT" : {
+		"name" : "제왕의 검[카오스]",
+		"type" : "무기",
+		"effects" : ["과거 인간 종족의 왕이 들고 있다고 전해졌던 제왕의 검", "[ 널 처단해야겠구나. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"dmg" : "19000000",
+			"allstats" : "650000"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1OR" : {
+		"name" : "천둥의 검[카오스]",
+		"type" : "무기",
+		"effects" : ["일정 확률로 번개가 나가는 어디서 온지 알 수 없는 검", "[ 우르릉 콰과광쾅 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"int" : "215000",
+			"allstats" : "200000",
+			"misc" : "추가 데미지 200000",
+			"misc2" : "특수 데미지 추가 및 50%확률로 적에게 번개가 나감"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1OP" : {
+		"name" : "혈령장[카오스]",
+		"type" : "무기",
+		"effects" : ["많은 피를 묻혀 혼돈에서 탄생한 무구", "[ ... 살려주시오... 그만.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"allstats" : "230000",
+			"misc" : "주변 아군 공격속도 및 이동속도 30% 증가",
+			"misc2" : "추가 300000 데미지"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1ON" : {
+		"name" : "헤븐즈 보우[카오스]",
+		"type" : "무기",
+		"effects" : ["인간이 모시는 신이 인간에게 하사한 아이템", "[ .... 이 무구는.... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"attack_speed" : "-10",
+			"str" : "400000",
+			"agi" : "180000",
+			"misc" : "20%확률로 1500000 추가 데미지 및 체력 8% 회복",
+			"allstats" : "81000"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1OM" : {
+		"name" : "동귀어진[카오스]",
+		"type" : "무기",
+		"effects" : ["령들의 한이 서려있는 무시무시한 검", "[ ....령들아 너희들도 한이 깊느냐 ]"],
+		"stats" : {
+			"allstats" : "200000",
+			"agi" : "450000",
+			"agi_crit_dmg" : "1200",
+			"misc" : "45%확률로 평타시 범위 데미지 1050000"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1NG" : {
+		"name" : "일리아나[카오스]",
+		"type" : "날개",
+		"effects" : ["밝은 희망을 상징하는 날개로. 구원을 돕던 천사의 날개", "[ 창조주라도 파괴의 권리는 없습니다 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"allstats" : "230000",
+			"maxhp" : "5000000",
+			"armor" : "1900"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1NE" : {
+		"name" : "증조부 검[카오스]",
+		"type" : "무기",
+		"effects" : ["선조들이 사용하던 최고의 명검", "[ 이 검 앞에선 모두 꿇을 수 밖에... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"allstats" : "450000",
+			"dmg" : "17000000",
+			"maxhp" : "2000000"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1NF" : {
+		"name" : "궁극의벽[카오스]",
+		"type" : "갑옷",
+		"effects" : ["선조들이 사용하던 몸을 보호하던 보구", "[ 와라.... 어떤 것이든... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"allstats" : "110000",
+			"armor" : "4300",
+			"maxhp" : "24000000"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1NT" : {
+		"name" : "아르콘의 뿔[신화]",
+		"type" : "무기",
+		"effects" : ["고대 유니콘을 봉인한 지팡이로 유니콘이 담겨있다고 전해지는 신화 아이템", "[ 푸르릉... 푸릉 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"int" : "330000",
+			"dmg" : "200000",
+			"misc" : "조련사가 사용시 아르콘 소환"
+		},
+		"materials" : ["I1KR","I1IV","I1IX","I1CF","I1HJ","I1I1"]
 	},
 	"I1JD" : {
 		"name" : "혼지[신화]",
@@ -7998,51 +8102,6 @@ var items = {
 		},
 		"materials" : ["I1JC","I1IV","I1J0","I1DX","I1HJ","I1HA"]
 	},
-	"I1OU" : {
-		"name" : "백화의검[카오스]",
-		"type" : "무기",
-		"effects" : ["고대 식물 중 벚꽃에 유래된 무구로 전해진다. 그건..", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"dmg" : "3100000",
-			"allstats" : "200000",
-			"attack_speed" : "110",
-			"phys_crit_dmg" : "1400"
-		},
-		"materials" : ["I1NE","I1JV","I1OF","I1OL"]
-	},
-	"I1OT" : {
-		"name" : "제왕의 검[카오스]",
-		"type" : "무기",
-		"effects" : ["과거 인간 종족의 왕이 들고 있다고 전해졌던 제왕의 검", "[ 널 처단해야겠구나. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"dmg" : "19000000",
-			"allstats" : "650000"
-		},
-		"materials" : ["I1NE","I1K7","I1OF","I1OS"]
-	},
-	"I1OR" : {
-		"name" : "천둥의 검[카오스]",
-		"type" : "무기",
-		"effects" : ["일정 확률로 번개가 나가는 어디서 온지 알 수 없는 검", "[ 우르릉 콰과광쾅 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"int" : "215000",
-			"allstats" : "200000",
-			"misc" : "추가 데미지 200000",
-			"misc2" : "특수 데미지 추가 및 50%확률로 적에게 번개가 나감"
-		},
-		"materials" : ["I1NE","I1JV","I1JR","I1OF","I1ND"]
-	},
-	"I1OP" : {
-		"name" : "혈령장[카오스]",
-		"type" : "무기",
-		"effects" : ["많은 피를 묻혀 혼돈에서 탄생한 무구", "[ ... 살려주시오... 그만.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"allstats" : "230000",
-			"misc" : "주변 아군 공격속도 및 이동속도 30% 증가",
-			"misc2" : "추가 300000 데미지"
-		},
-		"materials" : ["I1NE","I1JK","I1OI","I1OQ"]
-	},
 	"I1JK" : {
 		"name" : "혼간지[신화]",
 		"type" : "무기",
@@ -8053,19 +8112,6 @@ var items = {
 			"misc2" : "추가 180000 데미지"
 		},
 		"materials" : ["I1JL","I1IV","I1IU","I1DT","I1I1","I1ES"]
-	},
-	"I1ON" : {
-		"name" : "헤븐즈 보우[카오스]",
-		"type" : "무기",
-		"effects" : ["인간이 모시는 신이 인간에게 하사한 아이템", "[ .... 이 무구는.... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"attack_speed" : "-10",
-			"str" : "400000",
-			"agi" : "180000",
-			"misc" : "20%확률로 1500000 추가 데미지 및 체력 8% 회복",
-			"allstats" : "81000"
-		},
-		"materials" : ["I1NE","I1JB","I1OF","I1OO"]
 	},
 	"I1JB" : {
 		"name" : "그림 라이트 보우[신화]",
@@ -8078,18 +8124,6 @@ var items = {
 		},
 		"materials" : ["I1JA","I1IV","I1DT","I1FJ","I1HS","I1IZ"]
 	},
-	"I1OM" : {
-		"name" : "동귀어진[카오스]",
-		"type" : "무기",
-		"effects" : ["령들의 한이 서려있는 무시무시한 검", "[ ....령들아 너희들도 한이 깊느냐 ]"],
-		"stats" : {
-			"allstats" : "200000",
-			"agi" : "450000",
-			"agi_crit_dmg" : "1200",
-			"misc" : "45%확률로 평타시 범위 데미지 1050000"
-		},
-		"materials" : ["I1NE","I1J1","I1OL","I1OI"]
-	},
 	"I1CH" : {
 		"name" : "드래곤 프로텍트[레전드]",
 		"type" : "악세사리",
@@ -8100,18 +8134,7 @@ var items = {
 			"allstats" : "10000",
 			"maxhp" : "550000"
 		},
-		"materials" : ["I1CG","I1C8","I1CC","I1BW","I1BR","I1BU"]
-	},
-	"I1O3" : {
-		"name" : "포레스트 킹[신화]",
-		"type" : "무기",
-		"effects" : ["고대 모든 숲을 관리하고 수호하는 정령왕이 있다고 한다. 그가 남긴 신화 아이템", "[ 첫번째 세계가 붕괴되서도...지키겠다.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"misc" : "정령사가 사용시 숲의 정령왕 소환",
-			"int" : "330000",
-			"dmg" : "300000"
-		},
-		"materials" : ["I1NL","I1IY","I1IV","I1CH","I1GJ","I1HA"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1O2" : {
 		"name" : "좀비의 심장[레전드]",
@@ -8121,7 +8144,7 @@ var items = {
 			"int" : "57000",
 			"misc" : "포이즌 노바 사용시 포이즌 좀비 소환 +1"
 		},
-		"materials" : ["I1DC","I0CE","I17Y","I1CO"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1DC" : {
 		"name" : "해골 스컬로드의 기운[레전드]",
@@ -8133,7 +8156,7 @@ var items = {
 			"maxhp" : "470000",
 			"misc" : "해골 스컬로드 소환"
 		},
-		"materials" : ["I1D9","I1DA","I1DB","I168","I169"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1D9" : {
 		"name" : "해골 우르스의 심장[레전드]",
@@ -8145,7 +8168,7 @@ var items = {
 			"maxmp" : "30000",
 			"misc" : "해골 만노스 소환"
 		},
-		"materials" : ["I10E","I0ZE","I13T","I146"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1DA" : {
 		"name" : "해골 올리의 꿈[레전드]",
@@ -8157,7 +8180,7 @@ var items = {
 			"maxmp" : "350000",
 			"misc" : "해골 올리 소환"
 		},
-		"materials" : ["I10E","I0ZD","I13R","I0RI"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1DB" : {
 		"name" : "해골 메케니의 눈물[레전드]",
@@ -8168,7 +8191,7 @@ var items = {
 			"allstats" : "75000",
 			"misc" : "해골 메케니 소환"
 		},
-		"materials" : ["I147","I0OZ","I0OA","I17Y","I1AH"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I168" : {
 		"name" : "해골 안타레스의 머리[레전드]",
@@ -8180,7 +8203,7 @@ var items = {
 			"maxmp" : "30000",
 			"misc" : "해골 안타레스 소환"
 		},
-		"materials" : ["I12J","I13P","I10E"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I169" : {
 		"name" : "해골 맘모스의 뿔피리[레전드]",
@@ -8192,7 +8215,7 @@ var items = {
 			"maxhp" : "350000",
 			"misc" : "해골 맘모스 소환"
 		},
-		"materials" : ["I0DT","I10E","I13R"]
+		"materials" : ["PAYWALL.JPG"]
 	},
 	"I1O1" : {
 		"name" : "얼룡이의 얼음칼[레전드]",
@@ -8202,7 +8225,29 @@ var items = {
 			"allstats" : "100000",
 			"misc" : "얼음룡 조각상 공격시 얼음룡 조각 포인트 +1"
 		},
-		"materials" : ["I17Z","I1C2","I1BQ"]
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1CF" : {
+		"name" : "드래곤의 성물[레전드]",
+		"type" : "악세사리",
+		"effects" : ["블루 드래곤과 골드 드래곤 사이에 탐욕으로 인해 전쟁이 일어났다.", "무엇 때문에 일어났는지는 아직도 모른다고 한다."],
+		"stats" : {
+			"int" : "160000",
+			"maxhp" : "1000000",
+			"mpreg" : "15"
+		},
+		"materials" : ["PAYWALL.JPG"]
+	},
+	"I1O3" : {
+		"name" : "포레스트 킹[신화]",
+		"type" : "무기",
+		"effects" : ["고대 모든 숲을 관리하고 수호하는 정령왕이 있다고 한다. 그가 남긴 신화 아이템", "[ 첫번째 세계가 붕괴되서도...지키겠다.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"misc" : "정령사가 사용시 숲의 정령왕 소환",
+			"int" : "330000",
+			"dmg" : "300000"
+		},
+		"materials" : ["I1NL","I1IY","I1IV","I1CH","I1GJ","I1HA"]
 	},
 	"I1NM" : {
 		"name" : "위선자[신화]",
@@ -8216,16 +8261,6 @@ var items = {
 		},
 		"materials" : ["I1NL","I0HE","I1IZ","I1IV"]
 	},
-	"I1NL" : {
-		"name" : "라이어[유물]",
-		"type" : "무기",
-		"effects" : ["잘못된 정보를 토대로 만들어진 믿음으로 생성된 아이템.", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"dmg" : "3100000",
-			"misc" : "20% 확률로 20배 크리티컬 데미지 "
-		},
-		"materials" : ["I1J3","I1J6","I1IU","I1IR"]
-	},
 	"I1NK" : {
 		"name" : "카드술사의 스톤[신화]",
 		"type" : "무기",
@@ -8238,8 +8273,16 @@ var items = {
 		},
 		"materials" : ["I1NJ","I1CF","I1IY","I1IX","I1IZ","I1CB"]
 	},
-	
-	
+	"I1NL" : {
+		"name" : "라이어[유물]",
+		"type" : "무기",
+		"effects" : ["잘못된 정보를 토대로 만들어진 믿음으로 생성된 아이템.", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
+		"stats" : {
+			"dmg" : "3100000",
+			"misc" : "20% 확률로 20배 크리티컬 데미지 "
+		},
+		"materials" : ["I1J3","I1J6","I1IU","I1IR"]
+	},
 	"I12J" : {
 		"name" : "지옥 해골 가론의 머리장식",
 		"type" : "재료",
@@ -8285,17 +8328,6 @@ var items = {
 			"misc" : "주변 아군의 공격속도 +10% 증가 및 아군 유닛이 언데드 일시 공격받으면 체력회복 +45000"
 		},
 		"materials" : ["I1KE","I1J0","I1DX","I1CF","I1I1","I1HS"]
-	},
-	"I1CF" : {
-		"name" : "드래곤의 성물[레전드]",
-		"type" : "악세사리",
-		"effects" : ["블루 드래곤과 골드 드래곤 사이에 탐욕으로 인해 전쟁이 일어났다.", "무엇 때문에 일어났는지는 아직도 모른다고 한다."],
-		"stats" : {
-			"int" : "160000",
-			"maxhp" : "1000000",
-			"mpreg" : "15"
-		},
-		"materials" : ["I1CE","I1CA","I1C9","I1BZ","I1BQ","I1BS"]
 	},
 	"I1HS" : {
 		"name" : "홉몽크의 망치[고대]+9",
@@ -8420,17 +8452,6 @@ var items = {
 		},
 		"materials" : ["I1KV","I1C5","I1J0","I1IX","I1IZ","I1CB"]
 	},
-	"I1NG" : {
-		"name" : "일리아나[카오스]",
-		"type" : "날개",
-		"effects" : ["밝은 희망을 상징하는 날개로. 구원을 돕던 천사의 날개", "[ 창조주라도 파괴의 권리는 없습니다 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"allstats" : "230000",
-			"maxhp" : "5000000",
-			"armor" : "1900"
-		},
-		"materials" : ["I1KS","I1JR","I1NA","I1NC","I1LK","I1KR"]
-	},
 	"I1KU" : {
 		"name" : "공평[신화]",
 		"type" : "날개",
@@ -8464,20 +8485,6 @@ var items = {
 		},
 		"materials" : ["I1KR","I1JM","I1J0","I1IX","I1IZ","I16V"]
 	},
-	"I1NE" : {
-		"name" : "증조부 검[카오스]",
-		"type" : "무기",
-		"effects" : ["선조들이 사용하던 최고의 명검", "[ 이 검 앞에선 모두 꿇을 수 밖에... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
-		"stats" : {
-			"allstats" : "450000",
-			"dmg" : "17000000",
-			"maxhp" : "2000000"
-		},
-		"materials" : ["I1K7","I1N9","I1JT","I1N2","I1NC","I1JS"]
-	},
-	
-	
-	
 	"I1G1" : {
 		"name" : "브란셀의 고깔모자[고대]+9",
 		"type" : "투구",
@@ -8486,16 +8493,6 @@ var items = {
 			"int" : "135000",
 			"armor" : "700",
 			"magic_crit_chance" : "40"
-		}
-	},
-	"I1NF" : {
-		"name" : "궁극의벽[카오스]",
-		"type" : "갑옷",
-		"effects" : ["선조들이 사용하던 몸을 보호하던 보구", "[ 와라.... 어떤 것이든... ]"],
-		"stats" : {
-			"allstats" : "110000",
-			"armor" : "4300",
-			"maxhp" : "24000000"
 		}
 	},
 	"I1I1" : {
@@ -8610,6 +8607,19 @@ var items = {
 		},
 		"materials" : ["I1JI","I1IV","I1IZ","I1DX","I1I1","I1G1"]
 	},
+	"I1NK" : {
+		"name" : "카드술사의 스톤[신화]",
+		"type" : "무기",
+		"effects" : ["구전기때 전설적인 능력을 지닌 소환술사가 사용한 신화 아이템", "[  누구나.... 할 수있다... ]"],
+		"stats" : {
+			"dmg" : "1020000",
+			"allstats" : "150000",
+			"maxhp" : "1000000",
+			"misc" : "최대 서먼 게이지 +10"
+		},
+		"materials" : ["I1NJ","I1CF","I1IY","I1IX","I1IZ","I1CB"]
+	},
+	
 	"I0D7" : {
 		"name" : "오스의 보물[레어]",
 		"type" : "악세사리",
@@ -8919,7 +8929,6 @@ var items = {
 		},
 		"materials" : ["I02E","I02C","I02F","I02D"]
 	},
-	
 	"I0B5" : {
 		"name" : "전장의 보물 조합서",
 		"type" : "기타",
@@ -9085,14 +9094,51 @@ var items = {
 		"name" : "오르하르콘",
 		"type" : "재료",
 		"effects" : ["모험의 캠프에서 파는 보석.", "조합에 사용됨"]
+	},
+	"I1J4" : {
+		"name" : "카오스 젬",
+		"type" : "재료",
+		"effects" : ["혼돈으로 가득찬 보석으로 어떻게 생겨났는지 조차 알 수 없다고 한다. 그 만큼의 전설의 보석", "특수 조합에 사용됨"],
+		"materials" : ["I1IQ","I1IR","I1IX"]
+	},
+	"I1J5" : {
+		"name" : "데스크 젬",
+		"type" : "재료",
+		"effects" : ["혼돈으로 가득찬 보석으로 어떻게 생겨났는지 조차 알 수 없다고 한다. 그 만큼의 전설의 보석", "특수 조합에 사용됨"],
+		"materials" : ["I1IT","I1IQ","I1IU"]
+	},
+	"I1J7" : {
+		"name" : "다크혼 젬",
+		"type" : "재료",
+		"effects" : ["항상 혼차였던 보석....그 존재 가치는 어마어마하다고 알려져있다. 고대에 존재하지 않았던 보석", "특수 조합에 사용됨"],
+		"materials" : ["I1IQ","I1IU","I1IZ"]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"PAYWALL.JPG" : {
+		"name" : "<span style = 'color:blue'>INFORMATION</span>",
+		"disabled": true,
+		"effects" : ["<span style = 'color:gold'>카페의 상위 정보란을 방문하셔서 확인할 수 있습니다</span>", "제작자의 요청에 따라 삭제되었습니다"]
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
