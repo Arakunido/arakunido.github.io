@@ -8361,7 +8361,7 @@ var items = {
   I04S: {
     label: "Mithril Ore",
     type: "Mineral",
-    effects: ["A material commonly used for forging equipment.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Mithril Ore</span> in the:<br><span style = 'color:gold'>Mine</span>, <span style = 'color:gold'>Desert</span> & sub-areas of the <span style = 'color:gold'>Blue Sky Town</span></span>"],
+    effects: ["A material commonly used for forging equipment.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Mithril Ore</span> in the:<br><span style = 'color:gold'>Mine</span> & <span style = 'color:gold'>Desert</span></span>"],
     cn_effects: ["锻造装备时常用的物品。", "", "Need Translation"],
   },
   I04T: {
@@ -8397,7 +8397,7 @@ var items = {
   I051: {
     label: "Ancient Vine Crystal",
     type: "Mineral",
-    effects: ["A mysterious crystal found in a blue mushroom of the Frost Cave.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Blue Mushroom</span> in the:<br>sub-areas of a<span style = 'color:gold'>Blue Sky Town</span></span>"],
+    effects: ["A mysterious crystal found in a blue mushroom of the Frost Cave.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Blue Mushroom</span> in the:<br>sub-areas of the <span style = 'color:gold'>Blue Sky Town</span></span>"],
     cn_effects: ["冰霜洞穴的蓝色蘑菇中所拥有的一种神秘结晶。", "", "Need Translation"],
   }
 };
