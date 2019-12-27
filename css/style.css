@@ -1,0 +1,88 @@
+.purple {
+  color: #9859d8;
+}
+
+.orange {
+  color: #f7950e;
+}
+
+.blue {
+  color: #4fc3d6;
+}
+
+.red {
+  color: red;
+}
+
+.darkred {
+  color: darkred;
+}
+
+div.text-left {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.planned {
+  margin-top: 50px;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+.fixed-table-body {
+  height: auto;
+  background-color: #FFF;
+}
+
+.modal-content {
+  color: black;
+  border-style: solid;
+  border-width: 32px;
+  border-image: url(orc.png) 28 round round;
+}
+.modal-header {
+  color: white;
+  padding: 8px 20px 8px 20px;
+  background: url(header.png) repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 4px;
+  border-image: url(tooltip.png) 4 round round;
+  border-radius: 1px;
+}
+.modal-body {
+  color: white;
+  background: url(body.png) repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 5px;
+  border-image: url(tooltip2.png) 5 round round;
+  border-radius: 1px;
+}
+
+.node {
+  padding: 0 2px;
+  min-width: 60px;
+  text-align: center;
+  height: 30px;
+  background-color: rgba(15, 45, 61, 0.6);
+  border-style: solid;
+  border-width: 2px;
+  border-image: url(tooltip2.png) 3 round round;
+  border-radius: 3px;
+}
+
+.node.node-name {
+  line-height: 30px;
+  color: #9b9b9b;
+}
+
+.bootstrap-table {
+	padding: 9px;
+}
+
+body {
+	padding: 100px;
+}

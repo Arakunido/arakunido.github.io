@@ -6505,8 +6505,8 @@ var items = {
 		"name" : "예언석[유물]",
 		"type" : "재료",
 		"effects" : ["고대 시절 어느 유명한 예언가가 미래의 예언을 담아놓은 석판.", "특수 조합에 사용됨"],
-		"mob" : ["탐욕의 여제 반시", "메피스토", "아스톨포", "죽음의 화신 소울상디", "봉인당한 가이아", "정체불명의 용병TX"],
-		"chance" : ["0.197%", "0.197%", "0.197%", "0.197%", "0.94%", "0.01428%"]
+		"mob" : ["탐욕의 여제 반시", "메피스토", "아스톨포", "죽음의 화신 소울상디", "봉인당한 가이아", "정체불명의 용병TX", "수호의 하피"],
+		"chance" : ["0.066%", "0.066%", "0.066%", "0.066%", "0.165%", "0.014%", "0.165%"]
 	},
 	"I1PY" : {
 		"name" : "탐욕의 혼드[차원]",
@@ -6707,7 +6707,7 @@ var items = {
 			"misc" : "트리거 데미지 감소 +25%"
 		},
 		"mob" : "봉인당한 가이아",
-		"chance" : "0.197%"
+		"chance" : "0.198%"
 	},
 	"I1L1" : {
 		"name" : "중하급 연마제",
@@ -7466,6 +7466,147 @@ var items = {
 		"mob" : "왕궁 크루세이더TX",
 		"chance" : "0.01%"
 	},
+	"I1VH" : {
+		"name" : "메이리카의 꽃[레전드]",
+		"type" : "포션",
+		"effects" : ["사용시 스텟이 증가합니다.", "특정 스텟 6.5만 이상일 경우 스텟이 증가하며 최대 7.2까지 증가합니다."],
+		"mob" : "아기 메이리카",
+		"chance" : "6.25%"
+	},
+	"I1VC" : {
+		"name" : "아기 메이리카[빈카드]",
+		"type" : "빈카드",
+		"effects" : ["빈카드를 사용하여 몬스터를 봉인할수있습니다.", "아기 메이리카를 봉인합니다."],
+		"mob" : "아기 메이리카",
+		"chance" : "0.006%"
+	},
+	"I1VI" : {
+		"name" : "수중왕의 마력꽃[레전드]",
+		"type" : "포션",
+		"effects" : ["사용시 스텟이 증가합니다.", "특정 스텟 6.0만 이상일 경우 스텟이 증가하며 최대 8.0까지 증가합니다."],
+		"mob" : "아기 메이리카",
+		"chance" : "6.25%, 6.25%, 6.25%, 6.25%, 6.25%,<br> 6.25%, 6.25%"
+	},
+	"I1VF" : {
+		"name" : "메이리카[빈카드]",
+		"type" : "빈카드",
+		"effects" : ["빈카드를 사용하여 몬스터를 봉인할수있습니다.", "메이리카를 봉인합니다."],
+		"mob" : "메이리카[엘리트]",
+		"chance" : "0.012%"
+	},
+	"I0I5" : {
+		"name" : "엘릭서(소형)[준레어]",
+		"type" : "포션",
+		"effects" : ["체력과 마력을 회복시켜줍니다.", "체력과 마력을 10%만큼 채워줍니다.[벨트에서 사용이 가능!]"],
+		"mob" : "켄타로우스[악]TX",
+		"chance" : "4.762%"
+	},
+	"I1TS" : {
+		"name" : "엘릭서(중소형)[준레어]",
+		"type" : "포션",
+		"effects" : ["체력과 마력을 회복시켜줍니다.", "체력과 마력을 25%만큼 채워줍니다.[벨트에서 사용이 가능!]"],
+		"mob" : "저글링TX",
+		"chance" : "12.5%"
+	},
+	"I0I7" : {
+		"name" : "붉은빛 와인[준레어]",
+		"type" : "포션",
+		"effects" : ["붉은 빛으로 반짝인다. 어느 누가 담아놓은 것 같다.", "죽어있는 펫을 부활시킵니다.[벨트에서 사용이 가능!]"],
+		"mob" : "저글링TX",
+		"chance" : "6.25%"
+	},
+	"I1TO" : {
+		"name" : "크리스탈 블레이드[차원]",
+		"type" : "무기",
+		"effects" : ["무너진 차원에서도 지켜야할 것을 지키고 있는 아이스 드래곤의 진화형태.. 그의 힘이 봉인되있다.", "[ .... 여긴 지나갈 수 없다...]"],
+		"stats" : {
+			"allstats" : "450000",
+			"dmg" : "17000000",
+			"misc" : "25%확률로 15배 크리티컬 데미지",
+			"misc2" : "근접 냉기 보너스"
+		},
+		"mob" : "크리스탈 로드",
+		"chance" : "0.198%"
+	},
+	"I1TN" : {
+		"name" : "가톨 쉴드[차원]",
+		"type" : "악세사리",
+		"effects" : ["영물중 하나인 가톨 터틀은 억지로 차원을 넘어왔다.. 그 거북이의 힘이 담긴 방패", "[ .... 영물인 내가... ]"],
+		"stats" : {
+			"allstats" : "370000",
+			"maxhp" : "24000000",
+			"misc" : "트리거 데미지 감소 +50%",
+			"armor" : "5000"
+		},
+		"mob" : "가톨 수호터틀",
+		"chance" : "0.198%"
+	},
+	"I1TM" : {
+		"name" : "질풍의 부츠[차원]",
+		"type" : "악세사리",
+		"effects" : ["엘크 나이트는 사이버 알피지에서 멸종되었지만 강한 전사였다.", "[ .... .... ]"],
+		"stats" : {
+			"armor" : "2300",
+			"allstats" : "650000",
+			"misc" : "모든 트리거 데미지 45% 증가",
+			"attack_speed" : "60",
+			"movement_speed" : "200"
+		},
+		"mob" : "엘크 나이트",
+		"chance" : "0.198%"
+	},
+	"I1TL" : {
+		"name" : "눈보라 헬멧[차원]",
+		"type" : "투구",
+		"effects" : ["설인에게 있는 파워는 상상을 초월하며 그 모든것은 상상에서 이루어진다.", "[ .... .... ]"],
+		"stats" : {
+			"maxhp" : "15000000",
+			"allstats" : "450000",
+			"armor" : "4300",
+			"agi_crit_chance" : "45",
+			"misc" : "트리거 데미지 증가 +5%"
+		},
+		"mob" : "예티",
+		"chance" : "0.198%"
+	},
+	"I1JK" : {
+		"name" : "혼간지[신화]",
+		"type" : "무기",
+		"effects" : ["처음엔 외면 당했던 무구지만 추후 시간이 지나 인정 받게 된 한 장인이 만든 아이템 변태들에게 비싸게 팔았다고 전해진다.", "[ 이 완벽한 무구를 갖고 싶은가, 돈을 내게 ]"],
+		"stats" : {
+			"allstats" : "110000",
+			"misc" : "주변 아군 공격속도 및 이동속도 20% 증가",
+			"misc2" : "추가 180000 데미지"
+		},
+		"mob" : "예티",
+		"chance" : "0.943%"
+	},
+	"I1O3" : {
+		"name" : "포레스트 킹[신화]",
+		"type" : "무기",
+		"effects" : ["고대 모든 숲을 관리하고 수호하는 정령왕이 있다고 한다. 그가 남긴 신화 아이템", "[ 첫번째 세계가 붕괴되서도...지키겠다.. ]"],
+		"stats" : {
+			"int" : "330000",
+			"dmg" : "300000",
+			"misc" : "정령사가 사용시 숲의 정령왕 소환"
+		},
+		"mob" : "예티",
+		"chance" : "0.943%"
+	},
+	"I1NK" : {
+		"name" : "카드술사의 스톤[신화]",
+		"type" : "무기",
+		"effects" : ["구전기때 전설적인 능력을 지닌 소환술사가 사용한 신화 아이템", "[  누구나.... 할 수있다... ]"],
+		"stats" : {
+			"dmg" : "1020000",
+			"allstats" : "150000",
+			"maxhp" : "1000000",
+			"misc" : "최대 서먼 게이지 +10"
+		},
+		"mob" : "예티",
+		"chance" : "0.943%"
+	},
+	
 	"I1JU" : {
 		"name" : "엔젤 엑스[유물]",
 		"type" : "무기",
@@ -7620,6 +7761,7 @@ var items = {
 	},
 	"I1PO" : {
 		"name" : "장학생 모자[카오스]",
+		"en_name" : "Scholar's Hat[Chaos]",
 		"type" : "투구",
 		"effects" : ["항상 모든걸 원하는대로 따라주는 인간에게 하사한 마지막 영광", "[ 모든건 인간을 위해.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7627,10 +7769,12 @@ var items = {
 			"allstats" : "300000",
 			"misc" : "공격시 15% 확률로 45만 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NI","I1KO","I1OI","I1OW"]
 	},
 	"I1NI" : {
 		"name" : "지브릴 투구[카오스]",
+		"en_name" : "Gabriel's Helmet[Chaos]",
 		"type" : "투구",
 		"effects" : ["옛 신화 영웅이 쓰던 투구 그가 끼면 특수 효과가 발동된다고 한다.", "[ 번개의 신에게 대항한다. 내가 신이다. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7638,10 +7782,12 @@ var items = {
 			"allstats" : "150000",
 			"maxhp" : "2000000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1JZ","I1JJ","I1NC","I1N9","I1KA","I1N3"]
 	},
 	"I1PN" : {
 		"name" : "터미네이터 헬멧[카오스]",
+		"en_name" : "Terminator Helmet[Chaos]",
 		"type" : "투구",
 		"effects" : ["인간 달력 2051년 미래 전쟁에서 사용된 헬멧으로 전해진다.", "[ ... 존....아..안 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7650,10 +7796,12 @@ var items = {
 			"agi_crit_chance" : "35",
 			"phys_crit_chance" : "45"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NI","I1JZ","I1OI","I1OQ"]
 	},
 	"I1PM" : {
 		"name" : "더미 골렘의 꿈[카오스]",
+		"en_name" : "Dream of Dummy Golem[Chaos]",
 		"type" : "투구",
 		"effects" : ["예전 최고의 테이머가 룬 골렘을 조련하며 꿈을 꾸었다.", "[ ... 더미야 더미야..흐흐 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7662,10 +7810,12 @@ var items = {
 			"misc" : "근접 및 원거리 유닛 250% 데미지 증가",
 			"misc2" : "버프 유닛 200000 고정 추가 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NI","I1JJ","I1OI","I1OQ"]
 	},
 	"I1PL" : {
 		"name" : "크루세이더 투구[카오스]",
+		"en_name" : "Crusader Helmet[Chaos]",
 		"type" : "투구",
 		"effects" : ["최고의 전사가 신을 믿으며 탄생한 투구.", "[ .... 모든 것은 신을 위해. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7674,10 +7824,12 @@ var items = {
 			"maxhp" : "24000000",
 			"misc" : "공격 받을때마다 체력 회복 + 70000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NI","I1K5","I1OG","I1OO"]
 	},
 	"I1PK" : {
 		"name" : "뮤턴트 메시아[카오스]",
+		"en_name" : "Mutant Messiah[Chaos]",
 		"type" : "투구",
 		"effects" : ["옛 휴먼 종족에선 메시아라는.....존재...가....", "[ .... 안돼... 안돼... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7686,10 +7838,12 @@ var items = {
 			"misc" : "언데드 재물 최대 소환수 +5",
 			"misc2" : "주변 아군 이동속도 15% 증가 및 언데드 유닛이 공격시 추가 데미지 +280000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NI","I1KB","I1OG","I1OS"]
 	},
 	"I1PJ" : {
 		"name" : "혼돈의 왕관[카오스]",
+		"en_name" : "Crown of Chaos[Chaos]",
 		"type" : "투구",
 		"effects" : ["옛 어떤 왕국을 다스리던 여왕이 쓰던 마력이 담긴 왕관.", "[ 정말 제가 가져도 되는 건가요.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7698,40 +7852,50 @@ var items = {
 			"int" : "420000",
 			"magic_crit_chance" : "45"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NI","I1K1","I1OG","I1OL"]
 	},
 	"I1PI" : {
 		"name" : "디스트로이 코어[카오스]",
+		"en_name" : "Destroyed Core[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["파괴만을 바라며 데이터가 쌓여진 아이템", "[ ... ... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
 			"dmg" : "17000000",
 			"maxhp" : "24000000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1JT","I1OI","I1OW"]
 	},
 	"I1NH" : {
 		"name" : "콜로서스[카오스]",
+		"en_name" : "Colossus[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["중요한 세계의 파츠 중 하나인 물품", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
 			"allstats" : "330000",
 			"maxhp" : "3500000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "엘크 나이트",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1KS","I1KO","I1NC","I1NA","I1K6","I1KN"]
 	},
 	"I1PH" : {
 		"name" : "혼세반[카오스]",
+		"en_name" : "Chaos World Ring[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["혼란한 세계에 부딪쳤을때 만들어진 아이템", "[ ... 이게 세상인가.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
 			"agi" : "530000",
 			"misc" : "주변 아군의 공격속도 +15% 증가 및 아군 유닛이 언데드 일시 공격받으면 체력회복 +90000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1KF","I1OI","I1OS"]
 	},
 	"I1PG" : {
 		"name" : "가이아의 가호[카오스]",
+		"en_name" : "Gaia's Favor[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["가이아가 인간편일때 지원했던 아이템", "[ ... ...실망이다 인간.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7740,10 +7904,12 @@ var items = {
 			"misc" : "주변 아군 방어력 +1500",
 			"misc2" : "버프 걸린 상태의 영웅이 아닌 일반 유닛이 때릴 경우 체력 회복 +75000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1JX","I1OG","I1OQ"]
 	},
 	"I1PF" : {
 		"name" : "흡혈귀 군주의 목걸이[카오스]",
+		"en_name" : "Vampire Monarch's Necklace[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["옛날 초기 뱀파이어들을 다스리던 군주가 쓰던 목걸이", "[ ... 인간을 바치거라.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7751,10 +7917,12 @@ var items = {
 			"misc" : "적 공격시 체력 회복 +150000",
 			"misc2" : "적 공격시 마력 회복 +1500"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1K9","I1OI","I1OL"]
 	},
 	"I1PE" : {
 		"name" : "태황의 쉴드[카오스]",
+		"en_name" : "Grand Emperor's Shield[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["한 대륙을 지배한 황제를 보호하기 위해 만들어진 쉴드", "[ .... 짐을 지켜라.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7764,10 +7932,12 @@ var items = {
 			"misc" : "적에게 공격받을시 120000 체력 회복",
 			"misc2" : "150000 추가 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1JH","I1OI","I1OO"]
 	},
 	"I1PD" : {
 		"name" : "활력의 조개[카오스]",
+		"en_name" : "Vigor of Clam[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["고대 인어종이 사용하던 신화속 무구", "[ .... 헤헤헤 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7775,10 +7945,12 @@ var items = {
 			"maxhp" : "5000000",
 			"misc" : "공격시 체력 회복 +150000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1KQ","I1OG","I1OS"]
 	},
 	"I1PC" : {
 		"name" : "오아시스[카오스]",
+		"en_name" : "Oasis[Chaos]",
 		"type" : "악세사리",
 		"effects" : ["희망을 찾아다니다보면 오아시스가 보인다고 한다.", "[ .... 오아시스는 어디에.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7786,10 +7958,12 @@ var items = {
 			"maxhp" : "8000000",
 			"misc" : "자신의 체력 회복 +2%"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NH","I1LL","I1OG","I1OL"]
 	},
 	"I1PB" : {
 		"name" : "데메시아 날개[카오스]",
+		"en_name" : "Demessia Wings[Chaos]",
 		"type" : "날개",
 		"effects" : ["헌터집안이 천국과 지옥을 오가며 만들어낸 아이템", "[ ... Hey... 브라더 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7797,10 +7971,14 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1600"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "크리스탈 로드",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NG","I1KW","I1OG","I1OO"]
 	},
 	"I1PA" : {
 		"name" : "격분의 날개[카오스]",
+		"en_name" : "Wings of Frenzy[Chaos]",
 		"type" : "날개",
 		"effects" : ["한때는 차분했던 세상도 결국 격분으로 돌입된다.", "[ ... 화가 치밀어오른다... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7808,10 +7986,14 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1900"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "크리스탈 로드",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NG","I1KU","I1OG","I1OQ"]
 	},
 	"I1P9" : {
 		"name" : "대현자의 날개[카오스]",
+		"en_name" : "Great Sage's Wings[Chaos]",
 		"type" : "날개",
 		"effects" : ["대현자중 한분이 만들어낸 혼돈의 아이템", "[ ... 스스로 깨달아야한다 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7819,10 +8001,14 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1700"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "크리스탈 로드",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NG","I1KY","I1OG","I1OW"]
 	},
 	"I1P8" : {
 		"name" : "헤르메스의 날개[카오스]",
+		"en_name" : "Hermes' Wings[Chaos]",
 		"type" : "날개",
 		"effects" : ["제우스 신화에 나오는 신 중 한분의 무구, 데이터의 흐름속에서 구현되었다.", "[ 제우스.. 꼭 그래야하나요 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7830,10 +8016,14 @@ var items = {
 			"maxhp" : "15000000",
 			"movement_speed" : "150"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "가톨 수호터틀",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NG","I1OD","I1OG","I1OL"]
 	},
 	"I1P7" : {
 		"name" : "흐름의 날개[카오스]",
+		"en_name" : "Wings of Flow[Chaos]",
 		"type" : "날개",
 		"effects" : ["데이터의 흐름속에서 태어난 혼돈의 아이템", "[ ... 창조주십니까 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7841,10 +8031,12 @@ var items = {
 			"armor" : "3500",
 			"maxhp" : "8000000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NG","I1KS","I1OG","I1ND"]
 	},
 	"I1P6" : {
 		"name" : "명풍치월[카오스]",
+		"en_name" : "Moon Cloth of Wind Ruler[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["한 고위 인챈터가 금지된 인챈트를 걸어놓은 옷", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7853,10 +8045,12 @@ var items = {
 			"maxhp" : "24000000",
 			"misc" : "공격시 50%확률로 50만 추가 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1KO","I1OH","I1OQ"]
 	},
 	"I1P5" : {
 		"name" : "하데스의 숨결[카오스]",
+		"en_name" : "Hades' Breath[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["죽음의 신이 구비해놓은 갑옷.... 버려진거같다.", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7865,10 +8059,12 @@ var items = {
 			"maxhp" : "3500000",
 			"misc" : "주변 아군 유닛 이동속도 +15% 증가 및 언데드일경우 50%확률 280000 추가 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1KD","I1OH","I1OS"]
 	},
 	"I1P4" : {
 		"name" : "감금[카오스]",
+		"en_name" : "Confinement[Chaos]",
 		"type" : "무기",
 		"effects" : ["믿음에서 올라온 배반자의 아이템...", "[ 으하하하 좋으냐 낄낄 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7878,10 +8074,12 @@ var items = {
 			"agi_crit_dmg" : "850",
 			"misc" : "공격시 체력 +30000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1JN","I1OF","I1OO"]
 	},
 	"I1P3" : {
 		"name" : "요정왕의 로브[카오스]",
+		"en_name" : "Fairy King's Robes[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["요정왕의 선택에 따라 이 로브도 봉인되었다...", "[ .... 우리 요정들은 숨도록 한다. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7891,10 +8089,12 @@ var items = {
 			"misc" : "마나 리저레이션 +15%",
 			"misc2" : "공격시 마나 회복 +1500"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1JR","I1GS","I1OH","I1OW"]
 	},
 	"I1P2" : {
 		"name" : "네메아의 사자 가죽[카오스]",
+		"en_name" : "Nemean Lion Skin[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["고대 인간종족의 전설로만 남아있던 것이 가상의 힘으로 만들어졌다.", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7904,10 +8104,12 @@ var items = {
 			"mpreg" : "15%",
 			"magic_resistance" : "55"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1JP","I1OH","I1OL"]
 	},
 	"I1P1" : {
 		"name" : "블랙슈트[카오스]",
+		"en_name" : "Black Suit[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["암살왕이 입고 다니던 블랙슈트, 그 어둠의 힘은 아직 잠재되어있다.", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7916,10 +8118,12 @@ var items = {
 			"maxhp" : "15000000",
 			"agi" : "450000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1J1","I1OH","I1OL"]
 	},
 	"I1P0" : {
 		"name" : "만리장성[카오스]",
+		"en_name" : "Great Wall[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["휴먼 종족의 전설의 명소중 하나를 의미하지만 실상은 실존하는 전설의 방어구", "[ 어떻게든 쌓아올려라 해 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7928,10 +8132,12 @@ var items = {
 			"maxhp" : "30000000",
 			"misc" : "공격 받을시 체력회복 +50000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1KQ","I1OH","I1OO"]
 	},
 	"I1OZ" : {
 		"name" : "아누비스 지팡이[카오스]",
+		"en_name" : "Anubis Wand[Chaos]",
 		"type" : "무기",
 		"effects" : ["이집트의 왕이 사용하던 지팡이 어디서 힘이 왔는지는 모른다.<br> 인간들이 믿었다뿐", "[ ... 사하아..]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7939,10 +8145,12 @@ var items = {
 			"misc" : "주변 아군 공격속도 및 이동속도 20% 증가",
 			"misc2" : "언데드 유닛이 버프를 받을 경우 45만 추뎀, 이집트 좀비 시체 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1KB","I1OF","I1OS","I15U"]
 	},
 	"I1OY" : {
 		"name" : "천공의 뿔[카오스]",
+		"en_name" : "Horn of the Sky[Chaos]",
 		"type" : "무기",
 		"effects" : ["아르콘이 천공의 힘을 얻어 가히 천군만마라 할 수 있구나", "[ ... 푸르릉 푸릉! ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7950,10 +8158,12 @@ var items = {
 			"maxhp" : "3500000",
 			"misc" : "조련사가 사용시 천공의 아르콘 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1NT","I1OG","I1OQ"]
 	},
 	"I1OX" : {
 		"name" : "그림타워[카오스]",
+		"en_name" : "Picture Tower[Chaos]",
 		"type" : "무기",
 		"effects" : ["모든 것을 막겠다는 의지속에서 태어난 무구", "[ 너가 그렇게 강하느냐 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7962,10 +8172,14 @@ var items = {
 			"allstats" : "200000",
 			"misc" : "적에게 공격 받을시 10만 회복, 15만 추가 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "가톨 수호터틀",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NF","I1JH","I1OF","I1OO"]
 	},
 	"I1OV" : {
 		"name" : "공허의 지팡이[카오스]",
+		"en_name" : "Void Staff[Chaos]",
 		"type" : "무기",
 		"effects" : ["어떤 경지에 따라 공허라는 것이 존재한다. 그것은 혼돈이다.", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7974,10 +8188,12 @@ var items = {
 			"magic_crit_dmg" : "1300",
 			"misc" : "공격시 마력 +800"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1JD","I1OF","I1OW"]
 	},
 	"I1OU" : {
 		"name" : "백화의검[카오스]",
+		"en_name" : "White Flower Sword[Chaos]",
 		"type" : "무기",
 		"effects" : ["고대 식물 중 벚꽃에 유래된 무구로 전해진다. 그건..", "[ .... .... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -7986,20 +8202,24 @@ var items = {
 			"attack_speed" : "110",
 			"phys_crit_dmg" : "1400"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1JV","I1OF","I1OL"]
 	},
 	"I1OT" : {
 		"name" : "제왕의 검[카오스]",
+		"en_name" : "Monarch Sword[Chaos]",
 		"type" : "무기",
 		"effects" : ["과거 인간 종족의 왕이 들고 있다고 전해졌던 제왕의 검", "[ 널 처단해야겠구나. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
 			"dmg" : "19000000",
 			"allstats" : "650000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1K7","I1OF","I1OS"]
 	},
 	"I1OR" : {
 		"name" : "천둥의 검[카오스]",
+		"en_name" : "Sword of Thunder[Chaos]",
 		"type" : "무기",
 		"effects" : ["일정 확률로 번개가 나가는 어디서 온지 알 수 없는 검", "[ 우르릉 콰과광쾅 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -8008,10 +8228,12 @@ var items = {
 			"misc" : "추가 데미지 200000",
 			"misc2" : "특수 데미지 추가 및 50%확률로 적에게 번개가 나감"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1JV","I1JR","I1OF","I1ND"]
 	},
 	"I1OP" : {
 		"name" : "혈령장[카오스]",
+		"en_name" : "Bloody Soul Reaper[Chaos]",
 		"type" : "무기",
 		"effects" : ["많은 피를 묻혀 혼돈에서 탄생한 무구", "[ ... 살려주시오... 그만.. ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -8019,10 +8241,12 @@ var items = {
 			"misc" : "주변 아군 공격속도 및 이동속도 30% 증가",
 			"misc2" : "추가 300000 데미지"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1JK","I1OI","I1OQ"]
 	},
 	"I1ON" : {
 		"name" : "헤븐즈 보우[카오스]",
+		"en_name" : "Heaven's Bow[Chaos]",
 		"type" : "무기",
 		"effects" : ["인간이 모시는 신이 인간에게 하사한 아이템", "[ .... 이 무구는.... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -8032,22 +8256,26 @@ var items = {
 			"misc" : "20%확률로 1500000 추가 데미지 및 체력 8% 회복",
 			"allstats" : "81000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1JB","I1OF","I1OO"]
 	},
 	"I1OM" : {
 		"name" : "동귀어진[카오스]",
+		"en_name" : "Mutual Destruction[Chaos]",
 		"type" : "무기",
-		"effects" : ["령들의 한이 서려있는 무시무시한 검", "[ ....령들아 너희들도 한이 깊느냐 ]"],
+		"effects" : ["령들의 한이 서려있는 무시무시한 검", "[ ....령들아 너희들도 한이 깊느냐 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
 			"allstats" : "200000",
 			"agi" : "450000",
 			"agi_crit_dmg" : "1200",
 			"misc" : "45%확률로 평타시 범위 데미지 1050000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1NE","I1J1","I1OL","I1OI"]
 	},
 	"I1NG" : {
 		"name" : "일리아나[카오스]",
+		"en_name" : "Illyanna[Chaos]",
 		"type" : "날개",
 		"effects" : ["밝은 희망을 상징하는 날개로. 구원을 돕던 천사의 날개", "[ 창조주라도 파괴의 권리는 없습니다 ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -8055,10 +8283,14 @@ var items = {
 			"maxhp" : "5000000",
 			"armor" : "1900"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "가톨 수호터틀",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1KS","I1JR","I1NA","I1NC","I1LK","I1KR"]
 	},
 	"I1NE" : {
 		"name" : "증조부 검[카오스]",
+		"en_name" : "Great-grandfather's Sword[Chaos]",
 		"type" : "무기",
 		"effects" : ["선조들이 사용하던 최고의 명검", "[ 이 검 앞에선 모두 꿇을 수 밖에... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -8066,10 +8298,14 @@ var items = {
 			"dmg" : "17000000",
 			"maxhp" : "2000000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "엘크 나이트",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		"en_materials" : ["I1K7","I1N9","I1JT","I1N2","I1NC","I1JS"]
 	},
 	"I1NF" : {
 		"name" : "궁극의벽[카오스]",
+		"en_name" : "Ultimate Wall[Chaos]",
 		"type" : "갑옷",
 		"effects" : ["선조들이 사용하던 몸을 보호하던 보구", "[ 와라.... 어떤 것이든... ]", "<span style = 'color:red'>** 이동형창고 전용 조합 **</span>"],
 		"stats" : {
@@ -8077,7 +8313,10 @@ var items = {
 			"armor" : "4300",
 			"maxhp" : "24000000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"mob" : "엘크 나이트",
+		"chance" : "0.943%",
+		"materials" : ["CAFEWALL.JPG"],
+		//"en_materials" : ["I1JF","I1K3","I1N4","I1NC","I1NB","I1KQ"]	
 	},
 	"I1NT" : {
 		"name" : "아르콘의 뿔[신화]",
@@ -8134,7 +8373,7 @@ var items = {
 			"allstats" : "10000",
 			"maxhp" : "550000"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1O2" : {
 		"name" : "좀비의 심장[레전드]",
@@ -8144,7 +8383,7 @@ var items = {
 			"int" : "57000",
 			"misc" : "포이즌 노바 사용시 포이즌 좀비 소환 +1"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1DC" : {
 		"name" : "해골 스컬로드의 기운[레전드]",
@@ -8156,7 +8395,7 @@ var items = {
 			"maxhp" : "470000",
 			"misc" : "해골 스컬로드 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1D9" : {
 		"name" : "해골 우르스의 심장[레전드]",
@@ -8168,7 +8407,7 @@ var items = {
 			"maxmp" : "30000",
 			"misc" : "해골 만노스 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1DA" : {
 		"name" : "해골 올리의 꿈[레전드]",
@@ -8180,7 +8419,7 @@ var items = {
 			"maxmp" : "350000",
 			"misc" : "해골 올리 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1DB" : {
 		"name" : "해골 메케니의 눈물[레전드]",
@@ -8191,7 +8430,7 @@ var items = {
 			"allstats" : "75000",
 			"misc" : "해골 메케니 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I168" : {
 		"name" : "해골 안타레스의 머리[레전드]",
@@ -8203,7 +8442,7 @@ var items = {
 			"maxmp" : "30000",
 			"misc" : "해골 안타레스 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I169" : {
 		"name" : "해골 맘모스의 뿔피리[레전드]",
@@ -8215,7 +8454,7 @@ var items = {
 			"maxhp" : "350000",
 			"misc" : "해골 맘모스 소환"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1O1" : {
 		"name" : "얼룡이의 얼음칼[레전드]",
@@ -8225,7 +8464,7 @@ var items = {
 			"allstats" : "100000",
 			"misc" : "얼음룡 조각상 공격시 얼음룡 조각 포인트 +1"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1CF" : {
 		"name" : "드래곤의 성물[레전드]",
@@ -8236,7 +8475,7 @@ var items = {
 			"maxhp" : "1000000",
 			"mpreg" : "15"
 		},
-		"materials" : ["PAYWALL.JPG"]
+		"materials" : ["CAFEWALL.JPG"]
 	},
 	"I1O3" : {
 		"name" : "포레스트 킹[신화]",
@@ -8605,7 +8844,9 @@ var items = {
 			"misc" : "근접 및 원거리 유닛 200% 데미지 증가",
 			"misc2" : "버프 유닛 150000 고정 추가 데미지"
 		},
-		"materials" : ["I1JI","I1IV","I1IZ","I1DX","I1I1","I1G1"]
+		"materials" : ["I1JI","I1IV","I1IZ","I1DX","I1I1","I1G1"],
+		"mob" : "봉인당한 가이아",
+		"chance" : "0.485%"
 	},
 	"I1NK" : {
 		"name" : "카드술사의 스톤[신화]",
@@ -8959,7 +9200,6 @@ var items = {
 		"type" : "기타",
 		"effects" : ["빙의 날개 조합서 + 호크의 날개 + 마녀의 피"]
 	},
-	
 	"I01R" : {
 		"name" : "거미줄 신발'[강화] 조합서",
 		"type" : "기타",
@@ -9136,7 +9376,7 @@ var items = {
 	
 	
 	
-	"PAYWALL.JPG" : {
+	"CAFEWALL.JPG" : {
 		"name" : "<span style = 'color:blue'>INFORMATION</span>",
 		"disabled": true,
 		"effects" : ["<span style = 'color:gold'>카페의 상위 정보란을 방문하셔서 확인할 수 있습니다</span>", "제작자의 요청에 따라 삭제되었습니다"]

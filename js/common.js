@@ -12,4 +12,3 @@ function setupChangeLanguage () {
   $("." + config.lang).addClass('selected')
   
 }
-    

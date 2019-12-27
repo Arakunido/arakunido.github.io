@@ -1,0 +1,25 @@
+.tooltip-inner {
+  max-width: 475px;
+  background-color: rgba(15, 45, 61);
+  border-style: solid;
+  border-width: 5px;
+  border-image: url(tooltip.png) 6 round round;
+  border-radius: 4px;
+}
+
+.tooltip {
+  min-width: 150px;
+}
+
+.tooltip .arrow:before {
+  visibility: hidden;
+}
+
+.item-tooltip {
+  white-space: nowrap;
+}
+
+img.icon {
+  max-height: 52px;
+  max-width: 52px;
+}

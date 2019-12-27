@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="mlRPG Drop Table">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <meta name="author" content="Arakunido & juvian">
+  <title>mlRPG - Drop Table</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+
+  <script>
+    config = {
+      lang: new URLSearchParams(window.location.search).get("lang") || "eng"
+    }
+    serverRender = false
+  </script>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/translations.js"></script>
+  <script src="../js/CN/CN-translation.js"></script>
+  <link rel="stylesheet" href="../css/common.css"></link>
+
+  <!-- jQuery, Tether, Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha256-4lietOiwRDBKx1goZZbRiwB06L+/bPYEGDIKZt82bgg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Arakunido's Hideout</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../list">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../credits">Credits</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</head>
+
+<link rel="stylesheet" href="../css/bootstrap-table.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<body>
+
+    <div class = "float-right language">
+      <img class = "eng" src = "https://i.imgur.com/z2KquH0.png" width = "80" height = "40"></img>
+      <img class = "zh-CN" src = "https://i.imgur.com/2kpNN9s.png" width = "80" height = "40"></img>
+    </div>
+	<h1 class="text-center title">mlRPG – <span class="badge badge-pill badge-info"> 1.00V </span></h1>
+	<table id="table" data-show-search-clear-button="true"></table>
+	
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.4/bootstrap-table.min.js" integrity="sha256-zuYwDcub7myT0FRW3/WZI7JefCjyTmBJIoCS7Rb9xQc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.4/locale/bootstrap-table-zh-CN.js" integrity="sha256-DTLTSJ4mROIkNL1W1MaVvPlspAKKZaQw2nZgR0t4f5g=" crossorigin="anonymous"></script>
+
+<script src="../js/client.js"></script>
+<script src="../items/mlRPG/itemsml.js"></script>
+<script>
+  checkLanguage(items, config.lang);
+</script>
+<script src="../js/Utils.js"></script>
+<link href="../css/items.css" rel="stylesheet"></link>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js" integrity="sha256-TabprKdeNXbSesCWLMrcbWSDzUhpAdcNPe5Q53rn9Yg=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.min.js" integrity="sha256-uJM4faHad7tdChm9dmdJ6eBvP36+BUj0IUzvIYvmgTo=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.css" integrity="sha256-oihWe0KdtBd8G96a/F7odmMuPQowZ9lsl1LZT7m51GM=" crossorigin="anonymous" />
+<div class="modal fade" id="item-tree-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center col-12"></h5>
+      </div>
+      <div class="modal-body">
+        <div id="item-tree" style="width:100%;height:550px"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var simple_chart_config = {
+    chart: {
+      container: "#item-tree",
+      rootOrientation: "EAST",
+      nodeAlign: "BOTTOM",
+      connectors: {
+        type: "step",
+        style: {
+          "stroke-width": 4
+        }
+      },
+      levelSeparation: 148,
+    },
+    nodeStructure: null
+  };
+  $('#item-tree-modal').on('shown.bs.modal', function(event) {
+    var button = $(event.relatedTarget) // Button that triggered the modal
+    var item = button.data('item') // Extract info from data-* attributes
+    simple_chart_config.nodeStructure = getItemTree(item);
+    item = items[item];
+    var modal = $(this);
+    modal.find(".modal-title").html(`${translate("Combination Tree:")} ${item.label}`)
+    new Treant(simple_chart_config);
+    $('#item-tree-modal').find(".item-tooltip").tooltip({
+      container: $('#item-tree-modal'),
+      placement: "bottom"
+    });
+  })
+  $(".item-tooltip").tooltip({
+    placement: "bottom"
+  });
+</script>
+
+</html>
