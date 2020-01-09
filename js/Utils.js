@@ -78,6 +78,7 @@ function formatStat (stat, val, lang) {
       else if (stat == "ice_damage") return translate("Ice Attribute Damage", lang) + ": +" + val + "%";
       else if (stat == "light_damage") return translate("Light Attribute Damage", lang) + ": +" + val + "%";
       else if (stat == "thunder_damage") return translate("Thunder Attribute Damage", lang) + ": +" + val + "%";
+      else if (stat == "all_atr_damage") return translate("All Attribute Damage", lang) + ": +" + val + "%";
       else if (stat == "critical_chance") return translate("Critical Chance", lang) + ": +" + val + "%";
       else if (stat == "critical_damage") return translate("Critical Damage", lang) + ": +" + val + "%";
       else if (stat == "experience") return translate("Experience Gain", lang) + ": +" + val + "%";

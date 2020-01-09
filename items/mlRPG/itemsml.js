@@ -833,7 +833,7 @@ var items = {
       attack_speed: "20"
     },
     mob: "Snowfield Behemoth",
-    chance: "24%"
+    chance: "49%"
   },
   I0JR: {
     label: "Withered Ring",
@@ -846,7 +846,7 @@ var items = {
       hpreg: "60"
     },
     mob: "Snowfield Behemoth",
-    chance: "24%"
+    chance: "49%"
   },
   I0JP: {
     label: "Ice Tooth",
@@ -860,7 +860,7 @@ var items = {
       ice_damage: "3"
     },
     mob: "Snowfield Behemoth",
-    chance: "24%"
+    chance: "49%"
   },
   I0JO: {
     label: "Bearskin Cloak",
@@ -874,7 +874,7 @@ var items = {
       mpreg: "20"
     },
     mob: "Snowfield Behemoth",
-    chance: "24%"
+    chance: "49%"
   },
   I0JK: {
     label: "Braised Mushrooms",
@@ -3390,7 +3390,7 @@ var items = {
       critical_damage: "10"
     },
     mob: "Skeleton King",
-    chance: "4%"
+    chance: "24%"
   },
   I0H6: {
     label: "Wings of the Undead",
@@ -3403,7 +3403,7 @@ var items = {
       dmg_taken: "5%"
     },
     mob: "Skeleton King",
-    chance: "4%"
+    chance: "24%"
   },
   tsct: {
     label: "Skeleton King Badge",
@@ -3573,7 +3573,7 @@ var items = {
       attack_speed: "25"
     },
     mob: "Red Ant Queen",
-    chance: "1.3%"
+    chance: "24%"
   },
   stre: {
     label: "Red Ant Orb",
@@ -3735,7 +3735,7 @@ var items = {
       attack_speed: "25"
     },
     mob: "Templar Lord",
-    chance: "4%"
+    chance: "14%"
   },
   I0ED: {
     label: "Holy Armor",
@@ -3748,7 +3748,7 @@ var items = {
       hpreg: "25"
     },
     mob: "Templar Lord",
-    chance: "4%"
+    chance: "14%"
   },
   I0EE: {
     label: "Codex of Light",
@@ -3761,7 +3761,7 @@ var items = {
       light_damage: "5"
     },
     mob: "Templar Lord",
-    chance: "4%"
+    chance: "14%"
   },
   I0BB: {
     label: "Holy Spirit Stone",
@@ -3771,7 +3771,7 @@ var items = {
     stats: {
     },
     mob: ["Templar Lord", "Santa Claus"],
-    chance: ["1.5%", "4%"]
+    chance: ["1.5%", "9%"]
   },
   lure: {
     label: "Temple Orb",
@@ -3938,7 +3938,7 @@ var items = {
       dmg_taken: "5%"
     },
     mob: "Torilinos",
-    chance: "3.2%"
+    chance: "14%"
   },
   I0H7: {
     label: "Heart of the Sea",
@@ -3952,7 +3952,7 @@ var items = {
       dmg_taken: "10%"
     },
     mob: "Torilinos",
-    chance: "3.2%"
+    chance: "14%"
   },
   I0K5: {
     label: "Ashes of Heaven",
@@ -3960,7 +3960,7 @@ var items = {
     effects: ["These grains of sand seemed to be imbued with water essence."],
     cn_effects: ["这个神奇的砂粒中拥有令人难以想象的碧水精华。"],
     mob: ["Torilinos", "Witch of the Abyss"],
-    chance: ["0.3%", "4%"]
+    chance: ["0.3%", "9%"]
   },
   rots: {
     label: "Tidal Orb",
@@ -4110,7 +4110,7 @@ var items = {
       skill_damage: "5"
     },
     mob: "Lava Flow",
-    chance: "1.3%"
+    chance: "14%"
   },
   I04I: {
     label: "Heart of Anger",
@@ -4124,7 +4124,7 @@ var items = {
       fire_damage: "5"
     },
     mob: "Lava Flow",
-    chance: "1.1%"
+    chance: "14%"
   },
   I0K6: {
     label: "Earthfire Dust",
@@ -4134,7 +4134,7 @@ var items = {
     stats: {
     },
     mob: ["Lava Flow", "Flame Giant"],
-    chance: ["1.1%", "4%"]
+    chance: ["1.1%", "9%"]
   },
   kysn: {
     label: "Lava Badge",
@@ -4300,7 +4300,7 @@ var items = {
       critical_damage: "5"
     },
     mob: "Lord of the Purgatory",
-    chance: "1%"
+    chance: "9%"
   },
   I0H8: {
     label: "Devil Statue",
@@ -4314,7 +4314,7 @@ var items = {
       hpreg: "100"
     },
     mob: "Lord of the Purgatory",
-    chance: "1%"
+    chance: "9%"
   },
   I0A7: {
     label: "Hell Stone",
@@ -4324,7 +4324,7 @@ var items = {
     stats: {
     },
     mob: ["Lord of the Purgatory", "Eye of Chaos"],
-    chance: ["4%", "4%"]
+    chance: ["4%", "9%"]
   },
   I071: {
     label: "Crystal of Slaughter",
@@ -4334,7 +4334,7 @@ var items = {
     stats: {
     },
     mob: ["Lord of the Purgatory", "Demonic Corpse"],
-    chance: ["1.5%", "4%"]
+    chance: ["1.5%", "9%"]
   },
   ofir: {
     label: "Purgatory Orb",
@@ -4502,7 +4502,7 @@ var items = {
       dark_damage: "5"
     },
     mob: "Void Lord",
-    chance: "1.6%"
+    chance: "9%"
   },
   I05S: {
     label: "Ring of Shadows",
@@ -4515,7 +4515,7 @@ var items = {
       dark_damage: "5"
     },
     mob: "Void Lord",
-    chance: "1.6%"
+    chance: "9%"
   },
   I0KK: {
     label: "Excellent Crystal Stone",
@@ -4921,7 +4921,7 @@ var items = {
       magic_resistance: "5"
     },
     mob: "Santa Claus",
-    chance: "4%"
+    chance: "9%"
   },
   I0EM: {
     label: "Christmas Gift Box",
@@ -4934,7 +4934,7 @@ var items = {
       skill_damage: "2"
     },
     mob: "Santa Claus",
-    chance: "4%"
+    chance: "9%"
   },
   I0EN: {
     label: "Christmas Hat",
@@ -4949,7 +4949,7 @@ var items = {
       evasion: "10%"
     },
     mob: "Santa Claus",
-    chance: "4%"
+    chance: "9%"
   },
   I0GE: {
     label: "Sacred Silk",
@@ -4957,7 +4957,7 @@ var items = {
     effects: ["An extremely rare fabric said to be created by the heavens themselves."],
     cn_effects: ["这丝绸上面散发着神圣的气息据说是来自天堂的产物。"],
     mob: "Santa Claus",
-    chance: "4%"
+    chance: "9%"
   },
   I07R: {
     label: "Earth Guardian Gloves",
@@ -4971,7 +4971,7 @@ var items = {
       attack_speed: "15"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I0FL: {
     label: "Earth Guardian Scepter",
@@ -4984,7 +4984,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I0F7: {
     label: "Earth Guardian Crossbow",
@@ -4998,7 +4998,7 @@ var items = {
       attack_speed: "15"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I06O: {
     label: "Earth Guardian's Battle Axe",
@@ -5011,7 +5011,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I02L: {
     label: "Earth Guardian Battlegear",
@@ -5025,7 +5025,7 @@ var items = {
       hpreg: "60"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I05D: {
     label: "Ring of the Earth Guardian",
@@ -5039,7 +5039,7 @@ var items = {
       movement_speed: "75"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I05A: {
     label: "Earth Guardian's Core",
@@ -5053,7 +5053,7 @@ var items = {
       dmg_taken: "5%"
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I04Z: {
     label: "Earth Fragment",
@@ -5063,7 +5063,7 @@ var items = {
     stats: {
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   I0GF: {
     label: "Ancient Magic Rock",
@@ -5073,7 +5073,7 @@ var items = {
     stats: {
     },
     mob: "Ancient Ruins Guardian Black Mountain",
-    chance: "4%"
+    chance: "9%"
   },
   shrs: {
     label: "Ancient Guardian Orb",
@@ -5159,7 +5159,7 @@ var items = {
       movement_speed: "125"
     },
     mob: "Eye of Chaos",
-    chance: "4%"
+    chance: "9%"
   },
   I0EL: {
     label: "Eye of Sin",
@@ -5172,7 +5172,7 @@ var items = {
       critical_chance: "10"
     },
     mob: "Eye of Chaos",
-    chance: "4%"
+    chance: "9%"
   },
   I05E: {
     label: "Burst",
@@ -5184,7 +5184,7 @@ var items = {
       agi: "640"
     },
     mob: "Eye of Chaos",
-    chance: "4%"
+    chance: "9%"
   },
   I06N: {
     label: "Chaotic Bow of Illusion",
@@ -5196,7 +5196,7 @@ var items = {
       agi: "660"
     },
     mob: "Eye of Chaos",
-    chance: "4%"
+    chance: "9%"
   },
   I0AC: {
     label: "Arcane Scepter",
@@ -5209,7 +5209,7 @@ var items = {
       mpreg: "80"
     },
     mob: "Archmage Antonidas",
-    chance: "4%"
+    chance: "9%"
   },
   I07D: {
     label: "Arcane Robe",
@@ -5222,7 +5222,7 @@ var items = {
       magic_resistance: "3"
     },
     mob: "Archmage Antonidas",
-    chance: "4%"
+    chance: "9%"
   },
   I0AG: {
     label: "Ring of Secrets",
@@ -5235,7 +5235,7 @@ var items = {
       movement_speed: "75"
     },
     mob: "Archmage Antonidas",
-    chance: "4%"
+    chance: "9%"
   },
   I0FS: {
     label: "Magical Codex of Curses",
@@ -5248,7 +5248,7 @@ var items = {
       mpreg: "100"
     },
     mob: "Archmage Antonidas",
-    chance: "4%"
+    chance: "9%"
   },
   I0GG: {
     label: "Heart of Magic",
@@ -5256,7 +5256,7 @@ var items = {
     effects: ["A pulse of magic can be seen with the naked eye."],
     cn_effects: ["这个物品不断的对周围持续释放着魔力。"],
     mob: "Archmage Antonidas",
-    chance: "4%"
+    chance: "9%"
   },
   I0GH: {
     label: "Codex of Secrets",
@@ -5264,7 +5264,7 @@ var items = {
     effects: ["This book seems to be written in a language you cannot understand, although it is said to contain many secrets."],
     cn_effects: ["这本书里写着你看不懂的文字，据说远古失传的技术都记录在这本书里。"],
     mob: "Archmage Antonidas",
-    chance: "4%"
+    chance: "9%"
   },
   I0HE: {
     label: "Recipe - Lord of Magic",
@@ -5272,7 +5272,7 @@ var items = {
     effects: ["Required materials:", "-Heart of Magic *1", "-Codex of Secrets *1"],
     cn_effects: ["所需材料:", "-魔法之心 *1", "-秘法典籍 *1"],
     mob: "Archmage Antonidas",
-    chance: "0.2%"
+    chance: "4%"
   },
   mlst: {
     label: "Sorcerer Orb",
@@ -5358,7 +5358,7 @@ var items = {
       attack_speed: "15"
     },
     mob: "Snow Walker",
-    chance: "4%"
+    chance: "9%"
   },
   I06M: {
     label: "Winter Hunter",
@@ -5371,7 +5371,7 @@ var items = {
       attack_speed: "15"
     },
     mob: "Snow Walker",
-    chance: "4%"
+    chance: "9%"
   },
   I009: {
     label: "Crystal of Winter",
@@ -5384,7 +5384,7 @@ var items = {
       magic_resistance: "5"
     },
     mob: "Snow Walker",
-    chance: "4%"
+    chance: "9%"
   },
   I0GI: {
     label: "Magical Horn",
@@ -5392,7 +5392,7 @@ var items = {
     effects: ["This item can be used for many different purposes."],
     cn_effects: ["这个坚硬的犄角可以让你制作许多的工艺品。"],
     mob: "Snow Walker",
-    chance: "4%"
+    chance: "9%"
   }, 
   I0AK: {
     label: "Ice Crystal Fragments",
@@ -5400,7 +5400,7 @@ var items = {
     effects: ["A mysterious gem that exudes a deathly chill."],
     cn_effects: ["一种神秘的宝石碎片本身散发着致命的寒气。"],
     mob: "Snow Walker",
-    chance: "4%"
+    chance: "9%"
   }, 
   I07B: {
     label: "Snowman Fur",
@@ -5408,7 +5408,7 @@ var items = {
     effects: ["This warmfur will protect you from snow and the cold."],
     cn_effects: ["这个温暖的皮毛保护你不受风雪的侵蚀。"],
     mob: "Snow Walker",
-    chance: "4%"
+    chance: "9%"
   }, 
   I0LG: {
     label: "Recipe - Ancient Snow Beast",
@@ -5416,7 +5416,7 @@ var items = {
     effects: ["Required materials:", "Ice Crystal Fragments *1", "Snowman Fur *1", "Magical Horn *1"],
     cn_effects: ["所需材料:", "冰晶碎片 *1", "雪人皮毛 *1", "魔力尖角 *1"],
     mob: "Snow Walker",
-    chance: "0.2%"
+    chance: "4%"
   },
   I06B: {
     label: "Deathly Spirit Shotgun",
@@ -5428,7 +5428,7 @@ var items = {
       agi: "680"
     },
     mob: "Wraith",
-    chance: "4%"
+    chance: "9%"
   },
   I06G: {
     label: "Scepter of Death",
@@ -5440,7 +5440,7 @@ var items = {
       int: "640"
     },
     mob: "Wraith",
-    chance: "4%"
+    chance: "9%"
   },
   I06X: {
     label: "Cloak of the Dead",
@@ -5454,7 +5454,7 @@ var items = {
       skill_damage: "4"
     },
     mob: "Wraith",
-    chance: "4%"
+    chance: "9%"
   },
   I05X: {
     label: "Necrotic Crystal",
@@ -5467,7 +5467,7 @@ var items = {
       dark_damage: "4"
     },
     mob: "Wraith",
-    chance: "4%"
+    chance: "9%"
   },
   I06V: {
     label: "Bracelet of Death",
@@ -5480,7 +5480,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Wraith",
-    chance: "4%"
+    chance: "9%"
   },
   I0A6: {
     label: "Soul Stone",
@@ -5488,7 +5488,7 @@ var items = {
     effects: ["A powerful soul that has been crystallized."],
     cn_effects: ["一块强烈扭曲的灵魂形成的结晶。"],
     mob: "Wraith",
-    chance: "4%"
+    chance: "9%"
   }, 
   I0JV: {
     label: "Withered Remains",
@@ -5496,7 +5496,7 @@ var items = {
     effects: ["The remains still reek of evil magic despite countless years."],
     cn_effects: ["这个遗骸即使已经腐朽已久却依然散发着邪恶的魔力。"],
     mob: ["Demonic Corpse", "Wraith"],
-    chance: ["4%", "4%"]
+    chance: ["9%", "9%"]
   }, 
   brag: {
     label: "Wraith Orb",
@@ -5546,7 +5546,7 @@ var items = {
       critical_damage: "5"
     },
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["1.5%", "1.5%"]
+    chance: ["4%", "4%"]
   },
   I090: {
     label: "Glacial Death Gun",
@@ -5559,7 +5559,7 @@ var items = {
       critical_damage: "5"
     },
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["1.5%", "1.5%"]
+    chance: ["4%", "4%"]
   },
   I0EJ: {
     label: "Glacial Death Claw",
@@ -5572,7 +5572,7 @@ var items = {
       critical_damage: "5"
     },
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["1.5%", "1.5%"]
+    chance: ["4%", "4%"]
   },
   I06Y: {
     label: "Glacial Death Armor",
@@ -5586,7 +5586,7 @@ var items = {
       magic_resistance: "5"
     },
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["1.5%", "1.5%"]
+    chance: ["4%", "4%"]
   },
   I083: {
     label: "Glacial Soul Ring",
@@ -5598,7 +5598,7 @@ var items = {
       attack_speed: "25"
     },
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["0.05%", "0.05%"]
+    chance: ["0.1%", "0.1%"]
   },
   I0AZ: {
     label: "Icy Thorn Vine",
@@ -5606,7 +5606,7 @@ var items = {
     effects: ["A plant that can be found growing in extreme yin areas."],
     cn_effects: ["唯一生长在极寒领域的植物，不断吸收着周围的寒气成长。"],
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["1.5%", "1.5%"]
+    chance: ["4%", "4%"]
   },
   I04X: {
     label: "Magic Imbued Remains",
@@ -5614,7 +5614,7 @@ var items = {
     effects: ["The frosty remains of a once powerful creature."],
     cn_effects: ["冰冷的遗骸中含有特殊的能量物质。"],
     mob: ["Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother"],
-    chance: ["1.5%", "1.5%"]
+    chance: ["4%", "4%"]
   },
   gsou: {
     label: "Glacial Death Orb",
@@ -5699,7 +5699,7 @@ var items = {
       dark_damage: "3"
     },
     mob: "Possessed Spirit Tree",
-    chance: "4%"
+    chance: "9%"
   },
   I0KJ: {
     label: "Bow of Death",
@@ -5712,7 +5712,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Possessed Spirit Tree",
-    chance: "4%"
+    chance: "9%"
   },
   I0K9: {
     label: "Necromancer Robe",
@@ -5725,7 +5725,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Possessed Spirit Tree",
-    chance: "4%"
+    chance: "9%"
   },
   I0KN: {
     label: "Bloodsoul Ring",
@@ -5738,7 +5738,7 @@ var items = {
       hpreg: "50"
     },
     mob: "Possessed Spirit Tree",
-    chance: "4%"
+    chance: "9%"
   },
   I0JG: {
     label: "Yin Main Root",
@@ -5746,7 +5746,7 @@ var items = {
     effects: ["Mysterious tree roots that exude a ghastly light."],
     cn_effects: ["散发着阴暗气息的神秘树根。"],
     mob: "Possessed Spirit Tree",
-    chance: "4%"
+    chance: "9%"
   },
   I0JF: {
     label: "Soul Root",
@@ -5754,7 +5754,7 @@ var items = {
     effects: ["Mysterious tree roots that exude a ghastly light."],
     cn_effects: ["散发着阴暗气息的神秘树根。"],
     mob: "Possessed Spirit Tree",
-    chance: "4%"
+    chance: "9%"
   },
   I0LH: {
     label: "Recipe - Soul Eater",
@@ -5762,7 +5762,7 @@ var items = {
     effects: ["Required materials:", "Yin Main Root *1", "Soul Root *1"],
     cn_effects: ["所需材料:", "阴冥根 *1", "养魂木 *1"],
     mob: "Possessed Spirit Tree",
-    chance: "0.2%"
+    chance: "4%"
   },
   srtl: {
     label: "Demonic Corpse Orb",
@@ -5807,7 +5807,7 @@ var items = {
     effects: ["Required materials:", "Withered Remains *1", "Crystal of Slaughter *1", "Blood Drop Stone *1"],
     cn_effects: ["所需材料:", "亡者遗骨 *1", "杀戮结晶 *1", "血滴石 *1"],
     mob: "Demonic Corpse",
-    chance: "0.2%"
+    chance: "4%"
   },
   I06C: {
     label: "Killing Tooth",
@@ -5821,7 +5821,7 @@ var items = {
       attack_speed: "25"
     },
     mob: "Demonic Corpse",
-    chance: "4%"
+    chance: "9%"
   },
   I0JW: {
     label: "Bloody Robes",
@@ -5834,7 +5834,7 @@ var items = {
       maxhp: "3000"
     },
     mob: "Demonic Corpse",
-    chance: "4%"
+    chance: "9%"
   },
   I0JI: {
     label: "Tooth of Bloodthirst",
@@ -5848,7 +5848,7 @@ var items = {
       attack_speed: "20"
     },
     mob: "Demonic Corpse",
-    chance: "4%"
+    chance: "9%"
   },
   I056: {
     label: "Blood Crystal",
@@ -5862,7 +5862,7 @@ var items = {
       healing: "25"
     },
     mob: "Demonic Corpse",
-    chance: "4%"
+    chance: "9%"
   },
   I0AI: {
     label: "Blood Drop Stone",
@@ -5870,7 +5870,7 @@ var items = {
     effects: ["A magical stone created from condensed blood."],
     cn_effects: ["鲜血凝聚成的魔石赋予物品鲜血的力量。"],
     mob: "Demonic Corpse",
-    chance: "4%"
+    chance: "9%"
   },
   I0HW: {
     label: "Molten Core",
@@ -5884,7 +5884,7 @@ var items = {
       fire_damage: "5"
     },
     mob: "Flame Giant",
-    chance: "4%"
+    chance: "9%"
   },
   I0KA: {
     label: "Flamespark Armor",
@@ -5897,7 +5897,7 @@ var items = {
       magic_resistance: "5"
     },
     mob: "Flame Giant",
-    chance: "4%"
+    chance: "9%"
   },
   I0KH: {
     label: "Breaker",
@@ -5910,7 +5910,7 @@ var items = {
       critical_damage: "5"
     },
     mob: "Flame Giant",
-    chance: "4%"
+    chance: "9%"
   },
   I0KG: {
     label: "Devourer",
@@ -5923,7 +5923,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Flame Giant",
-    chance: "4%"
+    chance: "9%"
   },
   olig: {
     label: "Flame Giant Orb",
@@ -6009,11 +6009,11 @@ var items = {
     cn_effects: ["装备后600px内的敌对单位魔法抗性-5%。", "Lv.380"],
     stats: {
       defense: "360",
-      mainstat: "980",
+      mainstat: "820",
       movement_speed: "165"
     },
     mob: "Undead Lord",
-    chance: "1%"
+    chance: "4%"
   },
   I05Z: {
     label: "Endless Darkness, the Ring of the Abyss",
@@ -6021,12 +6021,12 @@ var items = {
     effects: ["Reduce armor for all enemies in 500 range by 125.", "Lv.380"],
     cn_effects: ["降低500px内的敌人125点防御力。", "Lv.380"],
     stats: {
-      allstats: "960",
+      allstats: "690",
       maxhp: "4000",
-      skill_damage: "12"
+      skill_damage: "6"
     },
     mob: "Undead Lord",
-    chance: "1%"
+    chance: "4%"
   },
   I09X: {
     label: "Endless Darkness, The Soul Armor of Death",
@@ -6036,10 +6036,10 @@ var items = {
     stats: {
       defense: "820",
       str: "940",
-      magic_resistance: "8"
+      magic_resistance: "10"
     },
     mob: "Undead Lord",
-    chance: "1%"
+    chance: "4%"
   },
   I073: {
     label: "Endless Darkness, the Spirit Sword of Purity",
@@ -6148,7 +6148,7 @@ var items = {
       skill_damage: "5"
     },
     mob: "Source of the Disease",
-    chance: "1.5%"
+    chance: "4%"
   },
   I0AE: {
     label: "Source of Epidemic, the Armor of Plague",
@@ -6161,7 +6161,7 @@ var items = {
       skill_damage: "5"
     },
     mob: "Source of the Disease",
-    chance: "1.5%"
+    chance: "4%"
   },
   I06K: {
     label: "Source of Epidemic, the Heart of Filth",
@@ -6221,7 +6221,7 @@ var items = {
       fire_damage: "5"
     },
     mob: "Lord of Madness Man Sha",
-    chance: "1.6%"
+    chance: "4%"
   },
   I0EH: {
     label: "Armor of Hell",
@@ -6234,7 +6234,7 @@ var items = {
       magic_resistance: "5"
     },
     mob: "Lord of Madness Man Sha",
-    chance: "1.6%"
+    chance: "4%"
   },
   I0HI: {
     label: "Hellflame Robes",
@@ -6247,7 +6247,7 @@ var items = {
       skill_damage: "5"
     },
     mob: "Lord of Madness Man Sha",
-    chance: "1.6%"
+    chance: "4%"
   },
   I0EG: {
     label: "Twisted Spirit Torch",
@@ -6260,7 +6260,7 @@ var items = {
       fire_damage: "10"
     },
     mob: "Lord of Madness Man Sha",
-    chance: "1.6%"
+    chance: "4%"
   },
   I0F4: {
     label: "Crimson Heart",
@@ -6389,7 +6389,7 @@ var items = {
       wind_damage: "5"
     },
     mob: "Polar Wind Shifu",
-    chance: "0.05%"
+    chance: "0.1%"
   },
   I0EW: {
     label: "Heart of the Storm",
@@ -6404,7 +6404,7 @@ var items = {
       wind_damage: "5"
     },
     mob: "Polar Wind Shifu",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0EV: {
     label: "Ring of Cyclone",
@@ -6418,7 +6418,7 @@ var items = {
       wind_damage: "5"
     },
     mob: "Polar Wind Shifu",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0EX: {
     label: "Bow of Storm",
@@ -6431,7 +6431,7 @@ var items = {
       skill_damage: "5"
     },
     mob: "Polar Wind Shifu",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0BA: {
     label: "Explosive War Blade",
@@ -6444,7 +6444,7 @@ var items = {
       critical_chance: "20"
     },
     mob: "Flame Tyrant Galamud",
-    chance: "1.6%"
+    chance: "4%"
   },
   I0AH: {
     label: "Horn of Rage",
@@ -6455,10 +6455,10 @@ var items = {
       defense: "360",
       str: "660",
       agi: "560",
-      n_dmg_taken: "10"
+      n_dmg_taken: "10%"
     },
     mob: "Flame Tyrant Galamud",
-    chance: "1.6%"
+    chance: "4%"
   },
   I0HA: {
     label: "Heavy Alloy Armor",
@@ -6469,10 +6469,10 @@ var items = {
       defense: "1050",
       str: "800",
       magic_resistance: "8",
-      dmg_taken: "10"
+      dmg_taken: "10%"
     },
     mob: "Flame Tyrant Galamud",
-    chance: "1.6%"
+    chance: "4%"
   },
   I05Q: {
     label: "Smasher",
@@ -6534,7 +6534,7 @@ var items = {
       critical_chance: "3",
       skill_damage: "3",
       critical_damage: "3",
-      dmg_taken: "5"
+      dmg_taken: "5%"
     },
     mob: "Flame Tyrant Galamud",
     chance: "0.1%"
@@ -6645,7 +6645,7 @@ var items = {
       healing: "50"
     },
     mob: "Tidal Wave",
-    chance: "1.5%"
+    chance: "4%"
   },
   I053: {
     label: "Abyssal Crossbow of Madness",
@@ -6659,7 +6659,7 @@ var items = {
       attack_speed: "25"
     },
     mob: "Tidal Wave",
-    chance: "1.5%"
+    chance: "4%"
   },
   I0HF: {
     label: "Abyssal Scepter of Madness",
@@ -6671,7 +6671,7 @@ var items = {
       int: "1600"
     },
     mob: "Tidal Wave",
-    chance: "1.5%"
+    chance: "4%"
   },
   I0K1: {
     label: "Scepter of Thunderfury",
@@ -6684,7 +6684,7 @@ var items = {
       thunder_damage: "5"
     },
     mob: "Witch of the Abyss",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0JZ: {
     label: "Abyssal Battle Armor",
@@ -6697,7 +6697,7 @@ var items = {
       skill_damage: "3"
     },
     mob: "Witch of the Abyss",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0K2: {
     label: "Tide Caller's Horn",
@@ -6709,7 +6709,7 @@ var items = {
       int: "500"
     },
     mob: "Witch of the Abyss",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0JY: {
     label: "Ocean Abyss, The Bow of Tragedy",
@@ -6722,7 +6722,7 @@ var items = {
       agi: "1340"
     },
     mob: "Witch of the Abyss",
-    chance: "0.05%"
+    chance: "0.1%"
   },
   I0K3: {
     label: "Mark of Thunder",
@@ -6840,7 +6840,7 @@ var items = {
       skill_damage: "6"
     },
     mob: "Protector Norn",
-    chance: "0.05%"
+    chance: "0.1%"
   },
   I0KV: {
     label: "Pure Life Stone",
@@ -6853,7 +6853,7 @@ var items = {
       hpreg: "60"
     },
     mob: "Protector Norn",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0HY: {
     label: "Emerald Crown",
@@ -6866,7 +6866,7 @@ var items = {
       movement_speed: "125"
     },
     mob: "Protector Norn",
-    chance: "2.5%"
+    chance: "4%"
   },
   I0KT: {
     label: "Exquisite Robe",
@@ -6880,15 +6880,236 @@ var items = {
       hpreg: "80"
     },
     mob: "Protector Norn",
-    chance: "2.5%"
+    chance: "4%"
   },
+  I01B: {
+    label: "Heavenly Staff",
+    type: "Staff",
+    effects: ["Activate Heaven Light on use.", "Lv.360"],
+    cn_effects: ["点击使用召唤天堂圣光。", "Lv.360"],
+    stats: {
+      dmg: "20960",
+      int: "1600",
+      maxhp: "4000"
+    },
+    mob: "Angel of War Imperius",
+    chance: "4%"
+  },
+  I0IW: {
+    label: "Heavenly Icon",
+    type: "Auxiliary",
+    effects: ["Reduces revive time by 10 seconds.", "Lv.360"],
+    cn_effects: ["死亡后复活时间-10秒。", "Lv.360"],
+    stats: {
+      allstats: "620",
+      movement_speed: "120"
+    },
+    mob: "Angel of War Imperius",
+    chance: "4%"
+  },
+  I01M: {
+    label: "Armor of Radiance",
+    type: "Heavy Armor",
+    effects: ["Changes properties based on your HP.", "Lv.360"],
+    cn_effects: ["依照自身血量触发属性。", "Lv.360"],
+    stats: {
+      defense: "620",
+      str: "690",
+      magic_resistance: "8"
+    },
+    mob: "Angel of War Imperius",
+    chance: "4%"
+  },
+  I018: {
+    label: "Holy Purification Stone",
+    type: "Magic Stone",
+    effects: ["Ressurect user upon death.", "Resurrection time -10 seconds.", "Lv.360"],
+    cn_effects: ["死亡后立即原地复活。", "死亡后复活时间-10秒。", "Lv.360"],
+    stats: {
+      dmg: "6690",
+      allstats: "620"
+    },
+    mob: "Angel of War Imperius",
+    chance: "0.1%"
+  },
+  I0MZ: {
+    label: "Holy Scripture",
+    type: "Material",
+    effects: ["The scripture that contains recordings of long lost secrets."],
+    cn_effects: ["已经遗失的经卷上面记载着上古圣文。"],
+    stats: {
+    },
+    mob: "Angel of War Imperius",
+    chance: "4%"
+  },
+  I0KF: {
+    label: "Medal of Heaven",
+    type: "Material",
+    effects: ["This seal radiates powerful divine energy."],
+    cn_effects: ["这个印章中散发出强大的神圣能量。"],
+    stats: {
+    },
+    mob: "Angel of War Imperius",
+    chance: "4%"
+  },
+  I0KD: {
+    label: "Divine Gold",
+    type: "Material",
+    effects: ["A metal shining with the light of divinity that can be used for creating sacred equipment."],
+    cn_effects: ["闪耀着辉煌之光的神秘金属能用于打造神圣属性的装备。"],
+    stats: {
+    },
+    mob: "Angel of War Imperius",
+    chance: "4%"
+  },
+  arsc: {
+    label: "Imperius Orb",
+    type: "Consumable",
+    effects: ["Armor", "", "A mysterious orb filled with powerful magic"],
+    cn_effects: ["防具", "", "透彻着神秘力量的宝珠"],
+    stats: {
+      str: "160",
+      maxhp: "1000"
+    },
+    mob: "Angel of War Imperius",
+    chance: "0.2%"
+  },
+  tret: {
+    label: "Imperius Badge",
+    type: "Badge",
+    effects: [""],
+    cn_effects: [""],
+    stats: {
+      defense: "100",
+      str: "180",
+      dmg_taken: "3%",
+      light_damage: "5"
+    },
+    mob: "Angel of War Imperius",
+    chance: "0.1%"
+  },
+  stwa: {
+    label: "Pet Egg：Angel of War Imperius",
+    type: "Consumable",
+    effects: ["A mysterious egg", "Use the rare egg to receive a pet."],
+    cn_effects: ["点击使用宠物蛋获得稀有宠物。", "一颗神秘的蛋。"],
+    mob: "Angel of War Imperius",
+    chance: "0.01%"
+  },
+
+
+  fgrd: {
+    label: "[EVENT] Lunar New Year's Easter Egg",
+    type: "Consumable",
+    effects: ["Once the reward for participating in the 2020 event is used, you can get any of the following items:", "2020 ID title", "Any of 380 lvl material", "This item can be given to other players", "", "Search for [DROPS] to check drops"],
+    cn_effects: ["参与2020年活动副本的奖励开启后可以获得以下物品中任意一个。", "2020年ID称号前缀。", "380任意一种材料", "此物品可以赠送给队友"],
+    mob: ["Strange Treasure Chest", "Strange Treasure Chest"],
+    chance: ["19%", "19%"]
+  },
+  fgrd_drop: {
+    label: "[EVENT] Lunar New Year's Easter Egg [DROPS]",
+    type: "Misc",
+    effects: ["List of items that you can get by using the Lunar New Year's Easter Egg", "Overall chance to get an item = 100%"],
+    cn_effects: ["List of items that you can get by using Lunar New Year's Easter Egg"],
+    mob: ["Blue Crystal", "Plague Core", "Soul of Eternity", "Explosive Core", "Inferno Gold", "Essence of Decay", "Horn of Destruction", "Essence of the Deep Sea", "Flame Source", "2020 Lunar New Year's ID Title Certificate"],
+    chance: ["10%", "10%", "10%", "10%", "10%", "10%", "10%", "10%", "10%", "10%"]
+  },
+  wswd: {
+    label: "[EVENT] Blessings of Hope Gift Box",
+    type: "Misc",
+    effects: ["List of items that you can get by using the Blessings of Hope Gift Box", "Overall chance to get an item = 20%"],
+    cn_effects: ["参与2020年活动副本的奖励。", "Overall chance to get an item = 20%"],
+    mob: ["First Set of Skins Certificate", "Second Set of Skins Certificate", "DEATH"],
+    chance: ["10%", "10%", "80%"]
+  },
+  afac: {
+    label: "Undead Lord Reward",
+    type: "Consumable",
+    effects: ["A reward for participating in slaying the Undead Lord.<br>Clicking will give you a small chance at a random Undead Lord item.", "Overall chance to get an item = 0.5%"],
+    cn_effects: ["参与亡灵领主讨伐的物品奖励，点击使用开启后有较小几率随机获得一件亡灵领主特殊物品", "Overall chance to get an item = 0.5%"],
+    mob: ["Dark Crystal", "Essence of Death", "Recipe - Lord of the Undead", "Death Knight Orb", "Necromancer Badge", "DEATH"],
+    chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "99.5%"]
+  },
+  srrc: {
+    label: "Source of Plague Reward",
+    type: "Consumable",
+    effects: ["A reward for participating in slaying Source of Plague.<br>Clicking will give you a small chance at a random Souce of Plague item.", "Overall chance to get an item = 0.5%"],
+    cn_effects: ["参与瘟疫之源讨伐的物品奖励，点击使用开启后有较小几率随机获得一件瘟疫之源特殊物品", "Overall chance to get an item = 0.5%"],
+    mob: ["Essence of Decay", "Plague Core", "Plague Orb", "Recipe - Plague Rambler", "Plague Badge", "DEATH"],
+    chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "99.5%"]
+  },
+  infs: {
+    label: "Tidal Wave Reward",
+    type: "Consumable",
+    effects: ["A reward for participating in slaying Tidal Wave.<br>Clicking will give you a small chance at a random Tidal Wave item.", "Overall chance to get an item = 0.5%"],
+    cn_effects: ["参与潮汐温蒂讨伐的物品奖励，点击使用开启后有较小几率随机获得一件潮汐温蒂特殊物品", "Overall chance to get an item = 0.5%"],
+    mob: ["Blue Crystal", "Essence of the Deep Sea", "Tidal Wave Orb", "Tidal Badge", "Recipe - Deep Sea Ruler", "DEATH"],
+    chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "99.5%"]
+  },
+  fgdg: {
+    label: "Man Sha Crusade Reward",
+    type: "Consumable",
+    effects: ["A reward for participating in slaying Man Sha.<br>Clicking will give you a small chance at a random Man Sha item.", "Overall chance to get an item = 0.5%"],
+    cn_effects: ["参与狂炎漫沙讨伐的物品奖励，点击使用开启后有较小几率随机获得一件狂炎漫沙特殊物品", "Overall chance to get an item = 0.5%"],
+    mob: ["Explosive Core", "Flame Source", "Twisted Badge", "Orb of Madness", "Recipe - Flame Conqueror", "DEATH"],
+    chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "99.5%"]
+  },
+  pghe: {
+    label: "Flame Tyrant Reward",
+    type: "Consumable",
+    effects: ["A reward for participating in slaying Flame Tyrant.<br>Clicking will give you a small chance at a random Flame Tyrant item.", "Overall chance to get an item = 0.6%"],
+    cn_effects: ["参与火焰暴君讨伐的物品奖励，点击使用开启后有较小几率随机获得一件火焰暴君特殊物品", "Overall chance to get an item = 0.6%"],
+    mob: ["Soul of Eternity", "Inferno Gold", "Horn of Destruction", "Flame Tyrant Badge", "Flame Tyrant Orb", "Recipe - Arbiter of Rage", "DEATH"],
+    chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "99.4%"]
+  },
+  I0JE: {
+    label: "[EVENT] First Set of Skins Certificate",
+    type: "Material",
+    effects: ["1)拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "2)可在新春皮肤活动认证帖中上传录像/截图", "3)此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "4)皮肤奖励会在次日地图更新后发放"],
+    cn_effects: ["①拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "②可在新春皮肤活动认证帖中上传录像/截图。", "③此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "④皮肤奖励会在次日地图更新后发放"],
+    mob: ["Strange Treasure Chest", "Strange Treasure Chest"],
+    chance: ["29%", "39%"]
+  },
+  I0N1: {
+    label: "[EVENT] Second Set of Skins Certificate",
+    type: "Material",
+    effects: ["1)拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "2)可在新春皮肤活动认证帖中上传录像/截图", "3)此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "4)皮肤奖励会在次日地图更新后发放"],
+    cn_effects: ["①拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "②可在新春皮肤活动认证帖中上传录像/截图。", "③此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "④皮肤奖励会在次日地图更新后发放"],
+    mob: ["Strange Treasure Chest", "Strange Treasure Chest"],
+    chance: ["29%", "39%"]
+  },
+  pres: {
+    label: "[EVENT] Divine Essence",
+    type: "Material",
+    effects: ["Can directly increase your current level by 1"],
+    cn_effects: ["能够直接提升你当前1个等级"],
+    mob: "Strange Treasure Chest",
+    chance: "19%"
+  },
+  I0N3: {
+    label: "[EVENT] 2020 Lunar New Year's ID Title Certificate",
+    type: "Material",
+    effects: ["1)拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "2)可在新春皮肤活动认证帖中上传录像/截图", "3)此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "4)称号奖励会在次日地图更新后发放"],
+    cn_effects: ["①拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "②可在新春皮肤活动认证帖中上传录像/截图。", "③此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "④称号奖励会在次日地图更新后发放"],
+    mob: "Lunar New Year's Easter Egg",
+    chance: "10%"
+  },
+  I0KE: {
+    label: "[EVENT] Invitation of Hope",
+    type: "Consumable",
+    effects: ["Holders of this invitation can enter the activity of the Lunar New Year 2020 event."],
+    cn_effects: ["持有此凭证可以进入2020年新春活动副本。"],
+    mob: ["Red Ant Queen", "Templar Lord", "Torilinos", "Lava Flow", "Lord of the Purgatory", "Void Lord", "Training Instructor", "Frost Soul Revenant", "Evil Wizard", "Santa Claus", "Ancient Ruins Guardian Black Mountain", "Eye of Chaos", "Archmage Antonidas", "Snow Walker", "Possessed Spirit Tree", "Demonic Corpse", "Flame Giant", "Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother", "Wraith", "Polar Wind Shifu", "Protector Norn", "Witch of the Abyss", "Angel of War Imperius", "Tidal Wave", "Flame Tyrant Galamud", "Lord of Madness Man Sha", "Source of the Disease", "Undead Lord"],
+    chance: ["0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.1%", "0.1%", "0.1%", "0.1%", "0.2%", "0.2%", "0.2%", "0.2%", "0.2%"]
+  },
+  
   I0K7: {
     label: "Holy Rune",
     type: "Material",
     effects: ["This ancient rune glows brightly in the dark."],
     cn_effects: ["这个古老的符文中散发出阵阵炽热的气息。"],
     mob: ["Red Ant Queen", "Flame Giant"],
-    chance: ["0.6%", "4%"]
+    chance: ["0.6%", "9%"]
   },
   I0IP: {
     label: "Title - Flame Conqueror",
@@ -7386,7 +7607,7 @@ var items = {
     stats: {
       defense: "200",
       allstats: "500",
-      dmg_taken: "7",
+      dmg_taken: "7%",
       movement_speed: "100"
     },
     materials: ["I075", "I05D", "I0A4", "I04Z", "I0BB",
@@ -7400,7 +7621,7 @@ var items = {
     stats: {
       defense: "400",
       allstats: "700",
-      dmg_taken: "12",
+      dmg_taken: "12%",
       movement_speed: "125"
     },
     materials: ["I0GO", "I0K5", "I0AZ", "I0AK", "I0A4",
@@ -7503,7 +7724,7 @@ var items = {
     cn_effects: ["免疫一次致死性的伤害。", "Lv.360"],
     stats: {
       defense: "260",
-      allstats: "720",
+      allstats: "620",
       magic_resistance: "8",
       hpreg: "200"
     },
@@ -7591,7 +7812,7 @@ var items = {
       defense: "820",
       str: "890",
       maxhp: "8000",
-      dmg_taken: "6"
+      dmg_taken: "6%"
     },
     materials: ["I0A9", "I0K5", "I0KK", "I0GI", "I0JF", "I0A6"]
   },
@@ -7615,7 +7836,7 @@ var items = {
       defense: "890",
       str: "960",
       maxhp: "8000",
-      dmg_taken: "10"
+      dmg_taken: "10%"
     },
     materials: ["I0AD", "I077", "I0KK", "I0AZ", "I0AK", "I0A4",
 	"I04Y", "I04Y", "I04Y", "I04Y", "I04Y", "I04Y", "I04Y", "I04Y", "I04Y", "I04Y",
@@ -7630,7 +7851,7 @@ var items = {
     stats: {
       defense: "220",
       allstats: "660",
-      dmg_taken: "5",
+      dmg_taken: "5%",
       movement_speed: "20%"
     },
     materials: ["I0AZ", "I0AK", "I0GH", "I0A4",
@@ -7646,7 +7867,7 @@ var items = {
     stats: {
       defense: "200",
       allstats: "740",
-      dmg_taken: "10",
+      dmg_taken: "10%",
       movement_speed: "30%"
     },
     materials: ["I074", "I0K5", "I0KK", "I0AK", "I0GG", "I0A4"]
@@ -7659,7 +7880,7 @@ var items = {
     stats: {
       defense: "410",
       allstats: "1040",
-      dmg_taken: "14",
+      dmg_taken: "14%",
       movement_speed: "45%"
     },
     materials: ["I0EU", "I077", "I0KK", "I0K5", "I0AZ", "I0AK", "I0A6", "I0A4"]
@@ -8081,7 +8302,7 @@ var items = {
     cn_effects: ["Lv.360"],
     stats: {
       dmg: "4250",
-      mainstat: "860",
+      mainstat: "760",
       skill_damage: "10",
       movement_speed: "145"
     },
@@ -8095,7 +8316,7 @@ var items = {
     stats: {
       defense: "180",
       allstats: "520",
-      dmg_taken: "5"
+      dmg_taken: "5%"
     },
     materials: ["I0EM", "I0LZ", "I0AZ", "I07B", "I0GE", "I0M6"]
   },
@@ -8109,7 +8330,7 @@ var items = {
       int: "640",
       skill_damage: "8"
     },
-    materials: ["I06I", "I0K4", "I050", "I0AZ", "I0A6", "I0BB"]
+    materials: ["I0KF", "I0K4", "I050", "I0AZ", "I0A6", "I0BB"]
   },
   I0EI: {
     label: "Ring of Dragonic Fury",
@@ -8159,7 +8380,7 @@ var items = {
     cn_effects: ["免疫一次致死伤害。", "点击使用触发深海守护。", "Lv.380"],
     stats: {
       defense: "380",
-      allstats: "1060",
+      allstats: "960",
       magic_resistance: "12"
     },
     materials: ["I0EK", "I0H7", "I07A", "I077", "I0FY", "I0K5", "I0AZ", "I0GH"]
@@ -8173,7 +8394,7 @@ var items = {
       defense: "600",
       int: "1080",
       maxhp: "6000",
-      skill_damage: "6"
+      skill_damage: "8"
     },
     materials: ["I0K0", "I0AO", "I07A", "I06I", "I0AI", "I04X", "I0JF"]
   },
@@ -8234,11 +8455,11 @@ var items = {
     cn_effects: ["装备后时使自身进入出血状态。", "Lv.360"],
     stats: {
       dmg: "4250",
-      allstats: "640",
+      allstats: "540",
       skill_damage: "5",
       movement_speed: "125"
     },
-    materials: ["I056", "I0K5", "I0KK", "I071", "I0GI", "I0A6", "I0A7"]
+    materials: ["I056", "I0KK", "I071", "I0GI", "I0A6", "I0A7"]
   },
   I0KS: {
     label: "Spirit Augmentation Stone",
@@ -8264,7 +8485,349 @@ var items = {
       maxhp: "6000",
       skill_damage: "12"
     },
-    materials: ["I05M", "I08W", "I0KC", "I0FY", "I0K5", "I0KK", "I0BB"]
+    materials: ["I05M", "I08W", "I0KC", "I0KD", "I0K5", "I0KK", "I0BB"]
+  },
+  I0EZ: {
+    label: "Book of Forbidden Elements",
+    type: "Auxiliary",
+    effects: ["Spell casts add a random attribute to the next basic attack.", "Lv.360"],
+    cn_effects: ["施法后下一次攻击附加任意属性伤害。", "Lv.360"],
+    stats: {
+      defense: "180",
+      int: "640",
+      mpreg: "100",
+      all_atr_damage: "5"
+    },
+    materials: ["I0FS", "I0MZ", "I0K7", "I0JG", "I0GH", "I0M6"]
+  },
+  I0FN: {
+    label: "Glory of the Seven, The Elemental Scriptures",
+    type: "Auxiliary",
+    effects: ["Activate Elemental Field on use.", "Lv.380"],
+    cn_effects: ["点击使用触发元素领域。", "Lv.380"],
+    stats: {
+      defense: "300",
+      int: "960",
+      mpreg: "200",
+      all_atr_damage: "10"
+    },
+    materials: ["I0EZ", "I07A", "I0HD", "I0MZ", "I071", "I0JF", "I0GG"]
+  },
+  I0F0: {
+    label: "Dark Abyss, The Horn of Nightmare",
+    type: "Auxiliary",
+    effects: ["Activate to summon the undead.", "Grants all nearby allies and user Armor+250 and Damage+10000", "Lv.380"],
+    cn_effects: ["点击使用召唤深渊亡灵。", "自身以及周围队友单位防御力+250， 攻击力+10000。", "Lv.380"],
+    stats: {
+      defense: "280",
+      int: "890"
+    },
+    materials: ["I0K2", "I0AM", "I0HD", "I0K4", "I0JF", "I0A6", "I0M5"]
+  },
+  I0A3: {
+    label: "Sealed Stone Sword",
+    type: "Great Sword",
+    effects: ["Basic attacks have a chance to trigger lightning strike.", "Lv.360"],
+    cn_effects: ["攻击时有几率触发圣光打击。", "Lv.360"],
+    stats: {
+      dmg: "26800",
+      str: "1580",
+      dmg_taken: "8%"
+    },
+    materials: ["I062", "I0KF", "I0KK", "I0K4"]
+  },
+  I0MR: {
+    label: "Oath of Victory",
+    type: "Great Sword",
+    effects: ["Basic attacks have a chance to trigger Song of War.", "Activate Ideal Town of Fantasy on use.", "Lv.380"],
+    cn_effects: ["攻击时有几率触发荣耀战歌。", "点击使用遥远的幻想乡。", "Lv.380"],
+    stats: {
+      dmg: "30600",
+      str: "1850",
+      dmg_taken: "12%"
+    },
+    materials: ["I0A3", "I08W", "I0KC", "I0KD", "I0KK", "I0K4", "I0BB"]
+  },
+  I0J2: {
+    label: "Saboteur, Vanquishing Holy Flame",
+    type: "Gun",
+    effects: ["Activate to launch a barrage at target location.", "Grants 100 Agility and 1.5% skill damage for 8 seconds when a spell is casted(Stacks up to 6 times)", "Lv.380"],
+    cn_effects: ["点击使用对敌人发射破灭弹幕。", "释放技能时8秒内增加自身100点敏捷和1.5%技能伤害叠加6次。", "Lv.380"],
+    stats: {
+      dmg: "28900",
+      agi: "1890"
+    },
+    materials: ["I0KI", "I0AO", "I0KB", "I0KD", "I0K6", "I0BB", "I0M5"]
+  },
+  I0MS: {
+    label: "Martial Artist Gloves",
+    type: "Glove",
+    effects: ["Basic attacks have a chance to trigger shattering strike.", "Lv.360"],
+    cn_effects: ["攻击时有几率触发碎裂打击。", "Lv.360"],
+    stats: {
+      dmg: "24500",
+      agi: "1400",
+      bonus_damage: "5"
+    },
+    materials: ["I0KH", "I050", "I071", "I0K7", "I0GE", "I05Y"]
+  },
+  I0MT: {
+    label: "Fighter Gloves",
+    type: "Glove",
+    effects: ["Basic attacks have a chance to trigger God's Fury.", "Lv.380"],
+    cn_effects: ["攻击时有几率触发斗神之怒。", "Lv.380"],
+    stats: {
+      dmg: "31200",
+      agi: "1840",
+      bonus_damage: "10"
+    },
+    materials: ["I0MS", "I077", "I0HD", "I0KF", "I0KK", "I0GI", "I0A7"]
+  },
+  I0HC: {
+    label: "Ghost Wand",
+    type: "Staff",
+    effects: ["Activate Soul Shock on use.", "Lv.360"],
+    cn_effects: ["点击使用触发灵魂冲击。", "Lv.360"],
+    stats: {
+      dmg: "24600",
+      int: "1660",
+      maxmp: "4000",
+      dark_damage: "6"
+    },
+    materials: ["I0K8", "I06G", "I0M0", "I050", "I0JF", "I0A7"]
+  },
+  I0JU: {
+    label: "Winter Order, Everlasting Love of Snow and Ice",
+    type: "Staff",
+    effects: ["Spell casts increase intelligence by 80 (Stacks up to 6 times)", "Activate Storm of Snow and Ice on use", "Lv.380"],
+    cn_effects: ["每次施法增加自身80点智力(叠加6次)。", "点击使用释放冰雪风暴。", "Lv.380"],
+    stats: {
+      dmg: "29600",
+      int: "1920"
+    },
+    materials: ["I0HF", "I079", "I0GJ", "I077", "I0MZ", "I0AK", "I0A4"]
+  },
+  I0J1: {
+    label: "Netherfire Spirit, The Staff of Purgatory",
+    type: "Staff",
+    effects: ["Activate Starfall on use.", "Lv.380"],
+    cn_effects: ["点击使用释放星辰陨落。", "Lv.380"],
+    stats: {
+      dmg: "29600",
+      int: "1920",
+      mpreg: "200",
+      fire_damage: "10"
+    },
+    materials: ["I0AV", "I079", "I0AM", "I0KC", "I0KD", "I0K7", "I0GH"]
+  },
+  I0HU: {
+    label: "Aria of the Stars, The Holy Spirit Scepter",
+    type: "Staff",
+    effects: ["Spell casts have a chance to trigger Holy Spirit Blessing.", "Activate to trigger Aria of the Stars.", "Lv.380"],
+    cn_effects: ["施法时有几率触发圣灵祝福。", "点击使用释放群星咏叹。", "Lv.380"],
+    stats: {
+      dmg: "30800",
+      int: "1940",
+      maxhp: "5000"
+    },
+    materials: ["I05W", "I08V", "I077", "I0MZ", "I06I", "I0K4", "I0BB"]
+  },
+  I0IT: {
+    label: "Star Fantasy, The Heavenly Thunder of Punishment",
+    type: "Staff",
+    effects: ["Activate to release Skywrath Thunder.", "Lv.380"],
+    cn_effects: ["点击使用释放天怒雷霆。", "Lv.380"],
+    stats: {
+      dmg: "30800",
+      int: "1960",
+      maxhp: "4000",
+      thunder_damage: "12"
+    },
+    materials: ["I0K1", "I0GJ", "I0HK", "I0K3", "I0GK", "I0KF", "I0GG"]
+  },
+  I0F8: {
+    label: "Whisper of Death, The Armor of Blood",
+    type: "Leather Armor",
+    effects: ["Lifesteal on Basic attacks+2%", "Activate Deadly Bloodthirst on use.", "Lv.680"],
+    cn_effects: ["攻击吸血+2%", "点击使用触发死亡嗜血。", "Lv.680"],
+    stats: {
+      defense: "700",
+      agi: "1860",
+      maxhp: "5000",
+      skill_damage: "10"
+    },
+    materials: ["I0KL", "I0AM", "I0HK", "I0KK", "I071", "I0JF", "I0A7"]
+  },
+  I0J3: {
+    label: "Armor of Burning Rage",
+    type: "Leather Armor",
+    effects: ["Increase agility by 90 for 25 seconds after casting a spell<br>(Stacks up to 6 times).", "Lv.380"],
+    cn_effects: ["释放技能时增加自身90点敏捷持续25秒(最大叠加6次)。", "Lv.380"],
+    stats: {
+      defense: "760",
+      agi: "980",
+      skill_damage: "10"
+    },
+    materials: ["I07E", "I0AO", "I0KB", "I050", "I071", "I0K7", "I0GE"]
+  },
+  I0HL: {
+    label: "Miracle of Life, Gift of Nature",
+    type: "Cloth",
+    effects: ["Ressurect user upon death", "Activate Natural Gift on use.", "Lv.380"],
+    cn_effects: ["死亡时复活自身。", "点击使用触发自然赠礼。", "Lv.380"],
+    stats: {
+      defense: "580",
+      int: "1060",
+      maxhp: "5000"
+    },
+    materials: ["I0KT", "I07A", "I0AM", "I06I", "I0MZ", "I0GG", "I0BB"]
+  },
+  I0HV: {
+    label: "Dark Abyss, The Robe of the Scourge",
+    type: "Cloth",
+    effects: ["Activate Abyssal Guard on use.", "Lv.380"],
+    cn_effects: ["点击使用触发深渊守护。", "Lv.380"],
+    stats: {
+      defense: "590",
+      int: "1090",
+      skill_damage: "8",
+      magic_resistance: "8"
+    },
+    materials: ["I0A2", "I0AM", "I0AF", "I0AI", "I0JG", "I0A6", "I0GE"]
+  },
+  I0ES: {
+    label: "Undead Elegy, The Ring of Bloodbath",
+    type: "Accessory",
+    effects: ["Activate Blood Baptism on use.", "Lv.380"],
+    cn_effects: ["点击使用触发鲜血洗礼。", "Lv.380"],
+    stats: {
+      allstats: "960",
+      maxhp: "6000",
+      movement_speed: "165",
+      hpreg: "200"
+    },
+    materials: ["I0KP", "I0GJ", "I0KB", "I06I", "I0AI", "I0A6", "I0A7"]
+  },
+  I060: {
+    label: "Wings of the Fallen Angel",
+    type: "Auxiliary",
+    effects: ["Reduces armor of nearby enemy units by 150.", "Grants a chance to deal additional damage when attacking", "Allows user to teleport without the use of a crystal", "Lv.380"],
+    cn_effects: ["降低周围敌对单位150点防御力。", "攻击时有几率对敌人造成自身生命值的伤害。", "点击使用感应以太水晶。", "Lv.380"],
+    stats: {
+      defense: "410",
+      str: "1080",
+      magic_resistance: "10"
+    },
+    materials: ["I0I6", "I0GJ", "I0HD", "I0KD", "I0JV", "I0JF", "I0M5"]
+  },
+  I0FG: {
+    label: "Eternal Frozen Hell, The Ring of the Holy Spirit",
+    type: "Accessory",
+    effects: ["Activate Frost Guardian on use.", "Lv.380"],
+    cn_effects: ["点击使用触发冰霜守护。", "Lv.380"],
+    stats: {
+      defense: "500",
+      allstats: "1060",
+      dmg_taken: "15%",
+      movement_speed: "165"
+    },
+    materials: ["I0GP", "I0AM", "I07A", "I06I", "I0AZ", "I0AK", "I0A4"]
+  },
+  I0HM: {
+    label: "Flames of Hell, The Holy Ring of Fire",
+    type: "Accessory",
+    effects: ["Basic attacks have a chance to trigger Hellfire.", "Lv.380"],
+    cn_effects: ["攻击时有几率释放地狱火焰。", "Lv.380"],
+    stats: {
+      mainstat: "360",
+      allstats: "760",
+      skill_damage: "15%",
+      movement_speed: "165"
+    },
+    materials: ["I0GS", "I0AM", "I0KC", "I0AF", "I0K7", "I071", "I0A7"]
+  },
+  I0IJ: {
+    label: "Temporal Storm, The Ring of Eternity",
+    type: "Accessory",
+    effects: ["Activate to reset the last used spell's cooldown(120 second cooldown).", "Lv.380"],
+    cn_effects: ["点击使用重置你最后使用的技能冷却时间(cd120秒)。", "Lv.380"],
+    stats: {
+      allstats: "760",
+      skill_damage: "8%",
+      movement_speed: "165"
+    },
+    materials: ["I076", "I0GJ", "I077", "I0KK", "I0KD", "I0AZ", "I0BB"]
+  },
+  I0F6: {
+    label: "Source of Wisdom, The Ring of the Sages",
+    type: "Accessory",
+    effects: ["Activate to trigger Mana Boost.", "Lv.380"],
+    cn_effects: ["点击使用触发法力增幅。", "Lv.380"],
+    stats: {
+      int: "810",
+      maxmp: "8000",
+      movement_speed: "165",
+      mpreg: "200"
+    },
+    materials: ["I0KO", "I0AM", "I07A", "I0K5", "I0MZ", "I0AK", "I0GG"]
+  },
+  I0F1: {
+    label: "Dark Abyss, The Stone of Purgatory",
+    type: "Magic Stone",
+    effects: ["Lv.380"],
+    cn_effects: ["Lv.380"],
+    stats: {
+      dmg: "7450",
+      mainstat: "1080",
+      skill_damage: "15",
+      movement_speed: "165"
+    },
+    materials: ["I0HX", "I0GJ", "I0KC", "I0HK", "I0KK", "I0A7",
+	"I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB",
+	"I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB",
+	"I0AB", "I0AB", "I0AB", "I0AB", "I0AB"]
+  },
+  I0EY: {
+    label: "Nether Sea of Blood, The Heart of the Demon",
+    type: "Magic Stone",
+    effects: ["Places user in a bleeding state when equipped.", "Lv.380"],
+    cn_effects: ["装备后时使自身进入出血状态。", "Lv.380"],
+    stats: {
+      dmg: "10250",
+      allstats: "620",
+      skill_damage: "5",
+      movement_speed: "165"
+    },
+    materials: ["I0L1", "I08W", "I07A", "I06I", "I0AI", "I071", "I0M6"]
+  },
+  I0IC: {
+    label: "Dark Destruction, The Demonic Soul Scepter",
+    type: "Staff",
+    effects: ["Activate to trigger Soul Roar.", "Lv.380"],
+    cn_effects: ["点击使用释放灵魂咆哮。", "Lv.380"],
+    stats: {
+      dmg: "29600",
+      int: "1980",
+      maxmp: "6000",
+      dark_damage: "12"
+    },
+    materials: ["I0HC", "I0AM", "I0AF", "I0HD", "I0JV", "I0JG"]
+  },
+  I07G: {
+    label: "Sea of Fire, The Divine Core of Fire",
+    type: "Magic Stone",
+    effects: ["Activate to grant Holy Fire Shield to all nearby allies.", "Lv.380"],
+    cn_effects: ["点击使用赋予周围单位圣炎护盾。", "Lv.380"],
+    stats: {
+      dmg: "7680",
+      allstats: "810",
+      movement_speed: "165",
+      fire_damage: "10"
+    },
+    materials: ["I0HW", "I08W", "I0KB", "I0KC", "I0K7", "I0K6",
+	"I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V",
+	"I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V",
+	"I04V", "I04V", "I04V", "I04V", "I04V"]
   },
   I0FO: {
     label: "Cheap Magical Ore",
@@ -8387,6 +8950,12 @@ var items = {
     type: "Material",
     effects: ["A seaweed that grows in the sea of dusk, slowly being baptized by its magical power all year long.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Aquatic Seaweed</span> in the:<br><span style = 'color:gold'>Sea of Dusk</span></span>"],
     cn_effects: ["黄昏之海所生长的海草常年受魔力洗礼韧性十分强难以开采。", "", "Need Translation"],
+  },
+  I0A1: {
+    label: "Coral",
+    type: "Material",
+    effects: ["Corals found in the shadow waters of the dusk sea, which are known to be bathed in the magic of the seas all year long.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Coral</span> in the:<br><span style = 'color:gold'>Sea of Dusk</span></span>"],
+    cn_effects: ["来自黄昏之海上层浅水区域的珊瑚常年受海中魔力的洗礼变的坚硬无比难以开采而闻名。", "", "Need Translation"],
   },
   I0A1: {
     label: "Coral",
