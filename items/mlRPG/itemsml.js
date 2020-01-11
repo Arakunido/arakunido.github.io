@@ -1018,7 +1018,7 @@ var items = {
     effects: ["A mysterious egg.", "Use the rare egg to receive a pet."],
 	cn_effects: ["点击使用宠物蛋获得稀有宠物。", "一颗神秘的蛋。"],
     mob: "Dark Wolf Gamm",
-    chance: "0.01%"
+    chance: "0.1%"
   },
   I01H: {
     label: "Wolf Shotgun",
@@ -6073,7 +6073,7 @@ var items = {
     effects: ["An evil crystal retrieved from the Endless Abyss."],
     cn_effects: ["来自无尽深渊中的邪恶水晶。"],
     mob: "Undead Lord",
-    chance: "0.6%"
+    chance: "1%"
   },
   I0GJ: {
     label: "Essence of Death",
@@ -6081,7 +6081,7 @@ var items = {
     effects: ["No being is safe from death, not even the gods."],
     cn_effects: ["无论是何种存在都会有他消亡的一天即使是神也不例外。"],
     mob: "Undead Lord",
-    chance: "0.6%"
+    chance: "1%"
   },
   I0IK: {
     label: "Recipe - Lord of the Undead",
@@ -6183,7 +6183,7 @@ var items = {
     effects: ["This essence is slowly decaying, listen to your instinct and you will find your way!"],
     cn_effects: ["本质即为腐朽，听从本能的呼唤去寻找你的道路吧！"],
     mob: "Source of the Disease",
-    chance: "1%"
+    chance: "1.5%"
   },
   I0HK: {
     label: "Plague Core",
@@ -6191,7 +6191,7 @@ var items = {
     effects: ["A gaseous poison condensed to the point of forming a plague core."],
     cn_effects: ["这个由瘟疫所凝聚的物品它所具有的瘟疫之力已经强大到无法想象。"],
     mob: "Source of the Disease",
-    chance: "1%"
+    chance: "1.5%"
   },
   I0AO: {
     label: "Flame Source",
@@ -6199,7 +6199,7 @@ var items = {
     effects: ["A powerful source of heat."],
     cn_effects: ["世间所有火焰的根源力量，散发出无穷的炽热。"],
     mob: "Lord of Madness Man Sha",
-    chance: "1.2%"
+    chance: "1.5%"
   },
   I08W: {
     label: "Explosive Core",
@@ -6207,7 +6207,7 @@ var items = {
     effects: ["The energy within this core threatens to explode at any time."],
     cn_effects: ["这块碎片蕴含着强大的能量随时都有可能爆发出来。"],
     mob: "Lord of Madness Man Sha",
-    chance: "1.2%"
+    chance: "1.5%"
   },
   I0AV: {
     label: "Scepter of Hell",
@@ -6493,7 +6493,7 @@ var items = {
     effects: ["This item can be used for many different purposes."],
     cn_effects: ["这个坚硬的犄角可以让你制作许多的工艺品。"],
     mob: "Flame Tyrant Galamud",
-    chance: "1.1%"
+    chance: "1.5%"
   },
   I0KB: {
     label: "Soul of Eternity",
@@ -6501,7 +6501,7 @@ var items = {
     effects: ["An eternal soul that continually burns for all of time."],
     cn_effects: ["一个永恒不灭的炎魂。"],
     mob: "Flame Tyrant Galamud",
-    chance: "1.2%"
+    chance: "1.5%"
   },
   I0KC: {
     label: "Inferno Gold",
@@ -6509,7 +6509,7 @@ var items = {
     effects: ["This burning metal contains an unthinkable amount of energy."],
     cn_effects: ["这个散发阵阵炽热波动的金属中含有你无法想象的能量。"],
     mob: "Flame Tyrant Galamud",
-    chance: "1.3%"
+    chance: "1.5%"
   },
   cosl: {
     label: "Flame Tyrant Orb",
@@ -6571,7 +6571,7 @@ var items = {
     effects: ["A amalgamation of energies found within the deep sea."],
     cn_effects: ["深海的能量汇集于此。"],
     mob: "Tidal Wave",
-    chance: "1.2%"
+    chance: "1.5%"
   },
   I077: {
     label: "Blue Crystal",
@@ -6883,7 +6883,7 @@ var items = {
     chance: "4%"
   },
   I01B: {
-    label: "Heavenly Staff",
+    label: "Staff of Heaven",
     type: "Staff",
     effects: ["Activate Heaven Light on use.", "Lv.360"],
     cn_effects: ["点击使用召唤天堂圣光。", "Lv.360"],
@@ -6933,7 +6933,7 @@ var items = {
     chance: "0.1%"
   },
   I0MZ: {
-    label: "Holy Scripture",
+    label: "Holy Scriptures",
     type: "Material",
     effects: ["The scripture that contains recordings of long lost secrets."],
     cn_effects: ["已经遗失的经卷上面记载着上古圣文。"],
@@ -6943,7 +6943,7 @@ var items = {
     chance: "4%"
   },
   I0KF: {
-    label: "Medal of Heaven",
+    label: "Sigil of Heaven",
     type: "Material",
     effects: ["This seal radiates powerful divine energy."],
     cn_effects: ["这个印章中散发出强大的神圣能量。"],
@@ -6989,7 +6989,7 @@ var items = {
     chance: "0.1%"
   },
   stwa: {
-    label: "Pet Egg：Angel of War Imperius",
+    label: "Pet Egg：Imperius",
     type: "Consumable",
     effects: ["A mysterious egg", "Use the rare egg to receive a pet."],
     cn_effects: ["点击使用宠物蛋获得稀有宠物。", "一颗神秘的蛋。"],
@@ -6999,19 +6999,19 @@ var items = {
 
 
   fgrd: {
-    label: "[EVENT] Lunar New Year's Easter Egg",
+    label: "[EVENT] New Year's Card",
     type: "Consumable",
-    effects: ["Once the reward for participating in the 2020 event is used, you can get any of the following items:", "2020 ID title", "Any of 380 lvl material", "This item can be given to other players", "", "Search for [DROPS] to check drops"],
+    effects: ["The Reward for participating in the 2020 event are the following:", "2020 ID Title", "Level 380 material of any kind", "This item can be given to other players", "", "Search for [DROPS] to check drops"],
     cn_effects: ["参与2020年活动副本的奖励开启后可以获得以下物品中任意一个。", "2020年ID称号前缀。", "380任意一种材料", "此物品可以赠送给队友"],
-    mob: ["Strange Treasure Chest", "Strange Treasure Chest"],
-    chance: ["19%", "19%"]
+    mob: ["Treasure Chest", "Treasure Chest"],
+    chance: ["9%", "9%"]
   },
   fgrd_drop: {
-    label: "[EVENT] Lunar New Year's Easter Egg [DROPS]",
+    label: "[EVENT] New Year's Card [DROPS]",
     type: "Misc",
-    effects: ["List of items that you can get by using the Lunar New Year's Easter Egg", "Overall chance to get an item = 100%"],
-    cn_effects: ["List of items that you can get by using Lunar New Year's Easter Egg"],
-    mob: ["Blue Crystal", "Plague Core", "Soul of Eternity", "Explosive Core", "Inferno Gold", "Essence of Decay", "Horn of Destruction", "Essence of the Deep Sea", "Flame Source", "2020 Lunar New Year's ID Title Certificate"],
+    effects: ["List of items that you can get by using the New Year's Card", "Overall chance to get an item = 100%"],
+    cn_effects: ["List of items that you can get by using New Year's Card"],
+    mob: ["Blue Crystal", "Plague Core", "Soul of Eternity", "Explosive Core", "Inferno Gold", "Essence of Decay", "Horn of Destruction", "Essence of the Deep Sea", "Flame Source", "2020 Lunar New Year Title Certificate"],
     chance: ["10%", "10%", "10%", "10%", "10%", "10%", "10%", "10%", "10%", "10%"]
   },
   wswd: {
@@ -7019,7 +7019,7 @@ var items = {
     type: "Misc",
     effects: ["List of items that you can get by using the Blessings of Hope Gift Box", "Overall chance to get an item = 20%"],
     cn_effects: ["参与2020年活动副本的奖励。", "Overall chance to get an item = 20%"],
-    mob: ["First Set of Skins Certificate", "Second Set of Skins Certificate", "DEATH"],
+    mob: ["New Year Skin Certificate #1", "New Year Skin Certificate #2", "DEATH"],
     chance: ["10%", "10%", "80%"]
   },
   afac: {
@@ -7063,44 +7063,44 @@ var items = {
     chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "99.4%"]
   },
   I0JE: {
-    label: "[EVENT] First Set of Skins Certificate",
+    label: "[EVENT] New Year Skin Certificate #1",
     type: "Material",
-    effects: ["1)拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "2)可在新春皮肤活动认证帖中上传录像/截图", "3)此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "4)皮肤奖励会在次日地图更新后发放"],
+    effects: ["1)If you obtain this item, post a screenshot of it in the Event Channel", "2)You must also include the replay of which you obtained this item", "3)This item cannot be saved or given away", "4)Skin rewards will be issued after the map is updated"],
     cn_effects: ["①拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "②可在新春皮肤活动认证帖中上传录像/截图。", "③此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "④皮肤奖励会在次日地图更新后发放"],
-    mob: ["Strange Treasure Chest", "Strange Treasure Chest"],
-    chance: ["29%", "39%"]
+    mob: ["Treasure Chest", "Treasure Chest"],
+    chance: ["19%", "29%"]
   },
   I0N1: {
-    label: "[EVENT] Second Set of Skins Certificate",
+    label: "[EVENT] New Year Skin Certificate #2",
     type: "Material",
-    effects: ["1)拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "2)可在新春皮肤活动认证帖中上传录像/截图", "3)此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "4)皮肤奖励会在次日地图更新后发放"],
+    effects: ["1)If you obtain this item, post a screenshot of it in the Event Channel", "2)You must also include the replay of which you obtained this item", "3)This item cannot be saved or given away", "4)Skin rewards will be issued after the map is updated"],
     cn_effects: ["①拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "②可在新春皮肤活动认证帖中上传录像/截图。", "③此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "④皮肤奖励会在次日地图更新后发放"],
-    mob: ["Strange Treasure Chest", "Strange Treasure Chest"],
-    chance: ["29%", "39%"]
+    mob: ["Treasure Chest", "Treasure Chest"],
+    chance: ["19%", "29%"]
   },
   pres: {
     label: "[EVENT] Divine Essence",
     type: "Material",
     effects: ["Can directly increase your current level by 1"],
     cn_effects: ["能够直接提升你当前1个等级"],
-    mob: "Strange Treasure Chest",
-    chance: "19%"
+    mob: "Treasure Chest",
+    chance: "9%"
   },
   I0N3: {
-    label: "[EVENT] 2020 Lunar New Year's ID Title Certificate",
+    label: "[EVENT] 2020 Lunar New Year Title Certificate",
     type: "Material",
-    effects: ["1)拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "2)可在新春皮肤活动认证帖中上传录像/截图", "3)此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "4)称号奖励会在次日地图更新后发放"],
+    effects: ["1)If you obtain this item, post a screenshot of it in the Event Channel", "2)You must also include the replay of which you obtained this item", "3)This item cannot be saved or given away", "4)Title rewards will be issued after the map is updated"],
     cn_effects: ["①拥有此物品可以将截图录像发至百度贴吧：妹灵orpg吧", "②可在新春皮肤活动认证帖中上传录像/截图。", "③此物品不可保存或赠送按照当局活动掉落或礼盒获得人物发放奖励", "④称号奖励会在次日地图更新后发放"],
-    mob: "Lunar New Year's Easter Egg",
+    mob: "New Year's Card",
     chance: "10%"
   },
   I0KE: {
-    label: "[EVENT] Invitation of Hope",
+    label: "[EVENT] Lunar New Year's Invitation",
     type: "Consumable",
-    effects: ["Holders of this invitation can enter the activity of the Lunar New Year 2020 event."],
+    effects: ["Allows access to the 2020 lunar new year event."],
     cn_effects: ["持有此凭证可以进入2020年新春活动副本。"],
     mob: ["Red Ant Queen", "Templar Lord", "Torilinos", "Lava Flow", "Lord of the Purgatory", "Void Lord", "Training Instructor", "Frost Soul Revenant", "Evil Wizard", "Santa Claus", "Ancient Ruins Guardian Black Mountain", "Eye of Chaos", "Archmage Antonidas", "Snow Walker", "Possessed Spirit Tree", "Demonic Corpse", "Flame Giant", "Glacial Death Worm Big Brother", "Glacial Death Worm Little Brother", "Wraith", "Polar Wind Shifu", "Protector Norn", "Witch of the Abyss", "Angel of War Imperius", "Tidal Wave", "Flame Tyrant Galamud", "Lord of Madness Man Sha", "Source of the Disease", "Undead Lord"],
-    chance: ["0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.01%", "0.1%", "0.1%", "0.1%", "0.1%", "0.2%", "0.2%", "0.2%", "0.2%", "0.2%"]
+    chance: ["0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.1%", "0.2%", "0.2%", "0.2%", "0.2%", "0.3%", "0.3%", "0.3%", "0.3%", "0.3%"]
   },
   
   I0K7: {
@@ -7504,7 +7504,7 @@ var items = {
   },
   I09Y: {
     label: "Silver Pickaxe",
-    type: "Gathering",
+    type: "Subclass",
     effects: ["Used to gather ore.", "Can mine Grade 1~5 ores.", "Takes 8 seconds to mine."],
     cn_effects: ["挖掘矿石。", "可以开采1~5级的矿石。", "需要8秒开采时间。"],
     stats: {
@@ -7517,7 +7517,7 @@ var items = {
   },
   I0G7: {
     label: "Mithril Pickaxe",
-    type: "Gathering",
+    type: "Subclass",
     effects: ["Used to gather ore.", "Can mine from grade 1~8 ores.", "Requires 5 seconds to mine."],
     cn_effects: ["挖掘矿石。", "可以开采1~8级的矿石。", "需要5秒开采时间。"],
     stats: {
@@ -7532,7 +7532,7 @@ var items = {
   },
   I07W: {
     label: "Hellstone Pickaxe",
-    type: "Gathering",
+    type: "Subclass",
     effects: ["Used to gather ore.", "Can be used to excavate all ores.", "Requires 1 second to mine."],
     cn_effects: ["挖掘矿石。", "可以挖掘所有矿石。", "需要1秒开采时间。"],
     stats: {
@@ -7940,7 +7940,7 @@ var items = {
     stats: {
       dmg: "30400",
       str: "1890",
-      skill_damage: "7"
+      skill_damage: "8"
     },
     materials: ["I0BA", "I0AO", "I0KB", "I0K6", "I071", "I0JF", "I0A7"]
   },
@@ -8171,7 +8171,7 @@ var items = {
     materials: ["I0HZ", "I05B", "I0KK", "I0AK", "I0JG", "I0GH"]
   },
   I0I1: {
-    label: "Snow Works, The guard of Snow and Ice",
+    label: "Winter's Order, The guard of Snow and Ice",
     type: "Leather Armor",
     effects: ["Grant a shield that absorbs up to 7000 damage every 10 seconds.", "Activate Cold Frost guard on use.", "Lv.380"],
     cn_effects: ["每隔10秒赋予自身一次吸收7000点伤害的冰洁护盾。", "点击使用触发霜寒守护。", "Lv.380"],
@@ -8347,7 +8347,7 @@ var items = {
     materials: ["I0II", "I0HD", "I08W", "I0GK", "I071", "I0A7", "I0BB"]
   },
   I0HB: {
-    label: "Wings of Emnity",
+    label: "Wings of Enmity",
     type: "Auxiliary",
     effects: ["Allows user to teleport without the use of a Ether crystal.", "Lv.380"],
     cn_effects: ["点击使用感应以太水晶。", "Lv.380"],
@@ -8376,7 +8376,7 @@ var items = {
   I0IY: {
     label: "Ancient Ocean Memory",
     type: "Magic Stone",
-    effects: ["Grants immunity to death.", "Activate deep sea guardian on use.", "Lv.380"],
+    effects: ["Grants immunity to lethal damage.", "Activate deep sea guardian on use.", "Lv.380"],
     cn_effects: ["免疫一次致死伤害。", "点击使用触发深海守护。", "Lv.380"],
     stats: {
       defense: "380",
@@ -8549,7 +8549,7 @@ var items = {
     materials: ["I0A3", "I08W", "I0KC", "I0KD", "I0KK", "I0K4", "I0BB"]
   },
   I0J2: {
-    label: "Saboteur, Vanquishing Holy Flame",
+    label: "Saboteur, The Vanquishing Flame",
     type: "Gun",
     effects: ["Activate to launch a barrage at target location.", "Grants 100 Agility and 1.5% skill damage for 8 seconds when a spell is casted(Stacks up to 6 times)", "Lv.380"],
     cn_effects: ["点击使用对敌人发射破灭弹幕。", "释放技能时8秒内增加自身100点敏捷和1.5%技能伤害叠加6次。", "Lv.380"],
@@ -8597,7 +8597,7 @@ var items = {
     materials: ["I0K8", "I06G", "I0M0", "I050", "I0JF", "I0A7"]
   },
   I0JU: {
-    label: "Winter Order, Everlasting Love of Snow and Ice",
+    label: "Winter's Order, Everlasting Love of Snow and Ice",
     type: "Staff",
     effects: ["Spell casts increase intelligence by 80 (Stacks up to 6 times)", "Activate Storm of Snow and Ice on use", "Lv.380"],
     cn_effects: ["每次施法增加自身80点智力(叠加6次)。", "点击使用释放冰雪风暴。", "Lv.380"],
@@ -8673,7 +8673,7 @@ var items = {
   I0HL: {
     label: "Miracle of Life, Gift of Nature",
     type: "Cloth",
-    effects: ["Ressurect user upon death", "Activate Natural Gift on use.", "Lv.380"],
+    effects: ["Resurrect user upon death", "Activate Natural Gift on use.", "Lv.380"],
     cn_effects: ["死亡时复活自身。", "点击使用触发自然赠礼。", "Lv.380"],
     stats: {
       defense: "580",
@@ -8814,7 +8814,7 @@ var items = {
     materials: ["I0HC", "I0AM", "I0AF", "I0HD", "I0JV", "I0JG"]
   },
   I07G: {
-    label: "Sea of Fire, The Divine Core of Fire",
+    label: "Sea of Flames, The Divine Core of Fire",
     type: "Magic Stone",
     effects: ["Activate to grant Holy Fire Shield to all nearby allies.", "Lv.380"],
     cn_effects: ["点击使用赋予周围单位圣炎护盾。", "Lv.380"],
@@ -8829,6 +8829,59 @@ var items = {
 	"I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V", "I04V",
 	"I04V", "I04V", "I04V", "I04V", "I04V"]
   },
+  I0MH: {
+    label: "Iron Alchemy Furnace",
+    type: "Subclass",
+    effects: ["Refining Material", "Success Rate: 10%", "Requires 5 Epic Fragments", "", "<span style = 'color:turquoise'>Can be bought from the</span> <span style = 'color:gold'>Blacksmith</span>"],
+    cn_effects: ["炼制材料。", "成功率10%", "需要消耗5个史诗碎片", ""],
+    reqLvl: "1",
+    stats: {
+    }
+  },
+  I0MI: {
+    label: "Silver Alchemy Furnace",
+    type: "Subclass",
+    effects: ["Refining Material", "Success Rate: 25%", "Requires 10 Epic Fragments"],
+    cn_effects: ["炼制材料。", "成功率25%", "需要消耗10个史诗碎片"],
+    reqLvl: "1",
+    stats: {
+    },
+    materials: ["I0MH", "I0K6",
+	"I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q",
+	"I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q", "I04Q"]
+  },
+  I0MJ: {
+    label: "Steel Alchemy Furnace",
+    type: "Subclass",
+    effects: ["Refining Material", "Success Rate: 50%", "Requires 15 Epic Fragments"],
+    cn_effects: ["炼制材料。", "成功率50%", "需要消耗15个史诗碎片"],
+    reqLvl: "1",
+    stats: {
+    },
+    materials: ["I0MI", "I0KK",
+	"I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U",
+	"I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U", "I04U"]
+  },
+  I0MK: {
+    label: "Purgatory Alchemy Furnace",
+    type: "Subclass",
+    effects: ["Refining Material", "Success Rate: 100%", "Requires 20 Epic Fragments"],
+    cn_effects: ["炼制材料。", "成功率100%", "需要消耗20个史诗碎片"],
+    reqLvl: "1",
+    stats: {
+    },
+    materials: ["I0MJ", "I0KD",
+	"I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB",
+	"I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB", "I0AB"]
+  },
+  I0MY: {
+    label: "Epic Fragment",
+    type: "Material",
+    effects: ["The broken shards of a equipment that once contained powerful magic.", "", "<span style = 'color:turquoise'>Can be obtained by breaking down <span style = 'color:gold'>+[Epic]</span> tier equipment in the:<br><span style = 'color:gold'>Alchemy Furnace</span></span>"],
+    cn_effects: ["史诗装备分解后的碎片含有强大的魔力"]
+  },
+
+
   I0FO: {
     label: "Cheap Magical Ore",
     type: "Mineral",
@@ -8909,7 +8962,7 @@ var items = {
   },
   I09W: {
     label: "Iron Pickaxe",
-    type: "Gathering",
+    type: "Subclass",
     effects: ["Used to gather ore.", "Can mine Grade 1~2 ores", "Takes 10 seconds to mine", "", "<span style = 'color:turquoise'>Can be bought from the <span style = 'color:gold'>Miner</span> in the Borderlands</span>"],
     cn_effects: ["挖掘矿石。", "可以开采1~2级的矿石。", "需要10秒开采时间。", "", "Need Translation"],
     stats: {
