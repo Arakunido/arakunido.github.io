@@ -1,0 +1,54 @@
+.transcendence {
+  color: #FF4040;
+}
+
+.hiddeni {
+  color: #ff80ff;
+}
+
+.ultimate {
+  color: #FFFF00;
+}
+
+.superior {
+  color: #FF8000;
+}
+
+.advanced {
+  color: #00FFFF;
+}
+
+.intermediate {
+  color: #40ff40;
+}
+
+.lowest {
+  color: #808080;
+}
+
+.guidetext {
+display: inline;
+}
+
+.tooltip-inner {
+  max-width: 1275px;
+  border-style: solid;
+  border-width: 5px;
+  border-image: url(tooltip.png) 6 round round;
+  border-radius: 4px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .arrow:before {
+  visibility: hidden;
+}
+
+.item-tooltip2 {
+  color: #00008B;
+  font-weight: 600;
+  cursor: help;
+}
