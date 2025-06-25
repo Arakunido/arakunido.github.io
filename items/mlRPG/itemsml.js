@@ -9010,12 +9010,6 @@ var items = {
     effects: ["Corals found in the shadow waters of the dusk sea, which are known to be bathed in the magic of the seas all year long.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Coral</span> in the:<br><span style = 'color:gold'>Sea of Dusk</span></span>"],
     cn_effects: ["来自黄昏之海上层浅水区域的珊瑚常年受海中魔力的洗礼变的坚硬无比难以开采而闻名。", "", "Need Translation"],
   },
-  I0A1: {
-    label: "Coral",
-    type: "Material",
-    effects: ["Corals found in the shadow waters of the dusk sea, which are known to be bathed in the magic of the seas all year long.", "", "<span style = 'color:turquoise'>Can be found by mining a <span style = 'color:gold'>Coral</span> in the:<br><span style = 'color:gold'>Sea of Dusk</span></span>"],
-    cn_effects: ["来自黄昏之海上层浅水区域的珊瑚常年受海中魔力的洗礼变的坚硬无比难以开采而闻名。", "", "Need Translation"],
-  },
   I051: {
     label: "Ancient Vine Crystal",
     type: "Mineral",
